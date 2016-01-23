@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="DHt-UV-KO0">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
+        <!--Sixth View Controller-->
+        <scene sceneID="WO2-U7-os0">
+            <objects>
+                <viewController id="C0g-51-kCH" customClass="SixthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0hK-Cf-W4I"/>
+                        <viewControllerLayoutGuide type="bottom" id="lpS-Pq-hQV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A5u-7c-Ut0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cj5-1o-30i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RWI-P4-HVi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="63" y="-194"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="KEj-Mi-OR1">
+            <objects>
+                <viewController id="dvE-rk-hfq" customClass="FourthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1m8-k9-jAh"/>
+                        <viewControllerLayoutGuide type="bottom" id="iUS-2H-elf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wqH-ap-y2v">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jyE-rV-tJD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sed-he-NTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="674" y="-414"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +54,223 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cV8-uo-09W">
+                                <rect key="frame" x="255" y="241" width="91" height="30"/>
+                                <state key="normal" title="HAKKIMIZDA"/>
+                                <connections>
+                                    <action selector="goToHk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PhT-Xe-Lzw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhI-Qp-m10">
+                                <rect key="frame" x="270" y="279" width="46" height="30"/>
+                                <state key="normal" title="AR-GE"/>
+                                <connections>
+                                    <action selector="goToArge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b9j-Ui-Jlf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWF-6G-HfC">
+                                <rect key="frame" x="244" y="324" width="106" height="30"/>
+                                <state key="normal" title="LABORATUVAR"/>
+                                <connections>
+                                    <action selector="goToLab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CRu-ez-JOZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eaj-YL-KOR">
+                                <rect key="frame" x="208" y="371" width="179" height="30"/>
+                                <state key="normal" title="YAZILIM VE SİMÜLASYON"/>
+                                <connections>
+                                    <action selector="goToYaz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7D6-B4-EMO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bf-Ni-Str">
+                                <rect key="frame" x="259" y="419" width="68" height="30"/>
+                                <state key="normal" title="ARAÇLAR"/>
+                                <connections>
+                                    <action selector="goToArac:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jwo-1G-x0S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0x-le-irB">
+                                <rect key="frame" x="247" y="464" width="100" height="30"/>
+                                <state key="normal" title="BAĞLANTILAR"/>
+                                <connections>
+                                    <action selector="goToBag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f3k-WG-HFm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-oO-tqM">
+                                <rect key="frame" x="258" y="512" width="85" height="30"/>
+                                <state key="normal" title="KADROMUZ"/>
+                                <connections>
+                                    <action selector="goToKadro:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kha-Li-S72"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWb-tD-Uvi">
+                                <rect key="frame" x="267" y="550" width="60" height="30"/>
+                                <state key="normal" title="İLETİŞİM"/>
+                                <connections>
+                                    <action selector="goToIlet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ctI-RE-Qov"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HACETTEPE MİNERAL TEKNOLOJİLERİ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neV-2p-0UI">
+                                <rect key="frame" x="143" y="78" width="300" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x9b-vJ-Ogj">
+                                <rect key="frame" x="180" y="113" width="227" height="120"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="3oA-R1-FHV"/>
+                    <connections>
+                        <outlet property="logo" destination="x9b-vJ-Ogj" id="xGZ-hn-1ak"/>
+                        <segue destination="ju1-ma-2eC" kind="push" identifier="Hakkimizda" id="pzx-Km-59b"/>
+                        <segue destination="IA0-mt-wD5" kind="push" identifier="Arge" id="2NC-5F-VNf"/>
+                        <segue destination="dvE-rk-hfq" kind="push" identifier="Lab" id="2y4-yx-c69"/>
+                        <segue destination="9Ew-6Q-zrs" kind="push" identifier="Yazilim" id="j9P-y9-tK1"/>
+                        <segue destination="C0g-51-kCH" kind="push" identifier="Arac" id="o4p-uK-BOm"/>
+                        <segue destination="5da-Ls-4Ig" kind="push" identifier="Bag" id="ipQ-fC-TvD"/>
+                        <segue destination="n7a-bw-d3X" kind="push" identifier="Kadro" id="rUE-E3-sgl"/>
+                        <segue destination="PMm-mF-KUl" kind="push" identifier="Ilet" id="UlG-fJ-FqP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="539" y="315"/>
+        </scene>
+        <!--Seventh View Controller-->
+        <scene sceneID="Jet-Hc-AHi">
+            <objects>
+                <viewController id="5da-Ls-4Ig" customClass="SeventhViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gOV-ke-qwZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="XYc-Jd-7ss"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jmA-bH-WnX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6iI-L9-BWi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nFN-gp-FrO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="664" y="956"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="caD-uN-BFn">
+            <objects>
+                <viewController id="IA0-mt-wD5" customClass="ThirdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d6K-8R-0gI"/>
+                        <viewControllerLayoutGuide type="bottom" id="UMQ-va-Riw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZY2-ll-eYh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gnI-Hu-gk7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bh5-Zy-qtz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="594" y="1000"/>
+        </scene>
+        <!--Fifth View Controller-->
+        <scene sceneID="jFp-fk-Y8R">
+            <objects>
+                <viewController id="9Ew-6Q-zrs" customClass="FifthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="puE-g2-QbK"/>
+                        <viewControllerLayoutGuide type="bottom" id="r9j-v3-Bo1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o5j-Hd-jXx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xQy-3d-FIc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8d-6l-Ais" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1118" y="-141"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="pVn-CE-cwW">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DTK-Zp-KR2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="ju1-ma-2eC" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pdl-DW-tyj"/>
+                        <viewControllerLayoutGuide type="bottom" id="AFd-sc-WZv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fV2-2u-4N2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bdB-00-S8x"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1246" y="315"/>
+        </scene>
+        <!--Eighth View Controller-->
+        <scene sceneID="JET-b6-J6m">
+            <objects>
+                <viewController id="n7a-bw-d3X" customClass="EighthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lLz-Bd-Okx"/>
+                        <viewControllerLayoutGuide type="bottom" id="P7D-XD-Yxe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h4N-wV-A0y" customClass="Eig">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QK7-vU-Ar7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zBC-ar-RJd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1206" y="1000"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fYu-OO-vGn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DHt-UV-KO0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fZq-AO-PbP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="4Xd-5Y-HoF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v14-sl-yXx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-307" y="343"/>
+        </scene>
+        <!--Ninth View Controller-->
+        <scene sceneID="e0m-qH-huU">
+            <objects>
+                <viewController id="PMm-mF-KUl" customClass="NinthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P8T-hW-aBs"/>
+                        <viewControllerLayoutGuide type="bottom" id="NvP-qb-PVp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ptd-0B-FSK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="D2d-g6-mSA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="njp-lK-X55" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14" y="828"/>
         </scene>
     </scenes>
 </document>

@@ -31,6 +31,15 @@
 		A86B8C011C53B0100034A081 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86B8C001C53B0100034A081 /* SystemConfiguration.framework */; };
 		A86B8C031C53B0180034A081 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A86B8C021C53B0180034A081 /* libz.tbd */; };
 		A86B8C051C53B02B0034A081 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A86B8C041C53B02B0034A081 /* libsqlite3.tbd */; };
+		A86B8C081C53B9360034A081 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C071C53B9360034A081 /* SecondViewController.m */; };
+		A86B8C0B1C542AF30034A081 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C0A1C542AF30034A081 /* ThirdViewController.m */; };
+		A86B8C0E1C542F860034A081 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C0D1C542F860034A081 /* FourthViewController.m */; };
+		A86B8C111C5434F90034A081 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C101C5434F90034A081 /* FifthViewController.m */; };
+		A86B8C141C5437620034A081 /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C131C5437620034A081 /* SixthViewController.m */; };
+		A86B8C171C5438410034A081 /* SeventhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C161C5438410034A081 /* SeventhViewController.m */; };
+		A86B8C1A1C54392F0034A081 /* EighthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C191C54392F0034A081 /* EighthViewController.m */; };
+		A86B8C1D1C543CE10034A081 /* NinthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C1C1C543CE10034A081 /* NinthViewController.m */; };
+		A86B8C211C5440F90034A081 /* hmt.png in Resources */ = {isa = PBXBuildFile; fileRef = A86B8C201C5440F90034A081 /* hmt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +92,23 @@
 		A86B8C001C53B0100034A081 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A86B8C021C53B0180034A081 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		A86B8C041C53B02B0034A081 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A86B8C061C53B9360034A081 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A86B8C071C53B9360034A081 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A86B8C091C542AF20034A081 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		A86B8C0A1C542AF30034A081 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		A86B8C0C1C542F860034A081 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		A86B8C0D1C542F860034A081 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		A86B8C0F1C5434F90034A081 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		A86B8C101C5434F90034A081 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		A86B8C121C5437620034A081 /* SixthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
+		A86B8C131C5437620034A081 /* SixthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
+		A86B8C151C5438410034A081 /* SeventhViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeventhViewController.h; sourceTree = "<group>"; };
+		A86B8C161C5438410034A081 /* SeventhViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeventhViewController.m; sourceTree = "<group>"; };
+		A86B8C181C54392F0034A081 /* EighthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EighthViewController.h; sourceTree = "<group>"; };
+		A86B8C191C54392F0034A081 /* EighthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EighthViewController.m; sourceTree = "<group>"; };
+		A86B8C1B1C543CE10034A081 /* NinthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinthViewController.h; sourceTree = "<group>"; };
+		A86B8C1C1C543CE10034A081 /* NinthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinthViewController.m; sourceTree = "<group>"; };
+		A86B8C201C5440F90034A081 /* hmt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hmt.png; path = ../../../Desktop/4pps/hmt.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +155,7 @@
 		A86B8BA71C53AFA10034A081 = {
 			isa = PBXGroup;
 			children = (
+				A86B8C201C5440F90034A081 /* hmt.png */,
 				A86B8C041C53B02B0034A081 /* libsqlite3.tbd */,
 				A86B8C021C53B0180034A081 /* libz.tbd */,
 				A86B8C001C53B0100034A081 /* SystemConfiguration.framework */,
@@ -169,6 +196,22 @@
 				A86B8BB71C53AFA10034A081 /* AppDelegate.m */,
 				A86B8BB91C53AFA10034A081 /* ViewController.h */,
 				A86B8BBA1C53AFA10034A081 /* ViewController.m */,
+				A86B8C091C542AF20034A081 /* ThirdViewController.h */,
+				A86B8C0A1C542AF30034A081 /* ThirdViewController.m */,
+				A86B8C0C1C542F860034A081 /* FourthViewController.h */,
+				A86B8C0F1C5434F90034A081 /* FifthViewController.h */,
+				A86B8C101C5434F90034A081 /* FifthViewController.m */,
+				A86B8C121C5437620034A081 /* SixthViewController.h */,
+				A86B8C131C5437620034A081 /* SixthViewController.m */,
+				A86B8C151C5438410034A081 /* SeventhViewController.h */,
+				A86B8C161C5438410034A081 /* SeventhViewController.m */,
+				A86B8C181C54392F0034A081 /* EighthViewController.h */,
+				A86B8C1B1C543CE10034A081 /* NinthViewController.h */,
+				A86B8C1C1C543CE10034A081 /* NinthViewController.m */,
+				A86B8C191C54392F0034A081 /* EighthViewController.m */,
+				A86B8C0D1C542F860034A081 /* FourthViewController.m */,
+				A86B8C061C53B9360034A081 /* SecondViewController.h */,
+				A86B8C071C53B9360034A081 /* SecondViewController.m */,
 				A86B8BBC1C53AFA10034A081 /* Main.storyboard */,
 				A86B8BBF1C53AFA20034A081 /* Assets.xcassets */,
 				A86B8BC11C53AFA20034A081 /* LaunchScreen.storyboard */,
@@ -310,6 +353,7 @@
 				A86B8BC31C53AFA20034A081 /* LaunchScreen.storyboard in Resources */,
 				A86B8BC01C53AFA20034A081 /* Assets.xcassets in Resources */,
 				A86B8BBE1C53AFA10034A081 /* Main.storyboard in Resources */,
+				A86B8C211C5440F90034A081 /* hmt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,9 +378,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86B8C0E1C542F860034A081 /* FourthViewController.m in Sources */,
+				A86B8C081C53B9360034A081 /* SecondViewController.m in Sources */,
+				A86B8C0B1C542AF30034A081 /* ThirdViewController.m in Sources */,
+				A86B8C1D1C543CE10034A081 /* NinthViewController.m in Sources */,
 				A86B8BBB1C53AFA10034A081 /* ViewController.m in Sources */,
+				A86B8C171C5438410034A081 /* SeventhViewController.m in Sources */,
 				A86B8BB81C53AFA10034A081 /* AppDelegate.m in Sources */,
+				A86B8C111C5434F90034A081 /* FifthViewController.m in Sources */,
 				A86B8BB51C53AFA10034A081 /* main.m in Sources */,
+				A86B8C141C5437620034A081 /* SixthViewController.m in Sources */,
+				A86B8C1A1C54392F0034A081 /* EighthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

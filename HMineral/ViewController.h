@@ -10,6 +10,15 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *logo;
+- (IBAction)goToHk:(id)sender;
+- (IBAction)goToArge:(id)sender;
+-(IBAction)goToLab:(id)sender;
+- (IBAction)goToYaz:(id)sender;
+- (IBAction)goToArac:(id)sender;
+- (IBAction)goToBag:(id)sender;
+- (IBAction)goToKadro:(id)sender;
+- (IBAction)goToIlet:(id)sender;
 
 @end
 
