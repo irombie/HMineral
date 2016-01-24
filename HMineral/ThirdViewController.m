@@ -14,6 +14,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.title=@"AR-GE";
+    //_argeLbl.lineBreakMode = NSLineBreakByWordWrapping;
+    //_argeLbl.numberOfLines=0;
 }
 
 - (void)didReceiveMemoryWarning {

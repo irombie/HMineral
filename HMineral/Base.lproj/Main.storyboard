@@ -121,6 +121,10 @@
                                     <action selector="goToIlet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ctI-RE-Qov"/>
                                 </connections>
                             </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mYf-wE-Baq">
+                                <rect key="frame" x="20" y="139" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -149,6 +153,7 @@
                     <connections>
                         <outlet property="label" destination="neV-2p-0UI" id="vZw-m4-gVI"/>
                         <outlet property="logo" destination="x9b-vJ-Ogj" id="xGZ-hn-1ak"/>
+                        <outlet property="webView" destination="mYf-wE-Baq" id="7xa-T7-LRH"/>
                         <segue destination="ju1-ma-2eC" kind="push" identifier="Hakkimizda" id="pzx-Km-59b"/>
                         <segue destination="IA0-mt-wD5" kind="push" identifier="Arge" id="2NC-5F-VNf"/>
                         <segue destination="dvE-rk-hfq" kind="push" identifier="Lab" id="2y4-yx-c69"/>

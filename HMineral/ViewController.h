@@ -20,6 +20,7 @@
 - (IBAction)goToKadro:(id)sender;
 - (IBAction)goToIlet:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end
 
