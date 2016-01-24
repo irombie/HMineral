@@ -19,6 +19,7 @@
 - (IBAction)goToBag:(id)sender;
 - (IBAction)goToKadro:(id)sender;
 - (IBAction)goToIlet:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 

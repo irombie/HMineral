@@ -23,6 +23,9 @@
     self.navigationItem.title=@"ANASAYFA";
     UIImage *image = [UIImage imageNamed: @"hmt.png"];
     _logo.image=image;
+    //_label.lineBreakMode = NSLineBreakByWordWrapping;
+    //_label.numberOfLines = 1;//tek satıra sığdırma kodu
+    [_label sizeToFit];
 }
 
 - (void)didReceiveMemoryWarning {

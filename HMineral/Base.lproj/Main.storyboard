@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Sixth View Controller-->
@@ -55,76 +56,98 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cV8-uo-09W">
-                                <rect key="frame" x="255" y="241" width="91" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cV8-uo-09W">
+                                <rect key="frame" x="284" y="259" width="91" height="30"/>
                                 <state key="normal" title="HAKKIMIZDA"/>
                                 <connections>
                                     <action selector="goToHk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PhT-Xe-Lzw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhI-Qp-m10">
-                                <rect key="frame" x="270" y="279" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhI-Qp-m10">
+                                <rect key="frame" x="306" y="297" width="46" height="30"/>
                                 <state key="normal" title="AR-GE"/>
                                 <connections>
                                     <action selector="goToArge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b9j-Ui-Jlf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWF-6G-HfC">
-                                <rect key="frame" x="244" y="324" width="106" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWF-6G-HfC">
+                                <rect key="frame" x="276" y="335" width="106" height="30"/>
                                 <state key="normal" title="LABORATUVAR"/>
                                 <connections>
                                     <action selector="goToLab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CRu-ez-JOZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eaj-YL-KOR">
-                                <rect key="frame" x="208" y="371" width="179" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eaj-YL-KOR">
+                                <rect key="frame" x="240" y="380" width="179" height="30"/>
                                 <state key="normal" title="YAZILIM VE SİMÜLASYON"/>
                                 <connections>
                                     <action selector="goToYaz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7D6-B4-EMO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bf-Ni-Str">
-                                <rect key="frame" x="259" y="419" width="68" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bf-Ni-Str">
+                                <rect key="frame" x="295" y="424" width="68" height="30"/>
                                 <state key="normal" title="ARAÇLAR"/>
                                 <connections>
                                     <action selector="goToArac:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jwo-1G-x0S"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0x-le-irB">
-                                <rect key="frame" x="247" y="464" width="100" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0x-le-irB">
+                                <rect key="frame" x="279" y="469" width="100" height="30"/>
                                 <state key="normal" title="BAĞLANTILAR"/>
                                 <connections>
                                     <action selector="goToBag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f3k-WG-HFm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-oO-tqM">
-                                <rect key="frame" x="258" y="512" width="85" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-oO-tqM">
+                                <rect key="frame" x="287" y="514" width="85" height="30"/>
                                 <state key="normal" title="KADROMUZ"/>
                                 <connections>
                                     <action selector="goToKadro:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kha-Li-S72"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWb-tD-Uvi">
-                                <rect key="frame" x="267" y="550" width="60" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="HACETTEPE MİNERAL TEKNOLOJİLERİ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neV-2p-0UI">
+                                <rect key="frame" x="60" y="83" width="433" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x9b-vJ-Ogj">
+                                <rect key="frame" x="216" y="131" width="227" height="120"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWb-tD-Uvi">
+                                <rect key="frame" x="299" y="552" width="60" height="30"/>
                                 <state key="normal" title="İLETİŞİM"/>
                                 <connections>
                                     <action selector="goToIlet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ctI-RE-Qov"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HACETTEPE MİNERAL TEKNOLOJİLERİ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neV-2p-0UI">
-                                <rect key="frame" x="143" y="78" width="300" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x9b-vJ-Ogj">
-                                <rect key="frame" x="180" y="113" width="227" height="120"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7cL-oO-tqM" firstAttribute="top" secondItem="G0x-le-irB" secondAttribute="bottom" constant="8" symbolic="YES" id="0jn-06-atn"/>
+                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="top" secondItem="WWF-6G-HfC" secondAttribute="bottom" constant="8" symbolic="YES" id="18Y-4r-Z4k"/>
+                            <constraint firstItem="QhI-Qp-m10" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29" id="1l0-d1-N3U"/>
+                            <constraint firstItem="x9b-vJ-Ogj" firstAttribute="top" secondItem="neV-2p-0UI" secondAttribute="bottom" constant="8" symbolic="YES" id="3xu-6i-nw4"/>
+                            <constraint firstItem="neV-2p-0UI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="4mi-QT-wE4"/>
+                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="top" secondItem="7cL-oO-tqM" secondAttribute="bottom" constant="8" symbolic="YES" id="8pk-BR-3Kj"/>
+                            <constraint firstItem="G0x-le-irB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29" id="BYw-2P-dRc"/>
+                            <constraint firstItem="x9b-vJ-Ogj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29.5" id="BeA-HC-Une"/>
+                            <constraint firstItem="2bf-Ni-Str" firstAttribute="top" secondItem="Eaj-YL-KOR" secondAttribute="bottom" constant="8" symbolic="YES" id="CYa-yA-54t"/>
+                            <constraint firstItem="QhI-Qp-m10" firstAttribute="top" secondItem="cV8-uo-09W" secondAttribute="bottom" constant="8" symbolic="YES" id="G8s-73-D7m"/>
+                            <constraint firstItem="7cL-oO-tqM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29.5" id="H4v-8j-Vxz"/>
+                            <constraint firstItem="2bf-Ni-Str" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29" id="JFg-BI-J3n"/>
+                            <constraint firstItem="cV8-uo-09W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29.5" id="V85-Mk-yRr"/>
+                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29" id="YOU-L6-oA6"/>
+                            <constraint firstItem="cV8-uo-09W" firstAttribute="top" secondItem="x9b-vJ-Ogj" secondAttribute="bottom" constant="8" symbolic="YES" id="eES-3k-vdV"/>
+                            <constraint firstItem="G0x-le-irB" firstAttribute="top" secondItem="2bf-Ni-Str" secondAttribute="bottom" constant="8" symbolic="YES" id="jei-eT-VdA"/>
+                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29.5" id="lbl-Ng-8Dt"/>
+                            <constraint firstItem="WWF-6G-HfC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29" id="wgc-MY-cYy"/>
+                            <constraint firstItem="WWF-6G-HfC" firstAttribute="top" secondItem="QhI-Qp-m10" secondAttribute="bottom" constant="8" symbolic="YES" id="xbp-b1-gFp"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3oA-R1-FHV"/>
                     <connections>
+                        <outlet property="label" destination="neV-2p-0UI" id="vZw-m4-gVI"/>
                         <outlet property="logo" destination="x9b-vJ-Ogj" id="xGZ-hn-1ak"/>
                         <segue destination="ju1-ma-2eC" kind="push" identifier="Hakkimizda" id="pzx-Km-59b"/>
                         <segue destination="IA0-mt-wD5" kind="push" identifier="Arge" id="2NC-5F-VNf"/>
@@ -200,7 +223,6 @@
         <!--Second View Controller-->
         <scene sceneID="pVn-CE-cwW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DTK-Zp-KR2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="ju1-ma-2eC" customClass="SecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pdl-DW-tyj"/>
@@ -213,6 +235,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="bdB-00-S8x"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DTK-Zp-KR2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1246" y="315"/>
         </scene>
