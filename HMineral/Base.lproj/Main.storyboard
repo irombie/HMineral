@@ -171,7 +171,7 @@
         <!--Web View Controller-->
         <scene sceneID="Oa7-hR-Bcf">
             <objects>
-                <viewController storyboardIdentifier="webView" id="zxy-Qa-IFW" customClass="WebViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="webView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zxy-Qa-IFW" customClass="WebViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xyp-55-7rl"/>
                         <viewControllerLayoutGuide type="bottom" id="WY5-it-ZVr"/>

@@ -21,7 +21,7 @@
     // Do any additional setup after loading the view.
     self.navigationItem.title=@"BAĞLANTILAR";
     
-     content=[[NSMutableArray alloc] initWithArray:@[@{@"Title":@"Maden Mühendisleri Odası",@"Icon":@"mmo.jpg",@"URL":@"http://www.maden.org.tr"}, @{@"Title":@"Maden Tetkik ve Arama",@"Icon":@"mta.jpg",@"URL":@"http://www.mta.gov.tr/v2.0/index.php"}, @{@"Title":@"Minerology Database",@"Icon":@"minerology.gif",@"URL":@"http://www.webmineral.com"}, @{@"Title":@"SME",@"Icon":@"sme.png",@"URL":@"http://www.sme.org/smehome.aspx"}
+     _content=[[NSMutableArray alloc] initWithArray:@[@{@"Title":@"Maden Mühendisleri Odası",@"Icon":@"mmo.jpg",@"URL":@"http://www.maden.org.tr"}, @{@"Title":@"Maden Tetkik ve Arama",@"Icon":@"mta.jpg",@"URL":@"http://www.mta.gov.tr/v2.0/index.php"}, @{@"Title":@"Minerology Database",@"Icon":@"minerology.gif",@"URL":@"http://www.webmineral.com"}, @{@"Title":@"SME",@"Icon":@"sme.png",@"URL":@"http://www.sme.org/smehome.aspx"}
      ,@{@"Title":@"Mining Research Library",@"Icon":@"onemine.jpg",@"URL":@"http://www.onemine.org"}]];
      
     
@@ -36,7 +36,7 @@
  
  - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
  {
- return [content count];
+ return [_content count];
  }
  - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
  {
@@ -48,8 +48,8 @@
  cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
  }
  
- cell.textLabel.text = [content objectAtIndex:indexPath.row][@"Title"];
- cell.imageView.image = [UIImage imageNamed:[content objectAtIndex:indexPath.row][@"Icon"]] ;
+ cell.textLabel.text = [_content objectAtIndex:indexPath.row][@"Title"];
+ cell.imageView.image = [UIImage imageNamed:[_content objectAtIndex:indexPath.row][@"Icon"]] ;
      
  return cell;
  }
@@ -58,7 +58,7 @@
 {
     [super tableView:tableView didSelectRowAtIndexPath:indexPath];
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = [content objectAtIndex:indexPath.row][@"URL"];
+    web.url = [_content objectAtIndex:indexPath.row][@"URL"];
     [self.navigationController pushViewController:web animated:YES];
 }
 

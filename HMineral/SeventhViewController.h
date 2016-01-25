@@ -10,8 +10,8 @@
 #import "WebViewController.h"
 #import "ViewController.h"
 
-@interface SeventhViewController : UITableViewController <UITableViewDelegate>{
-    NSMutableArray *content;
-}
+@interface SeventhViewController : UITableViewController <UITableViewDelegate>
+    
+@property (nonatomic, retain) NSMutableArray *content;
 
 @end
