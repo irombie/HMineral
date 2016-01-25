@@ -40,6 +40,11 @@
 		A86B8C1A1C54392F0034A081 /* EighthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C191C54392F0034A081 /* EighthViewController.m */; };
 		A86B8C1D1C543CE10034A081 /* NinthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C1C1C543CE10034A081 /* NinthViewController.m */; };
 		A86B8C211C5440F90034A081 /* hmt.png in Resources */ = {isa = PBXBuildFile; fileRef = A86B8C201C5440F90034A081 /* hmt.png */; };
+		A89228A61C566793004DD123 /* mmo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A89228A51C566793004DD123 /* mmo.jpg */; };
+		A89228A81C5667F5004DD123 /* mta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A89228A71C5667F5004DD123 /* mta.jpg */; };
+		A89228AA1C566846004DD123 /* minerology.gif in Resources */ = {isa = PBXBuildFile; fileRef = A89228A91C566846004DD123 /* minerology.gif */; };
+		A89228AC1C5668A7004DD123 /* sme.png in Resources */ = {isa = PBXBuildFile; fileRef = A89228AB1C5668A7004DD123 /* sme.png */; };
+		A89228AE1C56697E004DD123 /* onemine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A89228AD1C56697E004DD123 /* onemine.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +114,11 @@
 		A86B8C1B1C543CE10034A081 /* NinthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinthViewController.h; sourceTree = "<group>"; };
 		A86B8C1C1C543CE10034A081 /* NinthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinthViewController.m; sourceTree = "<group>"; };
 		A86B8C201C5440F90034A081 /* hmt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hmt.png; path = ../../../Desktop/4pps/hmt.png; sourceTree = "<group>"; };
+		A89228A51C566793004DD123 /* mmo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mmo.jpg; path = ../../../Desktop/4pps/mmo.jpg; sourceTree = "<group>"; };
+		A89228A71C5667F5004DD123 /* mta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mta.jpg; path = ../../../Desktop/4pps/mta.jpg; sourceTree = "<group>"; };
+		A89228A91C566846004DD123 /* minerology.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = minerology.gif; path = ../../../Desktop/4pps/minerology.gif; sourceTree = "<group>"; };
+		A89228AB1C5668A7004DD123 /* sme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sme.png; path = ../../../Desktop/4pps/sme.png; sourceTree = "<group>"; };
+		A89228AD1C56697E004DD123 /* onemine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = onemine.jpg; path = ../../../Desktop/4pps/onemine.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +165,11 @@
 		A86B8BA71C53AFA10034A081 = {
 			isa = PBXGroup;
 			children = (
+				A89228A51C566793004DD123 /* mmo.jpg */,
+				A89228AD1C56697E004DD123 /* onemine.jpg */,
+				A89228A91C566846004DD123 /* minerology.gif */,
+				A89228AB1C5668A7004DD123 /* sme.png */,
+				A89228A71C5667F5004DD123 /* mta.jpg */,
 				A86B8C201C5440F90034A081 /* hmt.png */,
 				A86B8C041C53B02B0034A081 /* libsqlite3.tbd */,
 				A86B8C021C53B0180034A081 /* libz.tbd */,
@@ -350,10 +365,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89228AA1C566846004DD123 /* minerology.gif in Resources */,
+				A89228A81C5667F5004DD123 /* mta.jpg in Resources */,
+				A89228AE1C56697E004DD123 /* onemine.jpg in Resources */,
 				A86B8BC31C53AFA20034A081 /* LaunchScreen.storyboard in Resources */,
+				A89228A61C566793004DD123 /* mmo.jpg in Resources */,
 				A86B8BC01C53AFA20034A081 /* Assets.xcassets in Resources */,
 				A86B8BBE1C53AFA10034A081 /* Main.storyboard in Resources */,
 				A86B8C211C5440F90034A081 /* hmt.png in Resources */,
+				A89228AC1C5668A7004DD123 /* sme.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +642,7 @@
 				A86B8BDF1C53AFA20034A081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A86B8BE01C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMineralTests" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +651,7 @@
 				A86B8BE21C53AFA20034A081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A86B8BE31C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMineralUITests" */ = {
 			isa = XCConfigurationList;
@@ -638,6 +660,7 @@
 				A86B8BE51C53AFA20034A081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

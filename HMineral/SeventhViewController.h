@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SeventhViewController : UIViewController
+@interface SeventhViewController : UITableViewController{
+    NSMutableArray *content;
+}
 
 @end
