@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebViewController.h"
+#import "ViewController.h"
 
-@interface SeventhViewController : UITableViewController{
+@interface SeventhViewController : UITableViewController <UITableViewDelegate>{
     NSMutableArray *content;
 }
 

@@ -8,6 +8,7 @@
 
 #import "SeventhViewController.h"
 
+
 @interface SeventhViewController ()
 
 @end
@@ -16,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tableView.delegate=self;
     // Do any additional setup after loading the view.
     self.navigationItem.title=@"BAĞLANTILAR";
     
@@ -55,9 +57,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [super tableView:tableView didSelectRowAtIndexPath:indexPath];
-   // NSObject *object = [self->content objectAtIndex:indexPath.row];
-    [[UIApplication sharedApplication] openURL:[content objectAtIndex:indexPath.row][@"Url"]];
-    
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = [content objectAtIndex:indexPath.row][@"URL"];
+    [self.navigationController pushViewController:web animated:YES];
 }
 
 

@@ -45,6 +45,7 @@
 		A89228AA1C566846004DD123 /* minerology.gif in Resources */ = {isa = PBXBuildFile; fileRef = A89228A91C566846004DD123 /* minerology.gif */; };
 		A89228AC1C5668A7004DD123 /* sme.png in Resources */ = {isa = PBXBuildFile; fileRef = A89228AB1C5668A7004DD123 /* sme.png */; };
 		A89228AE1C56697E004DD123 /* onemine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A89228AD1C56697E004DD123 /* onemine.jpg */; };
+		A8CD8A7C1C56C33E00D5E5B9 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CD8A7B1C56C33E00D5E5B9 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,8 @@
 		A89228A91C566846004DD123 /* minerology.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = minerology.gif; path = ../../../Desktop/4pps/minerology.gif; sourceTree = "<group>"; };
 		A89228AB1C5668A7004DD123 /* sme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sme.png; path = ../../../Desktop/4pps/sme.png; sourceTree = "<group>"; };
 		A89228AD1C56697E004DD123 /* onemine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = onemine.jpg; path = ../../../Desktop/4pps/onemine.jpg; sourceTree = "<group>"; };
+		A8CD8A7A1C56C33E00D5E5B9 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		A8CD8A7B1C56C33E00D5E5B9 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +214,8 @@
 				A86B8BB71C53AFA10034A081 /* AppDelegate.m */,
 				A86B8BB91C53AFA10034A081 /* ViewController.h */,
 				A86B8BBA1C53AFA10034A081 /* ViewController.m */,
+				A8CD8A7A1C56C33E00D5E5B9 /* WebViewController.h */,
+				A8CD8A7B1C56C33E00D5E5B9 /* WebViewController.m */,
 				A86B8C091C542AF20034A081 /* ThirdViewController.h */,
 				A86B8C0A1C542AF30034A081 /* ThirdViewController.m */,
 				A86B8C0C1C542F860034A081 /* FourthViewController.h */,
@@ -405,6 +410,7 @@
 				A86B8BBB1C53AFA10034A081 /* ViewController.m in Sources */,
 				A86B8C171C5438410034A081 /* SeventhViewController.m in Sources */,
 				A86B8BB81C53AFA10034A081 /* AppDelegate.m in Sources */,
+				A8CD8A7C1C56C33E00D5E5B9 /* WebViewController.m in Sources */,
 				A86B8C111C5434F90034A081 /* FifthViewController.m in Sources */,
 				A86B8BB51C53AFA10034A081 /* main.m in Sources */,
 				A86B8C141C5437620034A081 /* SixthViewController.m in Sources */,

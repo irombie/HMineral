@@ -1,24 +1,29 @@
 //
-//  SixthViewController.m
+//  WebViewController.m
 //  HMineral
 //
-//  Created by Gül Ergün on 24/01/16.
+//  Created by Gül Ergün on 25/01/16.
 //  Copyright © 2016 İrem Ergün. All rights reserved.
 //
 
-#import "SixthViewController.h"
+#import "WebViewController.h"
 
-@interface SixthViewController ()
+@interface WebViewController ()
 
 @end
 
-@implementation SixthViewController
+@implementation WebViewController
+
+@synthesize webView = _webView;
+@synthesize url = _url;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     // Do any additional setup after loading the view.
-    self.navigationItem.title=@"ARAÇLAR";
+    
+    NSURL *linkUrl = [NSURL URLWithString:_url];
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:linkUrl];
+    [_webView loadRequest:urlRequest];
 
 }
 

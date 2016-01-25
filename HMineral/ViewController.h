@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIWebViewDelegate>
+@interface ViewController : UIViewController 
 
 @property (weak, nonatomic) IBOutlet UIImageView *logo;
 - (IBAction)goToHk:(id)sender;
@@ -21,7 +21,7 @@
 - (IBAction)goToIlet:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *label;
 
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
+
 
 @end
 
