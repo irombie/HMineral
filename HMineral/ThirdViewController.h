@@ -10,5 +10,6 @@
 
 @interface ThirdViewController : UIViewController
 //@property (weak, nonatomic) IBOutlet UILabel *argeLbl;
+@property (weak, nonatomic) IBOutlet UITextView *argeTV;
 
 @end

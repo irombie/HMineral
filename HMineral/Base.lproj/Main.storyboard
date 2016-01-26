@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Sixth View Controller-->
@@ -36,7 +35,74 @@
                     <view key="view" contentMode="scaleToFill" id="wqH-ap-y2v">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Mi-2f-B2f">
+                                <rect key="frame" x="173" y="92" width="255" height="30"/>
+                                <state key="normal" title="Malzeme Kırılma ve Karakterizasyonu"/>
+                                <connections>
+                                    <action selector="malzemeButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="1VU-6E-gPa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uqm-Dh-0Jx">
+                                <rect key="frame" x="200" y="147" width="201" height="30"/>
+                                <state key="normal" title="Kırma, Öğütme, Sınıflandırma"/>
+                                <connections>
+                                    <action selector="kirmaButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="xXw-TX-2d5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtM-Nk-lDH">
+                                <rect key="frame" x="267" y="204" width="66" height="30"/>
+                                <state key="normal" title="Flotasyon"/>
+                                <connections>
+                                    <action selector="flotasyonButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="RGK-PN-eLG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbY-ZX-BYy">
+                                <rect key="frame" x="189" y="250" width="223" height="30"/>
+                                <state key="normal" title="Manyetik ve Yerçekimiyle Ayırma"/>
+                                <connections>
+                                    <action selector="manyetikButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="ySW-Rh-Jgk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y82-gt-Wds">
+                                <rect key="frame" x="251" y="301" width="98" height="30"/>
+                                <state key="normal" title="Yüzey Kimyası"/>
+                                <connections>
+                                    <action selector="yuzeyButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="BUn-BD-IxZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufJ-zB-P6P">
+                                <rect key="frame" x="236" y="356" width="128" height="30"/>
+                                <state key="normal" title="Proses Mineralojisi"/>
+                                <connections>
+                                    <action selector="prosesButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="ajs-rc-D6J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSW-40-77O">
+                                <rect key="frame" x="252" y="410" width="96" height="30"/>
+                                <state key="normal" title="Analitik Kimya"/>
+                                <connections>
+                                    <action selector="analitikButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="vrv-OP-lpb"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ufJ-zB-P6P" firstAttribute="centerX" secondItem="Y82-gt-Wds" secondAttribute="centerX" id="5Sz-vz-JXe"/>
+                            <constraint firstItem="ufJ-zB-P6P" firstAttribute="centerX" secondItem="BSW-40-77O" secondAttribute="centerX" id="81S-KD-tvz"/>
+                            <constraint firstItem="mbY-ZX-BYy" firstAttribute="centerX" secondItem="Y82-gt-Wds" secondAttribute="centerX" id="Dh1-ri-yeX"/>
+                            <constraint firstItem="FtM-Nk-lDH" firstAttribute="centerX" secondItem="mbY-ZX-BYy" secondAttribute="centerX" id="GqO-Hq-BY8"/>
+                            <constraint firstItem="BSW-40-77O" firstAttribute="top" secondItem="ufJ-zB-P6P" secondAttribute="bottom" constant="24" id="LSD-vM-h8V"/>
+                            <constraint firstItem="ufJ-zB-P6P" firstAttribute="centerX" secondItem="wqH-ap-y2v" secondAttribute="centerX" id="Re5-as-ase"/>
+                            <constraint firstItem="Y82-gt-Wds" firstAttribute="top" secondItem="mbY-ZX-BYy" secondAttribute="bottom" constant="21" id="TuC-nA-HFP"/>
+                            <constraint firstItem="Uqm-Dh-0Jx" firstAttribute="centerX" secondItem="0Mi-2f-B2f" secondAttribute="centerX" id="UvE-cx-XsE"/>
+                            <constraint firstItem="FtM-Nk-lDH" firstAttribute="centerX" secondItem="Uqm-Dh-0Jx" secondAttribute="centerX" id="X15-Cs-fLF"/>
+                            <constraint firstItem="Uqm-Dh-0Jx" firstAttribute="top" secondItem="0Mi-2f-B2f" secondAttribute="bottom" constant="25" id="aYT-MF-f10"/>
+                            <constraint firstItem="mbY-ZX-BYy" firstAttribute="top" secondItem="FtM-Nk-lDH" secondAttribute="bottom" constant="16" id="lQg-SK-e5l"/>
+                            <constraint firstItem="FtM-Nk-lDH" firstAttribute="top" secondItem="Uqm-Dh-0Jx" secondAttribute="bottom" constant="27" id="qJC-NJ-lKA"/>
+                            <constraint firstItem="ufJ-zB-P6P" firstAttribute="top" secondItem="Y82-gt-Wds" secondAttribute="bottom" constant="25" id="vce-Pa-0iT"/>
+                            <constraint firstItem="0Mi-2f-B2f" firstAttribute="top" secondItem="1m8-k9-jAh" secondAttribute="bottom" constant="28" id="z1v-rL-i6c"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jyE-rV-tJD"/>
                 </viewController>
@@ -57,69 +123,69 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cV8-uo-09W">
-                                <rect key="frame" x="284" y="259" width="91" height="30"/>
+                                <rect key="frame" x="255" y="259" width="91" height="30"/>
                                 <state key="normal" title="HAKKIMIZDA"/>
                                 <connections>
                                     <action selector="goToHk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PhT-Xe-Lzw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhI-Qp-m10">
-                                <rect key="frame" x="306" y="297" width="46" height="30"/>
+                                <rect key="frame" x="277" y="297" width="46" height="30"/>
                                 <state key="normal" title="AR-GE"/>
                                 <connections>
                                     <action selector="goToArge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b9j-Ui-Jlf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWF-6G-HfC">
-                                <rect key="frame" x="276" y="335" width="106" height="30"/>
+                                <rect key="frame" x="247" y="335" width="106" height="30"/>
                                 <state key="normal" title="LABORATUVAR"/>
                                 <connections>
                                     <action selector="goToLab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CRu-ez-JOZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eaj-YL-KOR">
-                                <rect key="frame" x="240" y="373" width="179" height="30"/>
+                                <rect key="frame" x="211" y="373" width="179" height="30"/>
                                 <state key="normal" title="YAZILIM VE SİMÜLASYON"/>
                                 <connections>
                                     <action selector="goToYaz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7D6-B4-EMO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bf-Ni-Str">
-                                <rect key="frame" x="295" y="411" width="68" height="30"/>
+                                <rect key="frame" x="266" y="411" width="68" height="30"/>
                                 <state key="normal" title="ARAÇLAR"/>
                                 <connections>
                                     <action selector="goToArac:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jwo-1G-x0S"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0x-le-irB">
-                                <rect key="frame" x="279" y="449" width="100" height="30"/>
+                                <rect key="frame" x="250" y="449" width="100" height="30"/>
                                 <state key="normal" title="BAĞLANTILAR"/>
                                 <connections>
                                     <action selector="goToBag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f3k-WG-HFm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-oO-tqM">
-                                <rect key="frame" x="287" y="487" width="85" height="30"/>
+                                <rect key="frame" x="258" y="487" width="85" height="30"/>
                                 <state key="normal" title="KADROMUZ"/>
                                 <connections>
                                     <action selector="goToKadro:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kha-Li-S72"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HACETTEPE MİNERAL TEKNOLOJİLERİ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neV-2p-0UI">
-                                <rect key="frame" x="60" y="102" width="300" height="21"/>
+                                <rect key="frame" x="150" y="88" width="300" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x9b-vJ-Ogj">
-                                <rect key="frame" x="216" y="131" width="227" height="120"/>
+                                <rect key="frame" x="187" y="131" width="227" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="227" id="Hnf-QG-8mf"/>
                                     <constraint firstAttribute="height" constant="120" id="uEN-T4-sZo"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWb-tD-Uvi">
-                                <rect key="frame" x="299" y="525" width="60" height="30"/>
+                                <rect key="frame" x="270" y="525" width="60" height="30"/>
                                 <state key="normal" title="İLETİŞİM"/>
                                 <connections>
                                     <action selector="goToIlet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ctI-RE-Qov"/>
@@ -128,26 +194,26 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="7cL-oO-tqM" firstAttribute="top" secondItem="G0x-le-irB" secondAttribute="bottom" constant="8" symbolic="YES" id="0jn-06-atn"/>
-                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="top" secondItem="WWF-6G-HfC" secondAttribute="bottom" constant="8" symbolic="YES" id="18Y-4r-Z4k"/>
-                            <constraint firstItem="QhI-Qp-m10" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29" id="1l0-d1-N3U"/>
-                            <constraint firstItem="x9b-vJ-Ogj" firstAttribute="top" secondItem="neV-2p-0UI" secondAttribute="bottom" constant="8" symbolic="YES" id="3xu-6i-nw4"/>
-                            <constraint firstItem="neV-2p-0UI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="4mi-QT-wE4"/>
-                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="top" secondItem="7cL-oO-tqM" secondAttribute="bottom" constant="8" symbolic="YES" id="8pk-BR-3Kj"/>
-                            <constraint firstItem="G0x-le-irB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29" id="BYw-2P-dRc"/>
-                            <constraint firstItem="x9b-vJ-Ogj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29.5" id="BeA-HC-Une"/>
-                            <constraint firstItem="2bf-Ni-Str" firstAttribute="top" secondItem="Eaj-YL-KOR" secondAttribute="bottom" constant="8" symbolic="YES" id="CYa-yA-54t"/>
-                            <constraint firstItem="QhI-Qp-m10" firstAttribute="top" secondItem="cV8-uo-09W" secondAttribute="bottom" constant="8" symbolic="YES" id="G8s-73-D7m"/>
-                            <constraint firstItem="7cL-oO-tqM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29.5" id="H4v-8j-Vxz"/>
-                            <constraint firstItem="2bf-Ni-Str" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29" id="JFg-BI-J3n"/>
-                            <constraint firstItem="cV8-uo-09W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29.5" id="V85-Mk-yRr"/>
-                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29" id="YOU-L6-oA6"/>
-                            <constraint firstItem="cV8-uo-09W" firstAttribute="top" secondItem="x9b-vJ-Ogj" secondAttribute="bottom" constant="8" symbolic="YES" id="eES-3k-vdV"/>
-                            <constraint firstItem="G0x-le-irB" firstAttribute="top" secondItem="2bf-Ni-Str" secondAttribute="bottom" constant="8" symbolic="YES" id="jei-eT-VdA"/>
-                            <constraint firstItem="x9b-vJ-Ogj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="131" id="lQZ-v8-kkA"/>
-                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29.5" id="lbl-Ng-8Dt"/>
-                            <constraint firstItem="WWF-6G-HfC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="29" id="wgc-MY-cYy"/>
-                            <constraint firstItem="WWF-6G-HfC" firstAttribute="top" secondItem="QhI-Qp-m10" secondAttribute="bottom" constant="8" symbolic="YES" id="xbp-b1-gFp"/>
+                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="top" secondItem="WWF-6G-HfC" secondAttribute="bottom" constant="8" symbolic="YES" id="1Qe-L1-dj9"/>
+                            <constraint firstItem="7cL-oO-tqM" firstAttribute="centerX" secondItem="bWb-tD-Uvi" secondAttribute="centerX" id="2oi-Of-o6N"/>
+                            <constraint firstItem="x9b-vJ-Ogj" firstAttribute="centerX" secondItem="neV-2p-0UI" secondAttribute="centerX" id="5Rz-en-jHg"/>
+                            <constraint firstItem="G0x-le-irB" firstAttribute="centerX" secondItem="2bf-Ni-Str" secondAttribute="centerX" id="733-07-hB7"/>
+                            <constraint firstItem="WWF-6G-HfC" firstAttribute="centerX" secondItem="QhI-Qp-m10" secondAttribute="centerX" id="8Bd-bj-ZL6"/>
+                            <constraint firstItem="WWF-6G-HfC" firstAttribute="top" secondItem="QhI-Qp-m10" secondAttribute="bottom" constant="8" symbolic="YES" id="8ij-bU-QP1"/>
+                            <constraint firstItem="G0x-le-irB" firstAttribute="top" secondItem="2bf-Ni-Str" secondAttribute="bottom" constant="8" symbolic="YES" id="ABg-18-Mjo"/>
+                            <constraint firstItem="2bf-Ni-Str" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AfQ-hg-fKH"/>
+                            <constraint firstItem="QhI-Qp-m10" firstAttribute="top" secondItem="cV8-uo-09W" secondAttribute="bottom" constant="8" symbolic="YES" id="MSl-9b-llp"/>
+                            <constraint firstItem="neV-2p-0UI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="QEB-YH-vsa"/>
+                            <constraint firstItem="x9b-vJ-Ogj" firstAttribute="top" secondItem="neV-2p-0UI" secondAttribute="bottom" constant="22" id="Vg2-CP-fx6"/>
+                            <constraint firstItem="cV8-uo-09W" firstAttribute="centerX" secondItem="QhI-Qp-m10" secondAttribute="centerX" id="YnL-5y-EnL"/>
+                            <constraint firstItem="7cL-oO-tqM" firstAttribute="centerX" secondItem="G0x-le-irB" secondAttribute="centerX" id="cXf-kz-Yh5"/>
+                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="centerX" secondItem="WWF-6G-HfC" secondAttribute="centerX" id="gPy-x4-VCy"/>
+                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="centerX" secondItem="2bf-Ni-Str" secondAttribute="centerX" id="jm8-ce-4Ms"/>
+                            <constraint firstItem="cV8-uo-09W" firstAttribute="centerX" secondItem="x9b-vJ-Ogj" secondAttribute="centerX" id="neq-oa-Cmg"/>
+                            <constraint firstItem="7cL-oO-tqM" firstAttribute="top" secondItem="G0x-le-irB" secondAttribute="bottom" constant="8" symbolic="YES" id="sIQ-lu-A0a"/>
+                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="top" secondItem="7cL-oO-tqM" secondAttribute="bottom" constant="8" symbolic="YES" id="vaM-gr-pev"/>
+                            <constraint firstItem="2bf-Ni-Str" firstAttribute="top" secondItem="Eaj-YL-KOR" secondAttribute="bottom" constant="8" symbolic="YES" id="wX0-um-8Ra"/>
+                            <constraint firstItem="cV8-uo-09W" firstAttribute="top" secondItem="x9b-vJ-Ogj" secondAttribute="bottom" constant="8" symbolic="YES" id="xho-4p-vER"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3oA-R1-FHV"/>
@@ -158,10 +224,10 @@
                         <segue destination="dvE-rk-hfq" kind="push" identifier="Lab" id="2y4-yx-c69"/>
                         <segue destination="9Ew-6Q-zrs" kind="push" identifier="Yazilim" id="j9P-y9-tK1"/>
                         <segue destination="C0g-51-kCH" kind="push" identifier="Arac" id="o4p-uK-BOm"/>
-                        <segue destination="n7a-bw-d3X" kind="push" identifier="Kadro" id="rUE-E3-sgl"/>
                         <segue destination="PMm-mF-KUl" kind="push" identifier="Ilet" id="UlG-fJ-FqP"/>
                         <segue destination="TJU-ks-cdX" kind="push" identifier="Bag" id="GAH-pd-1x0"/>
                         <segue destination="5da-Ls-4Ig" kind="push" identifier="Arge" id="yai-tU-Rwl"/>
+                        <segue destination="dsX-jU-Zo5" kind="push" identifier="Kadro" id="W8n-ET-X1f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -207,13 +273,47 @@
                     <view key="view" contentMode="scaleToFill" id="jmA-bH-WnX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gg0-uX-ViH">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Araştırma ekibinin geniş çerçevedeki uzmanlık alanları HMT’ye cevher hazırlamanın çeşitli alanlarında çalışma imkanı tanımaktadır. Bu nedenle, HMT, herhangi bir cevher hazırlama projesini cevher karakterizasyon aşamasından konsantre üretimine kadar tamamlayabilecek beceriye sahiptir. Bu çeşitlilik üretkenlik ve mükemmelliyet olgusunu geliştirmektedir. HMT’nin AR-GE kapsamındaki araştırma alanları aşağıda verilmektedir; 
+
+- Modelleme ve simülasyonla performans değerlendirme ve optimizasyon
+- Enerji tasarruflu öğütme teknolojileri
+- HPGR Merdaneli değirmenİnce öğütme (Isamill, karıştırmalı değirmen)
+- Cevher karakterizasyonu için jeometallurjik bir aracın geliştirilmesi
+- Oksidasyon indeksi
+- Su kimyasının flotasyon performansı üzerinde etkilerinin modellenmesi
+- Kuru proses tekniklerinin geliştirilmesi
+- Cevher ayıklama sistemleri
+- Elektrostatik ayırma
+- Temiz kömür teknolojileri
+- Sensör bazlı kontrol sistemleri (optik ayırma)
+- Yapay görme sistemleri
+- Mineral problarının ve elektrokimyasal sistemlerin palp kimyasının online izlenmesi amacıyla kullanılması
+- Cevher hazırlama için yazılımların geliştirilmesi
+- Lave kömür yıkama devresi tasarımı programı</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gg0-uX-ViH" firstAttribute="top" secondItem="gOV-ke-qwZ" secondAttribute="bottom" id="HuV-Jf-gyU"/>
+                            <constraint firstItem="gg0-uX-ViH" firstAttribute="leading" secondItem="jmA-bH-WnX" secondAttribute="leading" id="V5A-ng-cd0"/>
+                            <constraint firstAttribute="trailing" secondItem="gg0-uX-ViH" secondAttribute="trailing" id="fak-Bb-pZS"/>
+                            <constraint firstItem="gg0-uX-ViH" firstAttribute="bottom" secondItem="XYc-Jd-7ss" secondAttribute="top" id="wWg-JU-Xps"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6iI-L9-BWi"/>
+                    <connections>
+                        <outlet property="argeTV" destination="gg0-uX-ViH" id="1bW-o7-P6F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nFN-gp-FrO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1039" y="1742"/>
+            <point key="canvasLocation" x="1366" y="1531"/>
         </scene>
         <!--Fifth View Controller-->
         <scene sceneID="jFp-fk-Y8R">
@@ -226,7 +326,29 @@
                     <view key="view" contentMode="scaleToFill" id="o5j-Hd-jXx">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z9f-I4-kA1">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">HMT cevher zenginleştirme tesis tasarımında simülasyon araçlarından yoğun olarak yararlanmaktadır. Buna yönelik modelleme çalışmalarınıda yapabilmektedir. Genel olarak yaygın şekilde kullanılan simülasyon paketleri aşağıda sunulmaktadır: 
+
+- JKSimMet
+- JKSimFloat
+- HSC Chemistry
+- Lave (Kömür Hazırlama, HMT yazılımı)
+- Kırma ve eleme ile ilgili mevcut tüm simülasyon programları
+- Cevher hazırlama devresi çizim programı (HMT yazılımı)</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="z9f-I4-kA1" firstAttribute="bottom" secondItem="r9j-v3-Bo1" secondAttribute="top" id="AHQ-Vr-iiq"/>
+                            <constraint firstAttribute="trailing" secondItem="z9f-I4-kA1" secondAttribute="trailing" id="RfQ-ZX-q21"/>
+                            <constraint firstItem="z9f-I4-kA1" firstAttribute="leading" secondItem="o5j-Hd-jXx" secondAttribute="leading" id="Uhn-eg-uxE"/>
+                            <constraint firstItem="z9f-I4-kA1" firstAttribute="top" secondItem="puE-g2-QbK" secondAttribute="bottom" id="r00-Z1-Xsz"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="xQy-3d-FIc"/>
                 </viewController>
@@ -245,32 +367,207 @@
                     <view key="view" contentMode="scaleToFill" id="fV2-2u-4N2">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="w8L-fh-Z1K">
+                                <rect key="frame" x="0.0" y="72" width="600" height="315"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Hacettepe Mineral Teknolojileri Hacettepe Üniversitesi Teknoloji Geliştirme Merkezi’nde Konusunda uzman bir grup Öğretim Üyesi tarafından kurulmuş bir şirkettir.HMT doğadan çıkartılan madenlerin zenginleştirilmesi amacıyla gerekli olan tüm laboratuvar çalışmaları, modelleme ve simülasyonla devre tasarımı, akım şeması geliştirme ve ekipman seçimi/boyutlandırması işlerini kapsayan Ar-Ge faaliyetleri konusunda hizmet vermektedir.Endüstriye verilen bu Ar-Ge destekleri yanında ekipman tasarımı ve cevher hazırlama devrelerinin modelleme/simülasyonu konularında Ar-Ge çalışmaları yürütmektedir.Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans değerlendirme ve iyileştirmesine konusunda endüstriye destek vermektedir.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kmr-mA-pSi">
+                                <rect key="frame" x="193" y="425" width="214" height="30"/>
+                                <state key="normal" title="CEVHER KARAKTERİZASYONU"/>
+                                <connections>
+                                    <action selector="cevherButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="phK-hO-TDw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxz-fm-sNW">
+                                <rect key="frame" x="208" y="463" width="184" height="30"/>
+                                <state key="normal" title="AKIM ŞEMASI GELİŞTİRME"/>
+                                <connections>
+                                    <action selector="akimButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="S6F-rK-xSW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6MX-UV-0e7">
+                                <rect key="frame" x="187" y="501" width="226" height="30"/>
+                                <state key="normal" title="PERFORMANS DEĞERLENDİRME"/>
+                                <connections>
+                                    <action selector="performansButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="Ier-dc-Gny"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ŞİRKETİN UZMANLIK ALANLARI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0f-d5-TSa">
+                                <rect key="frame" x="177" y="401" width="246" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xux-Px-BSK">
+                                <rect key="frame" x="241" y="539" width="119" height="30"/>
+                                <state key="normal" title="DEVRE TASARIMI"/>
+                                <connections>
+                                    <action selector="devreButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="IQ0-J1-tFe"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6MX-UV-0e7" firstAttribute="centerX" secondItem="xxz-fm-sNW" secondAttribute="centerX" id="2lU-3g-3sr"/>
+                            <constraint firstItem="6MX-UV-0e7" firstAttribute="top" secondItem="xxz-fm-sNW" secondAttribute="bottom" constant="8" symbolic="YES" id="3HO-Cx-wH2"/>
+                            <constraint firstItem="Kmr-mA-pSi" firstAttribute="centerX" secondItem="X0f-d5-TSa" secondAttribute="centerX" id="4bY-fm-URd"/>
+                            <constraint firstItem="Kmr-mA-pSi" firstAttribute="top" secondItem="X0f-d5-TSa" secondAttribute="bottom" constant="3" id="5EE-BD-d8d"/>
+                            <constraint firstItem="X0f-d5-TSa" firstAttribute="top" secondItem="w8L-fh-Z1K" secondAttribute="bottom" constant="14" id="7KD-ML-Ez2"/>
+                            <constraint firstItem="xxz-fm-sNW" firstAttribute="centerX" secondItem="Kmr-mA-pSi" secondAttribute="centerX" id="Aga-gU-cgL"/>
+                            <constraint firstAttribute="trailing" secondItem="w8L-fh-Z1K" secondAttribute="trailing" id="Ci4-q2-q8D"/>
+                            <constraint firstItem="xux-Px-BSK" firstAttribute="top" secondItem="6MX-UV-0e7" secondAttribute="bottom" constant="8" symbolic="YES" id="EKZ-4t-Bfo"/>
+                            <constraint firstItem="6MX-UV-0e7" firstAttribute="centerX" secondItem="xux-Px-BSK" secondAttribute="centerX" id="Glo-Mh-odL"/>
+                            <constraint firstItem="w8L-fh-Z1K" firstAttribute="top" secondItem="Pdl-DW-tyj" secondAttribute="bottom" constant="8" symbolic="YES" id="SCE-OX-g27"/>
+                            <constraint firstItem="xxz-fm-sNW" firstAttribute="top" secondItem="Kmr-mA-pSi" secondAttribute="bottom" constant="8" symbolic="YES" id="aNH-lI-DbJ"/>
+                            <constraint firstItem="w8L-fh-Z1K" firstAttribute="leading" secondItem="fV2-2u-4N2" secondAttribute="leading" id="con-O1-gd1"/>
+                            <constraint firstItem="AFd-sc-WZv" firstAttribute="top" secondItem="xux-Px-BSK" secondAttribute="bottom" constant="31" id="m5H-6I-8b4"/>
+                            <constraint firstItem="X0f-d5-TSa" firstAttribute="centerX" secondItem="w8L-fh-Z1K" secondAttribute="centerX" id="oUv-er-X9j"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bdB-00-S8x"/>
+                    <connections>
+                        <outlet property="hakkindaTV" destination="w8L-fh-Z1K" id="A3T-nf-45B"/>
+                        <segue destination="zxy-Qa-IFW" kind="push" id="HLq-qg-8vr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTK-Zp-KR2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="796" y="1775"/>
+            <point key="canvasLocation" x="761" y="1872"/>
         </scene>
         <!--Eighth View Controller-->
-        <scene sceneID="JET-b6-J6m">
+        <scene sceneID="CRH-Or-gTO">
             <objects>
-                <viewController id="n7a-bw-d3X" customClass="EighthViewController" sceneMemberID="viewController">
+                <viewController id="dsX-jU-Zo5" customClass="EighthViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lLz-Bd-Okx"/>
-                        <viewControllerLayoutGuide type="bottom" id="P7D-XD-Yxe"/>
+                        <viewControllerLayoutGuide type="top" id="Cnl-Xb-YBr"/>
+                        <viewControllerLayoutGuide type="bottom" id="RGH-E7-x60"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="h4N-wV-A0y" customClass="Eig">
+                    <view key="view" contentMode="scaleToFill" id="VyJ-hk-uWS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KURUCULAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViB-nT-h7Q">
+                                <rect key="frame" x="249" y="77" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4w-6i-NOz">
+                                <rect key="frame" x="205" y="112" width="190" height="30"/>
+                                <state key="normal" title="PROF. DR. ÖZCAN GÜLSOY"/>
+                                <connections>
+                                    <action selector="ozcan:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="O7L-yh-QTx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RlH-ml-L00">
+                                <rect key="frame" x="207" y="145" width="185" height="30"/>
+                                <state key="normal" title="PROF. DR. LEVENT ERGÜN"/>
+                                <connections>
+                                    <action selector="levent:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="1Sb-Yb-rtu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfB-35-xZe">
+                                <rect key="frame" x="208" y="183" width="183" height="30"/>
+                                <state key="normal" title="PROF. DR. ZAFİR EKMEKÇİ"/>
+                                <connections>
+                                    <action selector="zafir:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="Nfd-je-yWG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZ6-L0-P0D">
+                                <rect key="frame" x="208" y="221" width="183" height="30"/>
+                                <state key="normal" title="YRD. DOÇ. DR METİN CAN"/>
+                                <connections>
+                                    <action selector="metin:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="x7j-Jn-wYV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DANIŞMANLAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vQ-go-791">
+                                <rect key="frame" x="240" y="254" width="119" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xtf-mS-GVf">
+                                <rect key="frame" x="243" y="283" width="114" height="30"/>
+                                <state key="normal" title="DR. İLKAY ÇELİK"/>
+                                <connections>
+                                    <action selector="ilkay:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="3yg-27-1ev"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXt-pc-bUi">
+                                <rect key="frame" x="211" y="316" width="177" height="30"/>
+                                <state key="normal" title="DR. CANER EREN ORHAN"/>
+                                <connections>
+                                    <action selector="caner:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="Hw5-R1-8zk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBx-Yh-T50">
+                                <rect key="frame" x="237" y="354" width="127" height="30"/>
+                                <state key="normal" title="DR. ÖZLEM BIÇAK"/>
+                                <connections>
+                                    <action selector="ozlem:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="KxP-oC-5j9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROJE MÜHENDİSLERİ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jcj-Ms-djm">
+                                <rect key="frame" x="210" y="392" width="179" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FvB-28-9RP">
+                                <rect key="frame" x="215" y="427" width="169" height="30"/>
+                                <state key="normal" title="ORBERK MERT MERCAN"/>
+                                <connections>
+                                    <action selector="orberk:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="UBv-VI-xZN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jx9-xd-fOd">
+                                <rect key="frame" x="207" y="465" width="187" height="30"/>
+                                <state key="normal" title="AHMET YAŞAR YAMANTAŞ"/>
+                                <connections>
+                                    <action selector="ahmet:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="YLx-S5-SR9"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Jcj-Ms-djm" firstAttribute="top" secondItem="EBx-Yh-T50" secondAttribute="bottom" constant="8" symbolic="YES" id="2Sx-N2-vXm"/>
+                            <constraint firstItem="EXt-pc-bUi" firstAttribute="top" secondItem="xtf-mS-GVf" secondAttribute="bottom" constant="3" id="6e1-rs-bnR"/>
+                            <constraint firstItem="ViB-nT-h7Q" firstAttribute="centerX" secondItem="F4w-6i-NOz" secondAttribute="centerX" id="FMN-3J-5mW"/>
+                            <constraint firstItem="UfB-35-xZe" firstAttribute="top" secondItem="RlH-ml-L00" secondAttribute="bottom" constant="8" symbolic="YES" id="Hjd-0S-eC6"/>
+                            <constraint firstItem="UfB-35-xZe" firstAttribute="centerX" secondItem="VyJ-hk-uWS" secondAttribute="centerX" id="Hy1-gk-6Hk"/>
+                            <constraint firstItem="EBx-Yh-T50" firstAttribute="top" secondItem="EXt-pc-bUi" secondAttribute="bottom" constant="8" symbolic="YES" id="LIW-gU-ZGV"/>
+                            <constraint firstItem="F4w-6i-NOz" firstAttribute="centerX" secondItem="RlH-ml-L00" secondAttribute="centerX" id="NPG-Ud-hec"/>
+                            <constraint firstItem="F4w-6i-NOz" firstAttribute="top" secondItem="ViB-nT-h7Q" secondAttribute="bottom" constant="14" id="Px3-GB-4TL"/>
+                            <constraint firstItem="tZ6-L0-P0D" firstAttribute="top" secondItem="UfB-35-xZe" secondAttribute="bottom" constant="8" symbolic="YES" id="U9Y-zz-kbT"/>
+                            <constraint firstItem="ViB-nT-h7Q" firstAttribute="top" secondItem="Cnl-Xb-YBr" secondAttribute="bottom" constant="13" id="Uj6-DY-I7g"/>
+                            <constraint firstItem="RlH-ml-L00" firstAttribute="centerX" secondItem="UfB-35-xZe" secondAttribute="centerX" id="Wp1-lk-YrE"/>
+                            <constraint firstItem="tZ6-L0-P0D" firstAttribute="leading" secondItem="UfB-35-xZe" secondAttribute="leading" id="ZDZ-Rt-X6i"/>
+                            <constraint firstItem="EXt-pc-bUi" firstAttribute="centerX" secondItem="Jcj-Ms-djm" secondAttribute="centerX" id="ZWl-oT-vhf"/>
+                            <constraint firstItem="xtf-mS-GVf" firstAttribute="centerX" secondItem="EXt-pc-bUi" secondAttribute="centerX" id="a7s-Wl-UoG"/>
+                            <constraint firstItem="xtf-mS-GVf" firstAttribute="centerX" secondItem="5vQ-go-791" secondAttribute="centerX" id="dz4-Cm-niV"/>
+                            <constraint firstItem="xtf-mS-GVf" firstAttribute="top" secondItem="5vQ-go-791" secondAttribute="bottom" constant="8" symbolic="YES" id="f0k-5D-bkh"/>
+                            <constraint firstItem="RlH-ml-L00" firstAttribute="leading" secondItem="Jx9-xd-fOd" secondAttribute="leading" id="gE6-w3-d16"/>
+                            <constraint firstItem="FvB-28-9RP" firstAttribute="top" secondItem="Jcj-Ms-djm" secondAttribute="bottom" constant="14" id="hd1-MQ-kwn"/>
+                            <constraint firstItem="Jx9-xd-fOd" firstAttribute="top" secondItem="FvB-28-9RP" secondAttribute="bottom" constant="8" symbolic="YES" id="hx7-BV-RfZ"/>
+                            <constraint firstItem="EBx-Yh-T50" firstAttribute="centerX" secondItem="xtf-mS-GVf" secondAttribute="centerX" id="mCJ-H2-gVN"/>
+                            <constraint firstItem="RlH-ml-L00" firstAttribute="top" secondItem="F4w-6i-NOz" secondAttribute="bottom" constant="3" id="mHu-c1-uHi"/>
+                            <constraint firstItem="Jcj-Ms-djm" firstAttribute="centerX" secondItem="FvB-28-9RP" secondAttribute="centerX" id="ni2-Ka-Yhp"/>
+                            <constraint firstItem="5vQ-go-791" firstAttribute="top" secondItem="tZ6-L0-P0D" secondAttribute="bottom" constant="3" id="vUX-Pi-2pj"/>
+                            <constraint firstItem="tZ6-L0-P0D" firstAttribute="centerX" secondItem="5vQ-go-791" secondAttribute="centerX" id="wBJ-4m-qSf"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="QK7-vU-Ar7"/>
+                    <navigationItem key="navigationItem" id="0Ot-gp-Iqj"/>
+                    <connections>
+                        <segue destination="zxy-Qa-IFW" kind="push" id="Omg-Z2-A0i"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zBC-ar-RJd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMx-C5-uP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1529" y="1120"/>
+            <point key="canvasLocation" x="1589" y="844"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fYu-OO-vGn">
@@ -332,4 +629,7 @@
             <point key="canvasLocation" x="14" y="1265"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Omg-Z2-A0i"/>
+    </inferredMetricsTieBreakers>
 </document>

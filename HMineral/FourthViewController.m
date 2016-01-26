@@ -20,6 +20,40 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(IBAction)malzemeButtonpressed:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+-(IBAction) kirmaButtonpressed:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+-(IBAction)flotasyonButtonpressed:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+-(IBAction)manyetikButtonpressed:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+-(IBAction)yuzeyButtonpressed:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+-(IBAction) prosesButtonpressed:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+-(IBAction)analitikButtonpressed:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
 
 @end

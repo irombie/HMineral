@@ -50,13 +50,15 @@
  
  cell.textLabel.text = [_content objectAtIndex:indexPath.row][@"Title"];
  cell.imageView.image = [UIImage imageNamed:[_content objectAtIndex:indexPath.row][@"Icon"]] ;
+     //cell.textLabel.lineBreakMode = UILineBreakModeWordWrap;
+     cell.textLabel.numberOfLines = 0;
+     cell.textLabel.font = [UIFont fontWithName:@"Helvetica" size:17.0];
      
  return cell;
  }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [super tableView:tableView didSelectRowAtIndexPath:indexPath];
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
     web.url = [_content objectAtIndex:indexPath.row][@"URL"];
     [self.navigationController pushViewController:web animated:YES];

@@ -24,12 +24,24 @@
     NSURL *linkUrl = [NSURL URLWithString:_url];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:linkUrl];
     [_webView loadRequest:urlRequest];
+    _webView.delegate = self;
 
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (void)webViewDidFinishLoad:(UIWebView *)theWebView
+{
+    CGSize contentSize = theWebView.scrollView.contentSize;
+    CGSize viewSize = theWebView.bounds.size;
+    
+    float rw = viewSize.width / contentSize.width;
+    
+    theWebView.scrollView.minimumZoomScale = rw;
+    theWebView.scrollView.maximumZoomScale = rw;
+    theWebView.scrollView.zoomScale = rw;
 }
 
 /*

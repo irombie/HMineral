@@ -24,6 +24,68 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(IBAction)ozcan:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+
+
+-(IBAction) levent:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+
+
+-(IBAction)zafir:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://www.cs.bilkent.edu.tr/CS299/Guidelines_v2.7.pdf";
+    [self.navigationController pushViewController:web animated:YES];
+}
+
+
+-(IBAction)metin:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+
+
+-(IBAction)ilkay:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+
+
+-(IBAction) caner:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+
+
+-(IBAction)ozlem:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+
+
+-(IBAction) orberk:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+
+
+-(IBAction)ahmet:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    [self.navigationController pushViewController:web animated:YES];
+}
+
 
 /*
 #pragma mark - Navigation
