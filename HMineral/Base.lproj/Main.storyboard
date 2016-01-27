@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Sixth View Controller-->
@@ -246,16 +247,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RJg-06-QtN">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RJg-06-QtN">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RJg-06-QtN" firstAttribute="leading" secondItem="os9-4s-lel" secondAttribute="leading" id="NLw-Cm-Qwu"/>
+                            <constraint firstItem="RJg-06-QtN" firstAttribute="top" secondItem="os9-4s-lel" secondAttribute="top" id="otx-O1-R9J"/>
+                            <constraint firstItem="RJg-06-QtN" firstAttribute="bottom" secondItem="WY5-it-ZVr" secondAttribute="top" id="veF-u8-psk"/>
+                            <constraint firstAttribute="trailing" secondItem="RJg-06-QtN" secondAttribute="trailing" id="xkY-ES-DtH"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="YmQ-Mm-pp5"/>
                     <connections>
                         <outlet property="webView" destination="RJg-06-QtN" id="Smv-4h-b0j"/>
+                        <segue destination="PMm-mF-KUl" kind="push" id="6xa-1t-YpZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oSs-te-k4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -380,22 +388,22 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kmr-mA-pSi">
-                                <rect key="frame" x="193" y="425" width="214" height="30"/>
-                                <state key="normal" title="CEVHER KARAKTERİZASYONU"/>
+                                <rect key="frame" x="214" y="425" width="172" height="30"/>
+                                <state key="normal" title="Cevher Karakterizasyonu"/>
                                 <connections>
                                     <action selector="cevherButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="phK-hO-TDw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxz-fm-sNW">
-                                <rect key="frame" x="208" y="463" width="184" height="30"/>
-                                <state key="normal" title="AKIM ŞEMASI GELİŞTİRME"/>
+                                <rect key="frame" x="220" y="463" width="161" height="30"/>
+                                <state key="normal" title="Akım Şeması Geliştirme"/>
                                 <connections>
                                     <action selector="akimButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="S6F-rK-xSW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6MX-UV-0e7">
-                                <rect key="frame" x="187" y="501" width="226" height="30"/>
-                                <state key="normal" title="PERFORMANS DEĞERLENDİRME"/>
+                                <rect key="frame" x="208" y="501" width="185" height="30"/>
+                                <state key="normal" title="Performans Değerlendirme"/>
                                 <connections>
                                     <action selector="performansButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="Ier-dc-Gny"/>
                                 </connections>
@@ -407,8 +415,8 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xux-Px-BSK">
-                                <rect key="frame" x="241" y="539" width="119" height="30"/>
-                                <state key="normal" title="DEVRE TASARIMI"/>
+                                <rect key="frame" x="250" y="539" width="102" height="30"/>
+                                <state key="normal" title="Devre Tasarımı"/>
                                 <connections>
                                     <action selector="devreButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="IQ0-J1-tFe"/>
                                 </connections>
@@ -603,76 +611,134 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hacettepe Mineral Teknolojileri Ltd. Şti." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsZ-gA-8gJ">
-                                <rect key="frame" x="151" y="80" width="299" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hacettepe Mineral Teknolojileri Ltd. Şti." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsZ-gA-8gJ">
+                                <rect key="frame" x="151" y="77" width="299" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adres:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbE-S4-bl1">
-                                <rect key="frame" x="9" y="116" width="49" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adres:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbE-S4-bl1">
+                                <rect key="frame" x="0.0" y="107" width="49" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hacettepe Teknokent, 2. Arge Binasi, No:5 Beytepe Ankara - TÜRKİYE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDe-pI-HbR">
-                                <rect key="frame" x="9" y="150" width="534" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telefon:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsf-cG-S9Q">
+                                <rect key="frame" x="0.0" y="165" width="61" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Telefon:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsf-cG-S9Q">
-                                <rect key="frame" x="9" y="197" width="61" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ST-4n-fIT">
-                                <rect key="frame" x="9" y="226" width="131" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ST-4n-fIT">
+                                <rect key="frame" x="0.0" y="187" width="131" height="30"/>
                                 <state key="normal" title="+90 312 299 26 01"/>
                                 <connections>
                                     <action selector="callPhone:" destination="PMm-mF-KUl" eventType="touchUpInside" id="NOZ-TR-Ago"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Faks:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tp3-Oa-8On">
-                                <rect key="frame" x="9" y="272" width="40" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Faks:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tp3-Oa-8On">
+                                <rect key="frame" x="0.0" y="215" width="40" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+90 312 299 26 02" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VE0-cZ-epO">
-                                <rect key="frame" x="9" y="306" width="148" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+90 312 299 26 02" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VE0-cZ-epO">
+                                <rect key="frame" x="0.0" y="237" width="148" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E-posta:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSo-Ww-hbK">
-                                <rect key="frame" x="9" y="343" width="65" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-posta:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSo-Ww-hbK">
+                                <rect key="frame" x="0.0" y="266" width="65" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYb-O3-atP">
-                                <rect key="frame" x="9" y="372" width="132" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYb-O3-atP">
+                                <rect key="frame" x="0.0" y="285" width="132" height="30"/>
                                 <state key="normal" title="info@hmineral.com"/>
                                 <connections>
                                     <action selector="showEmail:" destination="PMm-mF-KUl" eventType="touchUpInside" id="DyH-bd-jRu"/>
                                 </connections>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2Xb-nG-puo">
+                                <rect key="frame" x="0.0" y="384" width="600" height="196"/>
+                            </mapView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Hacettepe Teknokent, 2. Arge Binasi, No:5 Beytepe Ankara - TÜRKİYE" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ivo-hC-sV5">
+                                <rect key="frame" x="0.0" y="127" width="562" height="39"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Web sayfası:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdj-ec-oBb">
+                                <rect key="frame" x="0.0" y="310" width="97" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hm2-bA-1K2">
+                                <rect key="frame" x="0.0" y="328" width="130" height="30"/>
+                                <state key="normal" title="www.hmineral.com"/>
+                                <connections>
+                                    <action selector="goToWebSite:" destination="PMm-mF-KUl" eventType="touchUpInside" id="doh-1L-UUS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harita:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0k-z0-CSY">
+                                <rect key="frame" x="0.0" y="355" width="51" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ivo-hC-sV5" secondAttribute="trailing" constant="18" id="01M-U4-ZRm"/>
+                            <constraint firstItem="tp3-Oa-8On" firstAttribute="leading" secondItem="VE0-cZ-epO" secondAttribute="leading" id="11J-vM-70T"/>
+                            <constraint firstItem="g0k-z0-CSY" firstAttribute="leading" secondItem="2Xb-nG-puo" secondAttribute="leading" id="2c9-s2-WAT"/>
+                            <constraint firstItem="RSo-Ww-hbK" firstAttribute="top" secondItem="VE0-cZ-epO" secondAttribute="bottom" constant="8" symbolic="YES" id="3ZH-47-oi6"/>
+                            <constraint firstItem="wsZ-gA-8gJ" firstAttribute="top" secondItem="P8T-hW-aBs" secondAttribute="bottom" constant="13" id="8ao-iy-psI"/>
+                            <constraint firstAttribute="bottom" secondItem="2Xb-nG-puo" secondAttribute="bottom" constant="20" symbolic="YES" id="Bco-6o-gcz"/>
+                            <constraint firstItem="nbE-S4-bl1" firstAttribute="leading" secondItem="Ptd-0B-FSK" secondAttribute="leading" id="BlT-67-22E"/>
+                            <constraint firstItem="g0k-z0-CSY" firstAttribute="leading" secondItem="hm2-bA-1K2" secondAttribute="leading" id="HPE-Bc-Ttk"/>
+                            <constraint firstItem="Ivo-hC-sV5" firstAttribute="top" secondItem="wsZ-gA-8gJ" secondAttribute="bottom" constant="29" id="JId-MR-0C4"/>
+                            <constraint firstItem="g0k-z0-CSY" firstAttribute="top" secondItem="zdj-ec-oBb" secondAttribute="bottom" constant="24" id="MbP-UJ-vp7"/>
+                            <constraint firstItem="zdj-ec-oBb" firstAttribute="leading" secondItem="hm2-bA-1K2" secondAttribute="leading" id="N2a-vQ-AbT"/>
+                            <constraint firstItem="VE0-cZ-epO" firstAttribute="top" secondItem="9ST-4n-fIT" secondAttribute="bottom" constant="20" id="NsZ-5C-Wzz"/>
+                            <constraint firstItem="VE0-cZ-epO" firstAttribute="top" secondItem="tp3-Oa-8On" secondAttribute="bottom" constant="1" id="Qw3-jQ-YNa"/>
+                            <constraint firstItem="sYb-O3-atP" firstAttribute="leading" secondItem="RSo-Ww-hbK" secondAttribute="leading" id="R5B-VY-ceg"/>
+                            <constraint firstItem="9ST-4n-fIT" firstAttribute="leading" secondItem="nsf-cG-S9Q" secondAttribute="leading" id="RP7-nT-j3j"/>
+                            <constraint firstItem="hm2-bA-1K2" firstAttribute="top" secondItem="sYb-O3-atP" secondAttribute="bottom" constant="13" id="SXB-lo-fp2"/>
+                            <constraint firstItem="tp3-Oa-8On" firstAttribute="leading" secondItem="9ST-4n-fIT" secondAttribute="leading" id="V1U-Tm-NnR"/>
+                            <constraint firstItem="2Xb-nG-puo" firstAttribute="top" secondItem="g0k-z0-CSY" secondAttribute="bottom" constant="8" symbolic="YES" id="WL5-Wn-QUP"/>
+                            <constraint firstItem="nsf-cG-S9Q" firstAttribute="top" secondItem="nbE-S4-bl1" secondAttribute="bottom" constant="37" id="aZd-e1-P4y"/>
+                            <constraint firstItem="2Xb-nG-puo" firstAttribute="top" secondItem="hm2-bA-1K2" secondAttribute="bottom" constant="26" id="dH0-Fb-ngS"/>
+                            <constraint firstItem="9ST-4n-fIT" firstAttribute="top" secondItem="Ivo-hC-sV5" secondAttribute="bottom" constant="21" id="gs7-ni-Jab"/>
+                            <constraint firstAttribute="trailing" secondItem="2Xb-nG-puo" secondAttribute="trailing" id="ifF-Mv-SMY"/>
+                            <constraint firstItem="Ivo-hC-sV5" firstAttribute="leading" secondItem="nbE-S4-bl1" secondAttribute="leading" id="jAF-1o-p9O"/>
+                            <constraint firstItem="zdj-ec-oBb" firstAttribute="top" secondItem="RSo-Ww-hbK" secondAttribute="bottom" constant="23" id="owr-X3-MiP"/>
+                            <constraint firstItem="sYb-O3-atP" firstAttribute="leading" secondItem="zdj-ec-oBb" secondAttribute="leading" id="rrt-uC-Ehk"/>
+                            <constraint firstItem="2Xb-nG-puo" firstAttribute="centerX" secondItem="wsZ-gA-8gJ" secondAttribute="centerX" id="uIt-s6-8w7"/>
+                            <constraint firstItem="RSo-Ww-hbK" firstAttribute="leading" secondItem="VE0-cZ-epO" secondAttribute="leading" id="wpk-6d-qkw"/>
+                            <constraint firstItem="sYb-O3-atP" firstAttribute="centerY" secondItem="Ptd-0B-FSK" secondAttribute="centerY" id="wwo-qS-rYX"/>
+                            <constraint firstItem="nsf-cG-S9Q" firstAttribute="leading" secondItem="Ivo-hC-sV5" secondAttribute="leading" id="x8d-Ml-y59"/>
+                            <constraint firstItem="9ST-4n-fIT" firstAttribute="top" secondItem="nsf-cG-S9Q" secondAttribute="bottom" constant="1" id="yud-gJ-hWx"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="D2d-g6-mSA"/>
                     <connections>
                         <outlet property="adresLbl" destination="nbE-S4-bl1" id="Jy2-04-bfZ"/>
                         <outlet property="faksLbl" destination="tp3-Oa-8On" id="nbZ-Rz-biw"/>
+                        <outlet property="haritaLbl" destination="g0k-z0-CSY" id="WWd-8e-Oe3"/>
+                        <outlet property="mapView" destination="2Xb-nG-puo" id="lwn-RK-wDn"/>
                         <outlet property="postLbl" destination="RSo-Ww-hbK" id="ezJ-os-wqX"/>
+                        <outlet property="tamAdres" destination="Ivo-hC-sV5" id="eno-QK-ezd"/>
                         <outlet property="tlfLbl" destination="nsf-cG-S9Q" id="G0p-Vq-Rae"/>
+                        <outlet property="webSayLbl" destination="zdj-ec-oBb" id="orM-bA-Uld"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="njp-lK-X55" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14" y="828"/>
+            <point key="canvasLocation" x="118" y="695"/>
         </scene>
         <!--Seventh View Controller-->
         <scene sceneID="Q65-Qh-0J0">
@@ -698,6 +764,7 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="TWs-OJ-bWR"/>
+        <segue reference="UlG-fJ-FqP"/>
+        <segue reference="HLq-qg-8vr"/>
     </inferredMetricsTieBreakers>
 </document>

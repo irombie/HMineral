@@ -40,6 +40,7 @@
 		A86B8C1A1C54392F0034A081 /* EighthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C191C54392F0034A081 /* EighthViewController.m */; };
 		A86B8C1D1C543CE10034A081 /* NinthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C1C1C543CE10034A081 /* NinthViewController.m */; };
 		A86B8C211C5440F90034A081 /* hmt.png in Resources */ = {isa = PBXBuildFile; fileRef = A86B8C201C5440F90034A081 /* hmt.png */; };
+		A887F24C1C594FB5000FD008 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A887F24B1C594FB5000FD008 /* MessageUI.framework */; };
 		A89228A61C566793004DD123 /* mmo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A89228A51C566793004DD123 /* mmo.jpg */; };
 		A89228A81C5667F5004DD123 /* mta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A89228A71C5667F5004DD123 /* mta.jpg */; };
 		A89228AA1C566846004DD123 /* minerology.gif in Resources */ = {isa = PBXBuildFile; fileRef = A89228A91C566846004DD123 /* minerology.gif */; };
@@ -115,6 +116,7 @@
 		A86B8C1B1C543CE10034A081 /* NinthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinthViewController.h; sourceTree = "<group>"; };
 		A86B8C1C1C543CE10034A081 /* NinthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinthViewController.m; sourceTree = "<group>"; };
 		A86B8C201C5440F90034A081 /* hmt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hmt.png; path = ../../../Desktop/4pps/hmt.png; sourceTree = "<group>"; };
+		A887F24B1C594FB5000FD008 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		A89228A51C566793004DD123 /* mmo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mmo.jpg; path = ../../../Desktop/4pps/mmo.jpg; sourceTree = "<group>"; };
 		A89228A71C5667F5004DD123 /* mta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mta.jpg; path = ../../../Desktop/4pps/mta.jpg; sourceTree = "<group>"; };
 		A89228A91C566846004DD123 /* minerology.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = minerology.gif; path = ../../../Desktop/4pps/minerology.gif; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A887F24C1C594FB5000FD008 /* MessageUI.framework in Frameworks */,
 				A86B8C051C53B02B0034A081 /* libsqlite3.tbd in Frameworks */,
 				A86B8C031C53B0180034A081 /* libz.tbd in Frameworks */,
 				A86B8C011C53B0100034A081 /* SystemConfiguration.framework in Frameworks */,
@@ -168,6 +171,7 @@
 		A86B8BA71C53AFA10034A081 = {
 			isa = PBXGroup;
 			children = (
+				A887F24B1C594FB5000FD008 /* MessageUI.framework */,
 				A89228A51C566793004DD123 /* mmo.jpg */,
 				A89228AD1C56697E004DD123 /* onemine.jpg */,
 				A89228A91C566846004DD123 /* minerology.gif */,

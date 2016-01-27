@@ -22,7 +22,26 @@
     [_tlfLbl setFont:[UIFont fontWithName:@"Arial-BoldMT" size:16]];
     [_faksLbl setFont:[UIFont fontWithName:@"Arial-BoldMT" size:16]];
     [_postLbl setFont:[UIFont fontWithName:@"Arial-BoldMT" size:16]];
-    
+    _tamAdres.editable = NO;
+    [_haritaLbl setFont:[UIFont fontWithName:@"Arial-BoldMT" size:16]];
+    NSString *location = @"Hacettepe Teknokent, 2. Arge Binasi, Beytepe, Ankara - TÜRKİYE";
+    CLGeocoder *geocoder = [[CLGeocoder alloc] init];
+    [geocoder geocodeAddressString:location
+                 completionHandler:^(NSArray* placemarks, NSError* error){
+                     if (placemarks && placemarks.count > 0) {
+                         CLPlacemark *topResult = [placemarks objectAtIndex:0];
+                         MKPlacemark *placemark = [[MKPlacemark alloc] initWithPlacemark:topResult];
+                         
+                         MKCoordinateRegion region = self.mapView.region;
+                         region.center = placemark.region.center;
+                         region.span.longitudeDelta /= 8.0;
+                         region.span.latitudeDelta /= 8.0;
+                         
+                         [self.mapView setRegion:region animated:YES];
+                         [self.mapView addAnnotation:placemark];
+                     }
+                 }
+     ];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,16 +53,16 @@
 }
 - (IBAction)showEmail:(id)sender {
     // Email Subject
-    NSString *emailTitle = @"Test Email";
+    NSString *emailTitle = @"Bize Ulaşın";
     // Email Content
-    NSString *messageBody = @"iOS programming is so fun!";
+    NSString *messageBody = @"";
     // To address
-    NSArray *toRecipents = [NSArray arrayWithObject:@"info@ahmineral.com"];
+    NSArray *toRecipents = [NSArray arrayWithObject:@"info@hmineral.com"];
     
     MFMailComposeViewController *mc = [[MFMailComposeViewController alloc] init];
     mc.mailComposeDelegate = self;
     [mc setSubject:emailTitle];
-    [mc setMessageBody:messageBody isHTML:NO];
+    [mc setMessageBody:messageBody isHTML:YES];
     [mc setToRecipients:toRecipents];
     
     // Present mail view controller on screen
@@ -74,7 +93,25 @@
     // Close the Mail Interface
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
+-(IBAction)goToWebSite:(id)sender{
+    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
+    web.url = @"http://hmineral.com";
+    [self.navigationController pushViewController:web animated:YES];
+}
 /*
+- (void)viewWillAppear:(BOOL)animated {
+    // 1
+    CLLocationCoordinate2D zoomLocation;
+    zoomLocation.latitude = 39.281516;
+    zoomLocation.longitude= -76.580806;
+    
+    // 2
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 0.5*METERS_PER_MILE, 0.5*METERS_PER_MILE);
+    
+    // 3
+    [_mapView setRegion:viewRegion animated:YES];
+}
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation

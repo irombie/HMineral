@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 #import <MessageUI/MessageUI.h>
+#import "WebViewController.h"
+#define METERS_PER_MILE 1609.344
 
 @interface NinthViewController : UIViewController <MFMailComposeViewControllerDelegate> // Add the delegate
 @property (weak, nonatomic) IBOutlet UILabel *adresLbl;
@@ -16,4 +19,11 @@
 @property (weak, nonatomic) IBOutlet UILabel *faksLbl;
 @property (weak, nonatomic) IBOutlet UILabel *postLbl;
 -(IBAction)showEmail:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextView *tamAdres;
+@property (weak, nonatomic) IBOutlet UILabel *webSayLbl;
+-(IBAction)goToWebSite:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *haritaLbl;
+
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+
 @end
