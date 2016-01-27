@@ -14,5 +14,6 @@
 
 @property (strong, nonatomic) IBOutlet UIWebView *webView;
 @property (nonatomic, retain) NSString * url;
+//-(void)zoomToFit;
 
 @end

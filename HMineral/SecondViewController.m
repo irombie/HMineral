@@ -25,7 +25,7 @@
 }
 -(IBAction)cevherButtonpressed:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    web.url = @"https://www.docdroid.net/uEqeKyT/cevher-karakterizasyonu-ve-proses-mineraloji.pdf.html";
     [self.navigationController pushViewController:web animated:YES];
     
 }

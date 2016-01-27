@@ -277,7 +277,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gg0-uX-ViH">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Araştırma ekibinin geniş çerçevedeki uzmanlık alanları HMT’ye cevher hazırlamanın çeşitli alanlarında çalışma imkanı tanımaktadır. Bu nedenle, HMT, herhangi bir cevher hazırlama projesini cevher karakterizasyon aşamasından konsantre üretimine kadar tamamlayabilecek beceriye sahiptir. Bu çeşitlilik üretkenlik ve mükemmelliyet olgusunu geliştirmektedir. HMT’nin AR-GE kapsamındaki araştırma alanları aşağıda verilmektedir; 
+                                <string key="text">Araştırma ekibinin geniş çerçevedeki uzmanlık alanları HMT’ye cevher hazırlamanın çeşitli alanlarında çalışma imkanı tanımaktadır. Bu nedenle, HMT, herhangi bir cevher hazırlama projesini cevher karakterizasyon aşamasından konsantre üretimine kadar tamamlayabilecek beceriye sahiptir. Bu çeşitlilik üretkenlik ve mükemmelliyet olgusunu geliştirmektedir. HMT’nin AR-GE kapsamındaki araştırma alanları aşağıda verilmektedir; 
 
 - Modelleme ve simülasyonla performans değerlendirme ve optimizasyon
 - Enerji tasarruflu öğütme teknolojileri
@@ -293,7 +293,7 @@
 - Yapay görme sistemleri
 - Mineral problarının ve elektrokimyasal sistemlerin palp kimyasının online izlenmesi amacıyla kullanılması
 - Cevher hazırlama için yazılımların geliştirilmesi
-- Lave kömür yıkama devresi tasarımı programı</mutableString>
+- Lave kömür yıkama devresi tasarımı programı</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -330,14 +330,14 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z9f-I4-kA1">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">HMT cevher zenginleştirme tesis tasarımında simülasyon araçlarından yoğun olarak yararlanmaktadır. Buna yönelik modelleme çalışmalarınıda yapabilmektedir. Genel olarak yaygın şekilde kullanılan simülasyon paketleri aşağıda sunulmaktadır: 
+                                <string key="text">HMT cevher zenginleştirme tesis tasarımında simülasyon araçlarından yoğun olarak yararlanmaktadır. Buna yönelik modelleme çalışmalarınıda yapabilmektedir. Genel olarak yaygın şekilde kullanılan simülasyon paketleri aşağıda sunulmaktadır: 
 
 - JKSimMet
 - JKSimFloat
 - HSC Chemistry
 - Lave (Kömür Hazırlama, HMT yazılımı)
 - Kırma ve eleme ile ilgili mevcut tüm simülasyon programları
-- Cevher hazırlama devresi çizim programı (HMT yazılımı)</mutableString>
+- Cevher hazırlama devresi çizim programı (HMT yazılımı)</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -371,7 +371,11 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="w8L-fh-Z1K">
                                 <rect key="frame" x="0.0" y="72" width="600" height="315"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Hacettepe Mineral Teknolojileri Hacettepe Üniversitesi Teknoloji Geliştirme Merkezi’nde Konusunda uzman bir grup Öğretim Üyesi tarafından kurulmuş bir şirkettir.HMT doğadan çıkartılan madenlerin zenginleştirilmesi amacıyla gerekli olan tüm laboratuvar çalışmaları, modelleme ve simülasyonla devre tasarımı, akım şeması geliştirme ve ekipman seçimi/boyutlandırması işlerini kapsayan Ar-Ge faaliyetleri konusunda hizmet vermektedir.Endüstriye verilen bu Ar-Ge destekleri yanında ekipman tasarımı ve cevher hazırlama devrelerinin modelleme/simülasyonu konularında Ar-Ge çalışmaları yürütmektedir.Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans değerlendirme ve iyileştirmesine konusunda endüstriye destek vermektedir.</mutableString>
+                                <string key="text">Hacettepe Mineral Teknolojileri Hacettepe Üniversitesi Teknoloji Geliştirme Merkezi’nde Konusunda uzman bir grup Öğretim Üyesi tarafından kurulmuş bir şirkettir.
+HMT doğadan çıkartılan madenlerin zenginleştirilmesi amacıyla gerekli olan tüm laboratuvar çalışmaları, modelleme ve simülasyonla devre tasarımı, akım şeması geliştirme ve ekipman seçimi/boyutlandırması işlerini kapsayan Ar-Ge faaliyetleri konusunda hizmet vermektedir.
+Endüstriye verilen bu Ar-Ge destekleri yanında ekipman tasarımı ve cevher hazırlama devrelerinin modelleme/simülasyonu konularında Ar-Ge çalışmaları yürütmektedir.
+Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans değerlendirme ve iyileştirmesine konusunda endüstriye destek vermektedir.
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -399,7 +403,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ŞİRKETİN UZMANLIK ALANLARI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0f-d5-TSa">
                                 <rect key="frame" x="177" y="401" width="246" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xux-Px-BSK">
@@ -453,7 +457,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KURUCULAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViB-nT-h7Q">
                                 <rect key="frame" x="249" y="77" width="102" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4w-6i-NOz">
@@ -487,7 +491,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DANIŞMANLAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vQ-go-791">
                                 <rect key="frame" x="240" y="254" width="119" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xtf-mS-GVf">
@@ -514,7 +518,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROJE MÜHENDİSLERİ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jcj-Ms-djm">
                                 <rect key="frame" x="210" y="392" width="179" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FvB-28-9RP">
@@ -585,7 +589,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v14-sl-yXx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-307" y="343"/>
+            <point key="canvasLocation" x="-603" y="208"/>
         </scene>
         <!--Ninth View Controller-->
         <scene sceneID="e0m-qH-huU">
@@ -598,9 +602,73 @@
                     <view key="view" contentMode="scaleToFill" id="Ptd-0B-FSK">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hacettepe Mineral Teknolojileri Ltd. Şti." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsZ-gA-8gJ">
+                                <rect key="frame" x="151" y="80" width="299" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adres:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbE-S4-bl1">
+                                <rect key="frame" x="9" y="116" width="49" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hacettepe Teknokent, 2. Arge Binasi, No:5 Beytepe Ankara - TÜRKİYE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDe-pI-HbR">
+                                <rect key="frame" x="9" y="150" width="534" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Telefon:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsf-cG-S9Q">
+                                <rect key="frame" x="9" y="197" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ST-4n-fIT">
+                                <rect key="frame" x="9" y="226" width="131" height="30"/>
+                                <state key="normal" title="+90 312 299 26 01"/>
+                                <connections>
+                                    <action selector="callPhone:" destination="PMm-mF-KUl" eventType="touchUpInside" id="NOZ-TR-Ago"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Faks:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tp3-Oa-8On">
+                                <rect key="frame" x="9" y="272" width="40" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+90 312 299 26 02" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VE0-cZ-epO">
+                                <rect key="frame" x="9" y="306" width="148" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E-posta:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSo-Ww-hbK">
+                                <rect key="frame" x="9" y="343" width="65" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYb-O3-atP">
+                                <rect key="frame" x="9" y="372" width="132" height="30"/>
+                                <state key="normal" title="info@hmineral.com"/>
+                                <connections>
+                                    <action selector="showEmail:" destination="PMm-mF-KUl" eventType="touchUpInside" id="DyH-bd-jRu"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="D2d-g6-mSA"/>
+                    <connections>
+                        <outlet property="adresLbl" destination="nbE-S4-bl1" id="Jy2-04-bfZ"/>
+                        <outlet property="faksLbl" destination="tp3-Oa-8On" id="nbZ-Rz-biw"/>
+                        <outlet property="postLbl" destination="RSo-Ww-hbK" id="ezJ-os-wqX"/>
+                        <outlet property="tlfLbl" destination="nsf-cG-S9Q" id="G0p-Vq-Rae"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="njp-lK-X55" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -626,10 +694,10 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wne-Wg-NUm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14" y="1265"/>
+            <point key="canvasLocation" x="14" y="1531"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Omg-Z2-A0i"/>
+        <segue reference="TWs-OJ-bWR"/>
     </inferredMetricsTieBreakers>
 </document>
