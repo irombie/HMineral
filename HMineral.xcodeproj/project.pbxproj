@@ -39,13 +39,13 @@
 		A86B8C171C5438410034A081 /* SeventhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C161C5438410034A081 /* SeventhViewController.m */; };
 		A86B8C1A1C54392F0034A081 /* EighthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C191C54392F0034A081 /* EighthViewController.m */; };
 		A86B8C1D1C543CE10034A081 /* NinthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C1C1C543CE10034A081 /* NinthViewController.m */; };
-		A86B8C211C5440F90034A081 /* hmt.png in Resources */ = {isa = PBXBuildFile; fileRef = A86B8C201C5440F90034A081 /* hmt.png */; };
 		A887F24C1C594FB5000FD008 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A887F24B1C594FB5000FD008 /* MessageUI.framework */; };
-		A89228A61C566793004DD123 /* mmo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A89228A51C566793004DD123 /* mmo.jpg */; };
-		A89228A81C5667F5004DD123 /* mta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A89228A71C5667F5004DD123 /* mta.jpg */; };
-		A89228AA1C566846004DD123 /* minerology.gif in Resources */ = {isa = PBXBuildFile; fileRef = A89228A91C566846004DD123 /* minerology.gif */; };
-		A89228AC1C5668A7004DD123 /* sme.png in Resources */ = {isa = PBXBuildFile; fileRef = A89228AB1C5668A7004DD123 /* sme.png */; };
-		A89228AE1C56697E004DD123 /* onemine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A89228AD1C56697E004DD123 /* onemine.jpg */; };
+		A8B820211C674E010031C0C1 /* hmt.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B8201B1C674E010031C0C1 /* hmt.png */; };
+		A8B820221C674E010031C0C1 /* minerology.gif in Resources */ = {isa = PBXBuildFile; fileRef = A8B8201C1C674E010031C0C1 /* minerology.gif */; };
+		A8B820231C674E010031C0C1 /* mmo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8B8201D1C674E010031C0C1 /* mmo.jpg */; };
+		A8B820241C674E010031C0C1 /* mta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8B8201E1C674E010031C0C1 /* mta.jpg */; };
+		A8B820251C674E010031C0C1 /* onemine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8B8201F1C674E010031C0C1 /* onemine.jpg */; };
+		A8B820261C674E010031C0C1 /* sme.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B820201C674E010031C0C1 /* sme.png */; };
 		A8CD8A7C1C56C33E00D5E5B9 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CD8A7B1C56C33E00D5E5B9 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -115,13 +115,13 @@
 		A86B8C191C54392F0034A081 /* EighthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EighthViewController.m; sourceTree = "<group>"; };
 		A86B8C1B1C543CE10034A081 /* NinthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinthViewController.h; sourceTree = "<group>"; };
 		A86B8C1C1C543CE10034A081 /* NinthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinthViewController.m; sourceTree = "<group>"; };
-		A86B8C201C5440F90034A081 /* hmt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hmt.png; path = ../../../Desktop/4pps/hmt.png; sourceTree = "<group>"; };
 		A887F24B1C594FB5000FD008 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		A89228A51C566793004DD123 /* mmo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mmo.jpg; path = ../../../Desktop/4pps/mmo.jpg; sourceTree = "<group>"; };
-		A89228A71C5667F5004DD123 /* mta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mta.jpg; path = ../../../Desktop/4pps/mta.jpg; sourceTree = "<group>"; };
-		A89228A91C566846004DD123 /* minerology.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = minerology.gif; path = ../../../Desktop/4pps/minerology.gif; sourceTree = "<group>"; };
-		A89228AB1C5668A7004DD123 /* sme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sme.png; path = ../../../Desktop/4pps/sme.png; sourceTree = "<group>"; };
-		A89228AD1C56697E004DD123 /* onemine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = onemine.jpg; path = ../../../Desktop/4pps/onemine.jpg; sourceTree = "<group>"; };
+		A8B8201B1C674E010031C0C1 /* hmt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hmt.png; sourceTree = "<group>"; };
+		A8B8201C1C674E010031C0C1 /* minerology.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = minerology.gif; sourceTree = "<group>"; };
+		A8B8201D1C674E010031C0C1 /* mmo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mmo.jpg; sourceTree = "<group>"; };
+		A8B8201E1C674E010031C0C1 /* mta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mta.jpg; sourceTree = "<group>"; };
+		A8B8201F1C674E010031C0C1 /* onemine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onemine.jpg; sourceTree = "<group>"; };
+		A8B820201C674E010031C0C1 /* sme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sme.png; sourceTree = "<group>"; };
 		A8CD8A7A1C56C33E00D5E5B9 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		A8CD8A7B1C56C33E00D5E5B9 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,12 +172,12 @@
 			isa = PBXGroup;
 			children = (
 				A887F24B1C594FB5000FD008 /* MessageUI.framework */,
-				A89228A51C566793004DD123 /* mmo.jpg */,
-				A89228AD1C56697E004DD123 /* onemine.jpg */,
-				A89228A91C566846004DD123 /* minerology.gif */,
-				A89228AB1C5668A7004DD123 /* sme.png */,
-				A89228A71C5667F5004DD123 /* mta.jpg */,
-				A86B8C201C5440F90034A081 /* hmt.png */,
+				A8B8201B1C674E010031C0C1 /* hmt.png */,
+				A8B8201C1C674E010031C0C1 /* minerology.gif */,
+				A8B8201D1C674E010031C0C1 /* mmo.jpg */,
+				A8B8201E1C674E010031C0C1 /* mta.jpg */,
+				A8B8201F1C674E010031C0C1 /* onemine.jpg */,
+				A8B820201C674E010031C0C1 /* sme.png */,
 				A86B8C041C53B02B0034A081 /* libsqlite3.tbd */,
 				A86B8C021C53B0180034A081 /* libz.tbd */,
 				A86B8C001C53B0100034A081 /* SystemConfiguration.framework */,
@@ -374,15 +374,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A89228AA1C566846004DD123 /* minerology.gif in Resources */,
-				A89228A81C5667F5004DD123 /* mta.jpg in Resources */,
-				A89228AE1C56697E004DD123 /* onemine.jpg in Resources */,
+				A8B820251C674E010031C0C1 /* onemine.jpg in Resources */,
+				A8B820211C674E010031C0C1 /* hmt.png in Resources */,
+				A8B820231C674E010031C0C1 /* mmo.jpg in Resources */,
+				A8B820241C674E010031C0C1 /* mta.jpg in Resources */,
 				A86B8BC31C53AFA20034A081 /* LaunchScreen.storyboard in Resources */,
-				A89228A61C566793004DD123 /* mmo.jpg in Resources */,
 				A86B8BC01C53AFA20034A081 /* Assets.xcassets in Resources */,
+				A8B820221C674E010031C0C1 /* minerology.gif in Resources */,
 				A86B8BBE1C53AFA10034A081 /* Main.storyboard in Resources */,
-				A86B8C211C5440F90034A081 /* hmt.png in Resources */,
-				A89228AC1C5668A7004DD123 /* sme.png in Resources */,
+				A8B820261C674E010031C0C1 /* sme.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

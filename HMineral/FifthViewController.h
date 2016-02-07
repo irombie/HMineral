@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface FifthViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *yazilimTV;
 
 @end

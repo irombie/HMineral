@@ -52,7 +52,7 @@
  cell.imageView.image = [UIImage imageNamed:[_content objectAtIndex:indexPath.row][@"Icon"]] ;
      //cell.textLabel.lineBreakMode = UILineBreakModeWordWrap;
      cell.textLabel.numberOfLines = 0;
-     cell.textLabel.font = [UIFont fontWithName:@"Helvetica" size:17.0];
+     cell.textLabel.font = [UIFont fontWithName:@"Helvetica" size:15.0];
      
  return cell;
  }

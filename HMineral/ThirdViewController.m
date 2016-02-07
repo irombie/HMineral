@@ -15,6 +15,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.title=@"AR-GE";
     _argeTV.editable = NO;
+    self.argeTV.font=[UIFont fontWithName:@"Helvetica" size: 16.0];
     
 }
 
@@ -22,6 +23,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (void)viewDidLayoutSubviews {
+    [self.argeTV setContentOffset:CGPointZero animated:NO];
+}
 
 @end

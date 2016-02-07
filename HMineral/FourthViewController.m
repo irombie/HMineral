@@ -22,37 +22,37 @@
 }
 -(IBAction)malzemeButtonpressed:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    web.url = @"http://82.196.10.182/Kirilma%20Karakterizasyonu.pdf";
     [self.navigationController pushViewController:web animated:YES];
 }
 -(IBAction) kirmaButtonpressed:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    web.url = @"http://82.196.10.182/Kirma.pdf";
     [self.navigationController pushViewController:web animated:YES];
 }
 -(IBAction)flotasyonButtonpressed:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    web.url = @"http://82.196.10.182/Flotasyon.pdf";
     [self.navigationController pushViewController:web animated:YES];
 }
 -(IBAction)manyetikButtonpressed:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    web.url = @"http://82.196.10.182/Manyetik.pdf";
     [self.navigationController pushViewController:web animated:YES];
 }
 -(IBAction)yuzeyButtonpressed:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    web.url = @"http://82.196.10.182/Yuzey%20Kimya.pdf";
     [self.navigationController pushViewController:web animated:YES];
 }
 -(IBAction) prosesButtonpressed:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    web.url = @"http://82.196.10.182/Proses%20Mineraloji.pdf";
     [self.navigationController pushViewController:web animated:YES];
 }
 -(IBAction)analitikButtonpressed:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    web.url = @"http://82.196.10.182/Analitik%20Kimya.pdf";
     [self.navigationController pushViewController:web animated:YES];
 }
 
