@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SixthViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *araclarTV;
+@property (weak, nonatomic) IBOutlet UIImageView *yapim_img;
 
 @end

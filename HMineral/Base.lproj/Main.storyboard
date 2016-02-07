@@ -18,22 +18,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ÇOK YAKINDA..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1h-p6-4yO">
-                                <rect key="frame" x="86" y="232" width="429" height="135"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OSH-EM-DuV">
+                                <rect key="frame" x="0.0" y="64" width="600" height="230"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">
+
+Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakında uygulamamızı takip edenlerin hizmetine sunulacaktır...</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="toX-xh-WUp">
+                                <rect key="frame" x="0.0" y="293" width="600" height="307"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="307" id="nwx-xt-Sz0"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="l1h-p6-4yO" firstAttribute="centerY" secondItem="A5u-7c-Ut0" secondAttribute="centerY" id="Ifn-q1-GSp"/>
-                            <constraint firstItem="l1h-p6-4yO" firstAttribute="centerX" secondItem="A5u-7c-Ut0" secondAttribute="centerX" id="XRi-I2-iP1"/>
-                            <constraint firstItem="l1h-p6-4yO" firstAttribute="leading" secondItem="A5u-7c-Ut0" secondAttribute="leadingMargin" constant="66" id="uSP-Jd-Zse"/>
-                            <constraint firstItem="l1h-p6-4yO" firstAttribute="top" secondItem="0hK-Cf-W4I" secondAttribute="bottom" constant="168" id="wpj-bp-RIU"/>
+                            <constraint firstItem="OSH-EM-DuV" firstAttribute="top" secondItem="0hK-Cf-W4I" secondAttribute="bottom" id="2j5-8i-Pcc"/>
+                            <constraint firstItem="toX-xh-WUp" firstAttribute="leading" secondItem="A5u-7c-Ut0" secondAttribute="leading" id="5NC-2x-zXo"/>
+                            <constraint firstItem="OSH-EM-DuV" firstAttribute="leading" secondItem="toX-xh-WUp" secondAttribute="leading" id="FsP-CI-m4g"/>
+                            <constraint firstAttribute="trailing" secondItem="toX-xh-WUp" secondAttribute="trailing" id="S3W-1Y-oWA"/>
+                            <constraint firstItem="toX-xh-WUp" firstAttribute="bottom" secondItem="lpS-Pq-hQV" secondAttribute="top" id="YQA-hy-7Y7"/>
+                            <constraint firstItem="OSH-EM-DuV" firstAttribute="trailing" secondItem="toX-xh-WUp" secondAttribute="trailing" id="eSU-mM-NWt"/>
+                            <constraint firstItem="lpS-Pq-hQV" firstAttribute="top" secondItem="OSH-EM-DuV" secondAttribute="bottom" constant="306" id="yW8-P6-VcK"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cj5-1o-30i"/>
+                    <connections>
+                        <outlet property="araclarTV" destination="OSH-EM-DuV" id="SmO-g9-qAT"/>
+                        <outlet property="yapim_img" destination="toX-xh-WUp" id="7JH-OC-umn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RWI-P4-HVi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

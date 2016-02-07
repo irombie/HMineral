@@ -46,6 +46,7 @@
 		A8B820241C674E010031C0C1 /* mta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8B8201E1C674E010031C0C1 /* mta.jpg */; };
 		A8B820251C674E010031C0C1 /* onemine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8B8201F1C674E010031C0C1 /* onemine.jpg */; };
 		A8B820261C674E010031C0C1 /* sme.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B820201C674E010031C0C1 /* sme.png */; };
+		A8B820281C675CB60031C0C1 /* yapim_asamasi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8B820271C675CB60031C0C1 /* yapim_asamasi.jpg */; };
 		A8CD8A7C1C56C33E00D5E5B9 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CD8A7B1C56C33E00D5E5B9 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -122,6 +123,7 @@
 		A8B8201E1C674E010031C0C1 /* mta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mta.jpg; sourceTree = "<group>"; };
 		A8B8201F1C674E010031C0C1 /* onemine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onemine.jpg; sourceTree = "<group>"; };
 		A8B820201C674E010031C0C1 /* sme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sme.png; sourceTree = "<group>"; };
+		A8B820271C675CB60031C0C1 /* yapim_asamasi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yapim_asamasi.jpg; sourceTree = "<group>"; };
 		A8CD8A7A1C56C33E00D5E5B9 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		A8CD8A7B1C56C33E00D5E5B9 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +176,7 @@
 				A887F24B1C594FB5000FD008 /* MessageUI.framework */,
 				A8B8201B1C674E010031C0C1 /* hmt.png */,
 				A8B8201C1C674E010031C0C1 /* minerology.gif */,
+				A8B820271C675CB60031C0C1 /* yapim_asamasi.jpg */,
 				A8B8201D1C674E010031C0C1 /* mmo.jpg */,
 				A8B8201E1C674E010031C0C1 /* mta.jpg */,
 				A8B8201F1C674E010031C0C1 /* onemine.jpg */,
@@ -376,6 +379,7 @@
 			files = (
 				A8B820251C674E010031C0C1 /* onemine.jpg in Resources */,
 				A8B820211C674E010031C0C1 /* hmt.png in Resources */,
+				A8B820281C675CB60031C0C1 /* yapim_asamasi.jpg in Resources */,
 				A8B820231C674E010031C0C1 /* mmo.jpg in Resources */,
 				A8B820241C674E010031C0C1 /* mta.jpg in Resources */,
 				A86B8BC31C53AFA20034A081 /* LaunchScreen.storyboard in Resources */,
