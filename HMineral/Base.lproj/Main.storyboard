@@ -18,8 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="toX-xh-WUp">
+                                <rect key="frame" x="0.0" y="285" width="600" height="315"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OSH-EM-DuV">
-                                <rect key="frame" x="0.0" y="64" width="600" height="230"/>
+                                <rect key="frame" x="65" y="64" width="535" height="223"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">
 
@@ -27,22 +30,17 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="toX-xh-WUp">
-                                <rect key="frame" x="0.0" y="293" width="600" height="307"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="307" id="nwx-xt-Sz0"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="OSH-EM-DuV" firstAttribute="top" secondItem="0hK-Cf-W4I" secondAttribute="bottom" id="2j5-8i-Pcc"/>
-                            <constraint firstItem="toX-xh-WUp" firstAttribute="leading" secondItem="A5u-7c-Ut0" secondAttribute="leading" id="5NC-2x-zXo"/>
-                            <constraint firstItem="OSH-EM-DuV" firstAttribute="leading" secondItem="toX-xh-WUp" secondAttribute="leading" id="FsP-CI-m4g"/>
-                            <constraint firstAttribute="trailing" secondItem="toX-xh-WUp" secondAttribute="trailing" id="S3W-1Y-oWA"/>
-                            <constraint firstItem="toX-xh-WUp" firstAttribute="bottom" secondItem="lpS-Pq-hQV" secondAttribute="top" id="YQA-hy-7Y7"/>
-                            <constraint firstItem="OSH-EM-DuV" firstAttribute="trailing" secondItem="toX-xh-WUp" secondAttribute="trailing" id="eSU-mM-NWt"/>
-                            <constraint firstItem="lpS-Pq-hQV" firstAttribute="top" secondItem="OSH-EM-DuV" secondAttribute="bottom" constant="306" id="yW8-P6-VcK"/>
+                            <constraint firstItem="OSH-EM-DuV" firstAttribute="trailing" secondItem="toX-xh-WUp" secondAttribute="trailing" id="3Ig-J7-Dab"/>
+                            <constraint firstItem="toX-xh-WUp" firstAttribute="top" secondItem="0hK-Cf-W4I" secondAttribute="bottom" constant="221" id="6rx-JP-iaW"/>
+                            <constraint firstItem="toX-xh-WUp" firstAttribute="bottom" secondItem="lpS-Pq-hQV" secondAttribute="top" id="BKI-p2-54q"/>
+                            <constraint firstItem="lpS-Pq-hQV" firstAttribute="top" secondItem="OSH-EM-DuV" secondAttribute="bottom" constant="313" id="Jjk-Xf-vRV"/>
+                            <constraint firstItem="toX-xh-WUp" firstAttribute="leading" secondItem="A5u-7c-Ut0" secondAttribute="leading" id="XqX-nL-uIQ"/>
+                            <constraint firstItem="OSH-EM-DuV" firstAttribute="top" secondItem="0hK-Cf-W4I" secondAttribute="bottom" id="dtY-L5-eE1"/>
+                            <constraint firstItem="OSH-EM-DuV" firstAttribute="leading" secondItem="A5u-7c-Ut0" secondAttribute="leadingMargin" constant="45" id="hJv-wE-mat"/>
+                            <constraint firstAttribute="trailing" secondItem="OSH-EM-DuV" secondAttribute="trailing" id="mre-ar-jBb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cj5-1o-30i"/>
@@ -315,7 +313,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gg0-uX-ViH">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Araştırma ekibinin geniş çerçevedeki uzmanlık alanları HMT’ye cevher hazırlamanın çeşitli alanlarında çalışma imkanı tanımaktadır. Bu nedenle, HMT, herhangi bir cevher hazırlama projesini cevher karakterizasyon aşamasından konsantre üretimine kadar tamamlayabilecek beceriye sahiptir. Bu çeşitlilik üretkenlik ve mükemmelliyet olgusunu geliştirmektedir. HMT’nin AR-GE kapsamındaki araştırma alanları aşağıda verilmektedir; 
+                                <string key="text">Araştırma ekibinin geniş çerçevedeki uzmanlık alanları HMT’ye cevher hazırlamanın çeşitli alanlarında çalışma imkanı tanımaktadır. Bu nedenle, HMT, herhangi bir cevher hazırlama projesini cevher karakterizasyon aşamasından konsantre üretimine kadar tamamlayabilecek beceriye sahiptir. Bu çeşitlilik üretkenlik ve mükemmelliyet olgusunu geliştirmektedir. HMT’nin AR-GE kapsamındaki araştırma alanları aşağıda verilmektedir; 
 
 - Modelleme ve simülasyonla performans değerlendirme ve optimizasyon
 
@@ -345,7 +343,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
 
 - Cevher hazırlama için yazılımların geliştirilmesi
 
-- Lave kömür yıkama devresi tasarımı programı</mutableString>
+- Lave kömür yıkama devresi tasarımı programı</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -382,7 +380,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z9f-I4-kA1">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">
+                                <string key="text">
 HMT cevher zenginleştirme tesis tasarımında simülasyon araçlarından yoğun olarak yararlanmaktadır. Buna yönelik modelleme çalışmalarınıda yapabilmektedir. Genel olarak yaygın şekilde kullanılan simülasyon paketleri aşağıda sunulmaktadır: 
 
 - JKSimMet
@@ -395,7 +393,7 @@ HMT cevher zenginleştirme tesis tasarımında simülasyon araçlarından yoğun
 
 - Kırma ve eleme ile ilgili mevcut tüm simülasyon programları
 
-- Cevher hazırlama devresi çizim programı (HMT yazılımı)</mutableString>
+- Cevher hazırlama devresi çizim programı (HMT yazılımı)</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -432,13 +430,13 @@ HMT cevher zenginleştirme tesis tasarımında simülasyon araçlarından yoğun
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="w8L-fh-Z1K">
                                 <rect key="frame" x="0.0" y="72" width="600" height="315"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">
+                                <string key="text">
 Hacettepe Mineral Teknolojileri Hacettepe Üniversitesi Teknoloji Geliştirme Merkezi’nde Konusunda uzman bir grup Öğretim Üyesi tarafından kurulmuş bir şirkettir.
 
 HMT doğadan çıkartılan madenlerin zenginleştirilmesi amacıyla gerekli olan tüm laboratuvar çalışmaları, modelleme ve simülasyonla devre tasarımı, akım şeması geliştirme ve ekipman seçimi/boyutlandırması işlerini kapsayan Ar-Ge faaliyetleri konusunda hizmet vermektedir. Endüstriye verilen bu Ar-Ge destekleri yanında ekipman tasarımı ve cevher hazırlama devrelerinin modelleme/simülasyonu konularında Ar-Ge çalışmaları yürütmektedir.
 
 Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans değerlendirme ve iyileştirmesine konusunda endüstriye destek vermektedir.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

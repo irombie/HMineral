@@ -24,11 +24,11 @@
     [_araclarTV setTextColor: [UIColor blackColor]];
     self.araclarTV.editable=NO;
     //[_araclarTV addObserver:self forKeyPath:@"contentSize" options:(NSKeyValueObservingOptionNew) context:NULL];
-    self.araclarTV.font=[UIFont fontWithName:@"Helvetica" size: 17.0];
+    self.araclarTV.font=[UIFont boldSystemFontOfSize: 17.0];
     [_araclarTV setTextColor:[UIColor yellowColor]];
     UIImage *image = [UIImage imageNamed: @"yapim_asamasi.jpg"];
     _yapim_img.image=image;
-    
+    //[_araclarTV addObserver:self forKeyPath:@"contentSize" options:(NSKeyValueObservingOptionNew) context:NULL];
 
 
 }
@@ -37,10 +37,18 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (void)viewDidLayoutSubviews {
     [self. araclarTV setContentOffset:CGPointZero animated:NO];
 }
-/*
+ /*
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+    UITextView *txtview = object;
+    CGFloat topoffset = ([txtview bounds].size.height - [txtview contentSize].height * [txtview zoomScale])/2.0;
+    topoffset = ( topoffset < 0.0 ? 0.0 : topoffset );
+    txtview.contentOffset = (CGPoint){.x = 0, .y = -topoffset};
+}
+
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     UITextView *tv = object;
     CGFloat topCorrect = ([tv bounds].size.height - [tv contentSize].height * [tv zoomScale])/2.0;
