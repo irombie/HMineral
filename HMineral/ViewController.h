@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface ViewController : UIViewController 
 
@@ -20,6 +21,19 @@
 - (IBAction)goToKadro:(id)sender;
 - (IBAction)goToIlet:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UIButton *btn1;
+@property (weak, nonatomic) IBOutlet UIButton *btn2;
+@property (weak, nonatomic) IBOutlet UIButton *btn3;
+@property (weak, nonatomic) IBOutlet UIButton *btn4;
+@property (weak, nonatomic) IBOutlet UIButton *btn5;
+@property (weak, nonatomic) IBOutlet UIButton *btn6;
+@property (weak, nonatomic) IBOutlet UIButton *btn7;
+@property (weak, nonatomic) IBOutlet UIButton *btn8;
+
+
++ (UIColor *)red;
++ (UIColor *)backGr;
++ (UIColor *)navy;
 
 
 

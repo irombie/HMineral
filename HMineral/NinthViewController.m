@@ -15,6 +15,7 @@
 @implementation NinthViewController
 
 - (void)viewDidLoad {
+    //39.865323, 32.738306
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.navigationItem.title=@"İLETİŞİM";
@@ -24,6 +25,7 @@
     [_postLbl setFont:[UIFont fontWithName:@"Arial-BoldMT" size:16]];
     _tamAdres.editable = NO;
     [_haritaLbl setFont:[UIFont fontWithName:@"Arial-BoldMT" size:16]];
+    /*
     NSString *location = @"Hacettepe Teknokent, 2. Arge Binasi, Beytepe, Ankara - TÜRKİYE";
     CLGeocoder *geocoder = [[CLGeocoder alloc] init];
     [geocoder geocodeAddressString:location
@@ -42,6 +44,24 @@
                      }
                  }
      ];
+     */
+}
+- (void)viewWillAppear:(BOOL)animated {
+    // 1
+    CLLocationCoordinate2D zoomLocation;
+    zoomLocation.latitude = 39.865323;
+    zoomLocation.longitude= 32.738306;
+    
+    // 2
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 0.5*METERS_PER_MILE, 0.5*METERS_PER_MILE);
+  
+    viewRegion.span.longitudeDelta /= 8.0;
+    viewRegion.span.latitudeDelta /= 8.0;
+    MKPlacemark *placemark = [[MKPlacemark alloc] initWithCoordinate:zoomLocation addressDictionary:nil];
+    [self.mapView addAnnotation:placemark];
+    
+    // 3
+    [_mapView setRegion:viewRegion animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -72,6 +92,7 @@
 
 - (void) mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
 {
+    /*
     switch (result)
     {
         case MFMailComposeResultCancelled:
@@ -89,10 +110,12 @@
         default:
             break;
     }
+     */
     
     // Close the Mail Interface
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
+ 
 -(IBAction)goToWebSite:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
     web.url = @"http://hmineral.com";

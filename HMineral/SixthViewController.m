@@ -41,6 +41,7 @@
 - (void)viewDidLayoutSubviews {
     [self. araclarTV setContentOffset:CGPointZero animated:NO];
 }
+
  /*
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     UITextView *txtview = object;
