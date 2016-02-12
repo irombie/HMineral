@@ -25,7 +25,7 @@
     _logo.image=image;
     //_label.lineBreakMode = NSLineBreakByWordWrapping;
     //_label.numberOfLines = 1;//tek satıra sığdırma kodu
-    [_label sizeToFit];
+    
     /*
     UIImage *btnImage = [UIImage imageNamed:@"kir_soru.jpg"];
     [_btn1 setImage:btnImage forState:UIControlStateNormal];

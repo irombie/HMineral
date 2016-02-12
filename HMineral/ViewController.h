@@ -20,7 +20,7 @@
 - (IBAction)goToBag:(id)sender;
 - (IBAction)goToKadro:(id)sender;
 - (IBAction)goToIlet:(id)sender;
-@property (weak, nonatomic) IBOutlet UILabel *label;
+
 @property (weak, nonatomic) IBOutlet UIButton *btn1;
 @property (weak, nonatomic) IBOutlet UIButton *btn2;
 @property (weak, nonatomic) IBOutlet UIButton *btn3;

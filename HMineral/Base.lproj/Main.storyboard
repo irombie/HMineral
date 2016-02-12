@@ -152,7 +152,10 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cV8-uo-09W">
-                                <rect key="frame" x="203" y="259" width="195" height="30"/>
+                                <rect key="frame" x="203" y="276" width="195" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="LfU-nI-t0M"/>
+                                </constraints>
                                 <state key="normal" title="  HAKKIMIZDA  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -161,7 +164,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhI-Qp-m10">
-                                <rect key="frame" x="203" y="297" width="195" height="30"/>
+                                <rect key="frame" x="203" y="311" width="195" height="30"/>
                                 <state key="normal" title="  AR-GE  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -170,7 +173,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWF-6G-HfC">
-                                <rect key="frame" x="203" y="335" width="195" height="30"/>
+                                <rect key="frame" x="203" y="349" width="195" height="30"/>
                                 <state key="normal" title="  LABORATUVAR  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -179,7 +182,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eaj-YL-KOR">
-                                <rect key="frame" x="203" y="373" width="195" height="30"/>
+                                <rect key="frame" x="203" y="392" width="195" height="30"/>
                                 <state key="normal" title="  YAZILIM VE SİMÜLASYON  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -188,7 +191,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bf-Ni-Str">
-                                <rect key="frame" x="203" y="411" width="195" height="30"/>
+                                <rect key="frame" x="203" y="430" width="195" height="30"/>
                                 <state key="normal" title="  ARAÇLAR  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -197,7 +200,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0x-le-irB">
-                                <rect key="frame" x="203" y="449" width="195" height="30"/>
+                                <rect key="frame" x="203" y="468" width="195" height="30"/>
                                 <state key="normal" title="  BAĞLANTILAR  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -206,7 +209,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-oO-tqM">
-                                <rect key="frame" x="203" y="487" width="195" height="30"/>
+                                <rect key="frame" x="203" y="506" width="195" height="30"/>
                                 <state key="normal" title="  KADROMUZ  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -214,14 +217,8 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                                     <action selector="goToKadro:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kha-Li-S72"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HACETTEPE MİNERAL TEKNOLOJİLERİ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neV-2p-0UI">
-                                <rect key="frame" x="150" y="88" width="300" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.050980392156862744" green="0.20000000000000001" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWb-tD-Uvi">
-                                <rect key="frame" x="203" y="525" width="195" height="30"/>
+                                <rect key="frame" x="203" y="544" width="195" height="30"/>
                                 <state key="normal" title="  İLETİŞİM  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -230,42 +227,40 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x9b-vJ-Ogj">
-                                <rect key="frame" x="187" y="123" width="228" height="128"/>
+                                <rect key="frame" x="182" y="80" width="237" height="149"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="228" id="ru3-7m-e6q"/>
+                                    <constraint firstAttribute="width" constant="237" id="TDR-bj-v0u"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="WWF-6G-HfC" firstAttribute="leading" secondItem="Eaj-YL-KOR" secondAttribute="leading" id="2rb-GN-toc"/>
-                            <constraint firstItem="QhI-Qp-m10" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9kf-FJ-vPy"/>
-                            <constraint firstItem="7cL-oO-tqM" firstAttribute="leading" secondItem="bWb-tD-Uvi" secondAttribute="leading" id="GPr-7T-kQz"/>
-                            <constraint firstItem="QhI-Qp-m10" firstAttribute="leading" secondItem="WWF-6G-HfC" secondAttribute="leading" id="HDb-cw-Icx"/>
-                            <constraint firstItem="WWF-6G-HfC" firstAttribute="trailing" secondItem="Eaj-YL-KOR" secondAttribute="trailing" id="Jbx-lV-nh9"/>
-                            <constraint firstItem="neV-2p-0UI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="P2a-Yb-BPD"/>
-                            <constraint firstItem="x9b-vJ-Ogj" firstAttribute="top" secondItem="neV-2p-0UI" secondAttribute="bottom" constant="14" id="PhP-Hh-hX2"/>
-                            <constraint firstItem="WWF-6G-HfC" firstAttribute="trailing" secondItem="QhI-Qp-m10" secondAttribute="trailing" id="QC9-iW-Ytn"/>
-                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="top" secondItem="7cL-oO-tqM" secondAttribute="bottom" constant="8" symbolic="YES" id="Qhx-wZ-TgJ"/>
-                            <constraint firstItem="QhI-Qp-m10" firstAttribute="top" secondItem="cV8-uo-09W" secondAttribute="bottom" constant="8" symbolic="YES" id="SbE-sy-0EU"/>
-                            <constraint firstItem="cV8-uo-09W" firstAttribute="top" secondItem="x9b-vJ-Ogj" secondAttribute="bottom" constant="8" symbolic="YES" id="TUp-Vc-Rog"/>
-                            <constraint firstItem="QhI-Qp-m10" firstAttribute="trailing" secondItem="cV8-uo-09W" secondAttribute="trailing" id="UkY-Qc-L9D"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bWb-tD-Uvi" secondAttribute="bottom" constant="45" id="Wbp-bi-qXA"/>
-                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="top" secondItem="WWF-6G-HfC" secondAttribute="bottom" constant="8" symbolic="YES" id="XSy-DM-oQ4"/>
-                            <constraint firstItem="7cL-oO-tqM" firstAttribute="leading" secondItem="G0x-le-irB" secondAttribute="leading" id="Y7N-av-qBE"/>
-                            <constraint firstItem="WWF-6G-HfC" firstAttribute="top" secondItem="QhI-Qp-m10" secondAttribute="bottom" constant="8" symbolic="YES" id="YRF-ln-RMm"/>
-                            <constraint firstItem="7cL-oO-tqM" firstAttribute="top" secondItem="G0x-le-irB" secondAttribute="bottom" constant="8" symbolic="YES" id="Zyw-eu-eiH"/>
-                            <constraint firstItem="2bf-Ni-Str" firstAttribute="leading" secondItem="G0x-le-irB" secondAttribute="leading" id="ar1-zQ-q0W"/>
-                            <constraint firstItem="2bf-Ni-Str" firstAttribute="trailing" secondItem="G0x-le-irB" secondAttribute="trailing" id="d3Q-HQ-WQ3"/>
-                            <constraint firstItem="7cL-oO-tqM" firstAttribute="trailing" secondItem="G0x-le-irB" secondAttribute="trailing" id="dDb-OB-rMw"/>
-                            <constraint firstItem="neV-2p-0UI" firstAttribute="centerX" secondItem="cV8-uo-09W" secondAttribute="centerX" id="dVT-Ps-AFZ"/>
-                            <constraint firstItem="cV8-uo-09W" firstAttribute="leading" secondItem="QhI-Qp-m10" secondAttribute="leading" id="ep6-Um-pg9"/>
-                            <constraint firstItem="2bf-Ni-Str" firstAttribute="top" secondItem="Eaj-YL-KOR" secondAttribute="bottom" constant="8" symbolic="YES" id="klo-xp-e0V"/>
-                            <constraint firstItem="2bf-Ni-Str" firstAttribute="trailing" secondItem="Eaj-YL-KOR" secondAttribute="trailing" id="lB3-YI-5Ai"/>
-                            <constraint firstItem="7cL-oO-tqM" firstAttribute="trailing" secondItem="bWb-tD-Uvi" secondAttribute="trailing" id="r3X-9i-5tq"/>
-                            <constraint firstItem="G0x-le-irB" firstAttribute="top" secondItem="2bf-Ni-Str" secondAttribute="bottom" constant="8" symbolic="YES" id="rQj-Em-NGf"/>
-                            <constraint firstItem="2bf-Ni-Str" firstAttribute="leading" secondItem="Eaj-YL-KOR" secondAttribute="leading" id="t83-PX-eyb"/>
-                            <constraint firstItem="cV8-uo-09W" firstAttribute="centerX" secondItem="x9b-vJ-Ogj" secondAttribute="centerX" id="zXw-ll-u7W"/>
+                            <constraint firstItem="WWF-6G-HfC" firstAttribute="trailing" secondItem="QhI-Qp-m10" secondAttribute="trailing" id="6ej-g2-cZ6"/>
+                            <constraint firstItem="G0x-le-irB" firstAttribute="top" secondItem="2bf-Ni-Str" secondAttribute="bottom" constant="8" symbolic="YES" id="770-BD-Wbc"/>
+                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="top" secondItem="7cL-oO-tqM" secondAttribute="bottom" constant="8" symbolic="YES" id="B15-LS-pNn"/>
+                            <constraint firstItem="x9b-vJ-Ogj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="ChT-I4-78Y"/>
+                            <constraint firstItem="cV8-uo-09W" firstAttribute="centerX" secondItem="x9b-vJ-Ogj" secondAttribute="centerX" id="IPq-J5-D1c"/>
+                            <constraint firstItem="cV8-uo-09W" firstAttribute="top" secondItem="x9b-vJ-Ogj" secondAttribute="bottom" constant="47" id="L7X-Dk-VKp"/>
+                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="top" secondItem="WWF-6G-HfC" secondAttribute="bottom" constant="13" id="OCI-ZZ-ym6"/>
+                            <constraint firstItem="WWF-6G-HfC" firstAttribute="leading" secondItem="Eaj-YL-KOR" secondAttribute="leading" id="PpL-pl-fnx"/>
+                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="trailing" secondItem="WWF-6G-HfC" secondAttribute="trailing" id="SID-Wk-2N1"/>
+                            <constraint firstItem="G0x-le-irB" firstAttribute="leading" secondItem="2bf-Ni-Str" secondAttribute="leading" id="SRd-Mw-uAe"/>
+                            <constraint firstItem="7cL-oO-tqM" firstAttribute="leading" secondItem="bWb-tD-Uvi" secondAttribute="leading" id="WJV-cK-UTZ"/>
+                            <constraint firstItem="QhI-Qp-m10" firstAttribute="top" secondItem="cV8-uo-09W" secondAttribute="bottom" constant="8" symbolic="YES" id="YGj-2O-C37"/>
+                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aqY-yu-OvG"/>
+                            <constraint firstItem="2bf-Ni-Str" firstAttribute="trailing" secondItem="G0x-le-irB" secondAttribute="trailing" id="cqE-aH-jKX"/>
+                            <constraint firstItem="WWF-6G-HfC" firstAttribute="leading" secondItem="QhI-Qp-m10" secondAttribute="leading" id="dRg-3c-aYQ"/>
+                            <constraint firstItem="WWF-6G-HfC" firstAttribute="top" secondItem="QhI-Qp-m10" secondAttribute="bottom" constant="8" symbolic="YES" id="dhG-Js-VZE"/>
+                            <constraint firstItem="2bf-Ni-Str" firstAttribute="leading" secondItem="Eaj-YL-KOR" secondAttribute="leading" id="fQc-Rq-Ab2"/>
+                            <constraint firstItem="QhI-Qp-m10" firstAttribute="leading" secondItem="cV8-uo-09W" secondAttribute="leading" id="i2r-dE-aZi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bWb-tD-Uvi" secondAttribute="bottom" constant="26" id="leX-Lz-WKp"/>
+                            <constraint firstItem="7cL-oO-tqM" firstAttribute="trailing" secondItem="G0x-le-irB" secondAttribute="trailing" id="nRv-q4-Y2V"/>
+                            <constraint firstItem="2bf-Ni-Str" firstAttribute="top" secondItem="Eaj-YL-KOR" secondAttribute="bottom" constant="8" symbolic="YES" id="nXo-ZM-a6L"/>
+                            <constraint firstItem="7cL-oO-tqM" firstAttribute="leading" secondItem="G0x-le-irB" secondAttribute="leading" id="osy-2W-agY"/>
+                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="trailing" secondItem="2bf-Ni-Str" secondAttribute="trailing" id="pE2-e0-fhK"/>
+                            <constraint firstItem="QhI-Qp-m10" firstAttribute="trailing" secondItem="cV8-uo-09W" secondAttribute="trailing" id="pSt-Gs-zfM"/>
+                            <constraint firstItem="7cL-oO-tqM" firstAttribute="trailing" secondItem="bWb-tD-Uvi" secondAttribute="trailing" id="vFr-sT-bUs"/>
+                            <constraint firstItem="7cL-oO-tqM" firstAttribute="top" secondItem="G0x-le-irB" secondAttribute="bottom" constant="8" symbolic="YES" id="zVZ-V9-llT"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3oA-R1-FHV"/>
@@ -278,7 +273,6 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                         <outlet property="btn6" destination="G0x-le-irB" id="hUZ-jE-GFr"/>
                         <outlet property="btn7" destination="7cL-oO-tqM" id="64T-TU-oLu"/>
                         <outlet property="btn8" destination="bWb-tD-Uvi" id="q6h-5O-wIR"/>
-                        <outlet property="label" destination="neV-2p-0UI" id="vZw-m4-gVI"/>
                         <outlet property="logo" destination="x9b-vJ-Ogj" id="xGZ-hn-1ak"/>
                         <segue destination="ju1-ma-2eC" kind="push" identifier="Hakkimizda" id="pzx-Km-59b"/>
                         <segue destination="dvE-rk-hfq" kind="push" identifier="Lab" id="2y4-yx-c69"/>
