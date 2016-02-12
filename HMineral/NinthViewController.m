@@ -69,7 +69,7 @@
     // Dispose of any resources that can be recreated.
 }
 -(IBAction)callPhone:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:+903122992601"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://+903122992601"]];
 }
 - (IBAction)showEmail:(id)sender {
     // Email Subject
@@ -143,5 +143,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+                                                                     
 @end
