@@ -46,6 +46,7 @@
      ];
      */
 }
+
 - (void)viewWillAppear:(BOOL)animated {
     // 1
     CLLocationCoordinate2D zoomLocation;
@@ -73,7 +74,7 @@
 }
 - (IBAction)showEmail:(id)sender {
     // Email Subject
-    NSString *emailTitle = @"Bize Ulaşın";
+    NSString *emailTitle = @"";
     // Email Content
     NSString *messageBody = @"";
     // To address
@@ -115,12 +116,55 @@
     // Close the Mail Interface
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
- 
+
 -(IBAction)goToWebSite:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
     web.url = @"http://hmineral.com";
     [self.navigationController pushViewController:web animated:YES];
 }
+/*
+ //annotation
+ CLGeocoder *ceo = [[CLGeocoder alloc]init];
+ CLLocation *loc = [[CLLocation alloc]initWithLatitude:32.00 longitude:21.322]; //insert your coordinates
+ 
+ [ceo reverseGeocodeLocation:loc
+ completionHandler:^(NSArray *placemarks, NSError *error) {
+ CLPlacemark *placemark = [placemarks objectAtIndex:0];
+ NSLog(@"placemark %@",placemark);
+ //String to hold address
+ NSString *locatedAt = [[placemark.addressDictionary valueForKey:@"FormattedAddressLines"] componentsJoinedByString:@", "];
+ NSLog(@"addressDictionary %@", placemark.addressDictionary);
+ 
+ NSLog(@"placemark %@",placemark.region);
+ NSLog(@"placemark %@",placemark.country);  // Give Country Name
+ NSLog(@"placemark %@",placemark.locality); // Extract the city name
+ NSLog(@"location %@",placemark.name);
+ NSLog(@"location %@",placemark.ocean);
+ NSLog(@"location %@",placemark.postalCode);
+ NSLog(@"location %@",placemark.subLocality);
+ 
+ NSLog(@"location %@",placemark.location);
+ //Print the location to console
+ NSLog(@"I am currently at %@",locatedAt);
+ }
+ else {
+ NSLog(@"Could not locate");
+ }
+ ];
+- (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
+{
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 39.865323, 32.738306);
+    [self.mapView setRegion:[self.mapView regionThatFits:region] animated:YES];
+    
+    // Add an annotation
+    MKPointAnnotation *point = [[MKPointAnnotation alloc] init];
+    point.coordinate = userLocation.coordinate;
+    point.title = @"Hacettepe Mineral Teknolojileri Ltd. Şti.";
+    point.subtitle = @"Hacettepe Teknokent, 2. Arge Binasi, No:5 Beytepe-ANKARA";
+    
+    [self.mapView addAnnotation:point];
+}
+*/
 /*
 - (void)viewWillAppear:(BOOL)animated {
     // 1

@@ -19,15 +19,14 @@
 
 -(IBAction)metin:(id)sender;
 
--(IBAction)ilkay:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *ozcanBtn;
+@property (weak, nonatomic) IBOutlet UIButton *leventBtn;
 
--(IBAction) caner:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *zafirBtn;
 
--(IBAction)ozlem:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *metinBtn;
 
--(IBAction) orberk:(id)sender;
-
--(IBAction)ahmet:(id)sender;
-
++ (UIColor *)red;
++ (UIColor *)navy;
 
 @end

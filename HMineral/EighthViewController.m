@@ -18,6 +18,41 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.navigationItem.title=@"KADROMUZ";
+    [_ozcanBtn setTitleColor:[EighthViewController red] forState:UIControlStateNormal];
+    [[_ozcanBtn layer] setBorderWidth:2.0f];
+    [[_ozcanBtn layer] setBorderColor:[EighthViewController navy].CGColor];
+    
+    
+    CALayer *btnLayer2 = [_ozcanBtn layer];
+    [btnLayer2 setMasksToBounds:YES];
+    [btnLayer2 setCornerRadius:5.0f];
+    
+    [_leventBtn setTitleColor:[EighthViewController red] forState:UIControlStateNormal];
+    [[_leventBtn layer] setBorderWidth:2.0f];
+    [[_leventBtn layer] setBorderColor:[EighthViewController navy].CGColor];
+    
+    
+    CALayer *btnLayer1 = [_leventBtn layer];
+    [btnLayer1 setMasksToBounds:YES];
+    [btnLayer1 setCornerRadius:5.0f];
+    
+    [_zafirBtn setTitleColor:[EighthViewController red] forState:UIControlStateNormal];
+    [[_zafirBtn layer] setBorderWidth:2.0f];
+    [[_zafirBtn layer] setBorderColor:[EighthViewController navy].CGColor];
+    
+    
+    CALayer *btnLayer = [_zafirBtn layer];
+    [btnLayer setMasksToBounds:YES];
+    [btnLayer setCornerRadius:5.0f];
+    
+    [_metinBtn setTitleColor:[EighthViewController red] forState:UIControlStateNormal];
+    [[_metinBtn layer] setBorderWidth:2.0f];
+    [[_metinBtn layer] setBorderColor:[EighthViewController navy].CGColor];
+    
+    
+    CALayer *btnLayer3 = [_metinBtn layer];
+    [btnLayer3 setMasksToBounds:YES];
+    [btnLayer3 setCornerRadius:5.0f];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,65 +61,41 @@
 }
 -(IBAction)ozcan:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    web.url = @"http://www.hmineral.com/cv/CV-ozcan-yildirim-gursoy.PDF";
     [self.navigationController pushViewController:web animated:YES];
 }
 
 
 -(IBAction) levent:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    web.url = @"http://www.hmineral.com/cv/CV-levent-ergun.pdf";
     [self.navigationController pushViewController:web animated:YES];
 }
 
 
 -(IBAction)zafir:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://www.cs.bilkent.edu.tr/CS299/Guidelines_v2.7.pdf";
+    web.url = @"http://www.hmineral.com/cv/CV-zafir-ekmekci.pdf";
     [self.navigationController pushViewController:web animated:YES];
 }
 
 
 -(IBAction)metin:(id)sender{
     WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
+    web.url = @"http://www.hmineral.com/cv/CV-metin-can.PDF";
     [self.navigationController pushViewController:web animated:YES];
 }
 
++ (UIColor *)red {
+    return [UIColor colorWithRed:212.0f/255.0f green:0.0f/255.0f blue:0.0f/255.0f alpha:1.0f];
+}
 
--(IBAction)ilkay:(id)sender{
-    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
-    [self.navigationController pushViewController:web animated:YES];
++(UIColor *) navy{
+    return [UIColor colorWithRed:9.0f/255.0f green:48.0f/255.0f blue:95.0f/255.0f alpha:1.0f];
 }
 
 
--(IBAction) caner:(id)sender{
-    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
-    [self.navigationController pushViewController:web animated:YES];
-}
 
-
--(IBAction)ozlem:(id)sender{
-    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
-    [self.navigationController pushViewController:web animated:YES];
-}
-
-
--(IBAction) orberk:(id)sender{
-    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
-    [self.navigationController pushViewController:web animated:YES];
-}
-
-
--(IBAction)ahmet:(id)sender{
-    WebViewController *web = [self.storyboard instantiateViewControllerWithIdentifier:@"webView"];
-    web.url = @"http://hmineral.com/main-cevher-karakterizasyonu.html";
-    [self.navigationController pushViewController:web animated:YES];
-}
 
 
 /*

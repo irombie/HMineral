@@ -345,13 +345,15 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gg0-uX-ViH">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Araştırma ekibinin geniş çerçevedeki uzmanlık alanları HMT’ye cevher hazırlamanın çeşitli alanlarında çalışma imkanı tanımaktadır. Bu nedenle, HMT, herhangi bir cevher hazırlama projesini cevher karakterizasyon aşamasından konsantre üretimine kadar tamamlayabilecek beceriye sahiptir. Bu çeşitlilik üretkenlik ve mükemmelliyet olgusunu geliştirmektedir. HMT’nin AR-GE kapsamındaki araştırma alanları aşağıda verilmektedir; 
+                                <mutableString key="text">Araştırma ekibinin geniş çerçevedeki uzmanlık alanları HMT’ye cevher hazırlamanın çeşitli alanlarında çalışma imkanı tanımaktadır. Bu nedenle, HMT, herhangi bir cevher hazırlama projesini cevher karakterizasyon aşamasından konsantre üretimine kadar tamamlayabilecek beceriye sahiptir. Bu çeşitlilik üretkenlik ve mükemmelliyet olgusunu geliştirmektedir. HMT’nin AR-GE kapsamındaki araştırma alanları aşağıda verilmektedir; 
 
 - Modelleme ve simülasyonla performans değerlendirme ve optimizasyon
 
 - Enerji tasarruflu öğütme teknolojileri
 
-- HPGR Merdaneli değirmenİnce öğütme (Isamill, karıştırmalı değirmen)
+- HPGR Merdaneli değirmen
+
+-İnce öğütme (Isamill, karıştırmalı değirmen)
 
 - Cevher karakterizasyonu için jeometallurjik bir aracın geliştirilmesi
 
@@ -375,17 +377,17 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
 
 - Cevher hazırlama için yazılımların geliştirilmesi
 
-- Lave kömür yıkama devresi tasarımı programı</string>
+- Lave kömür yıkama devresi tasarımı programı</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gg0-uX-ViH" firstAttribute="bottom" secondItem="XYc-Jd-7ss" secondAttribute="top" id="Xcg-0W-W61"/>
-                            <constraint firstAttribute="trailing" secondItem="gg0-uX-ViH" secondAttribute="trailing" id="fjK-Bt-uYn"/>
-                            <constraint firstItem="gg0-uX-ViH" firstAttribute="leading" secondItem="jmA-bH-WnX" secondAttribute="leading" id="mzo-tk-ggR"/>
-                            <constraint firstItem="gg0-uX-ViH" firstAttribute="top" secondItem="gOV-ke-qwZ" secondAttribute="bottom" id="wFm-Sl-tOm"/>
+                            <constraint firstItem="gg0-uX-ViH" firstAttribute="leading" secondItem="jmA-bH-WnX" secondAttribute="leading" id="EAE-eX-A8p"/>
+                            <constraint firstAttribute="trailing" secondItem="gg0-uX-ViH" secondAttribute="trailing" id="GTf-BL-Pc7"/>
+                            <constraint firstItem="gg0-uX-ViH" firstAttribute="top" secondItem="gOV-ke-qwZ" secondAttribute="bottom" id="NIj-a4-Blr"/>
+                            <constraint firstItem="gg0-uX-ViH" firstAttribute="bottom" secondItem="XYc-Jd-7ss" secondAttribute="top" id="U97-i4-jfm"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6iI-L9-BWi"/>
@@ -548,117 +550,173 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KURUCULAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViB-nT-h7Q">
-                                <rect key="frame" x="249" y="77" width="102" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="243" y="72" width="114" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="WhY-Iw-EGe"/>
+                                    <constraint firstAttribute="width" constant="114" id="er8-JE-j3j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4w-6i-NOz">
-                                <rect key="frame" x="205" y="112" width="190" height="30"/>
-                                <state key="normal" title="PROF. DR. ÖZCAN GÜLSOY"/>
-                                <connections>
-                                    <action selector="ozcan:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="O7L-yh-QTx"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RlH-ml-L00">
-                                <rect key="frame" x="207" y="145" width="185" height="30"/>
-                                <state key="normal" title="PROF. DR. LEVENT ERGÜN"/>
+                                <rect key="frame" x="193" y="145" width="214" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="wLW-MI-ZWr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title=" PROF. DR. LEVENT ERGÜN ">
+                                    <color key="titleColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="levent:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="1Sb-Yb-rtu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfB-35-xZe">
-                                <rect key="frame" x="208" y="183" width="183" height="30"/>
-                                <state key="normal" title="PROF. DR. ZAFİR EKMEKÇİ"/>
+                                <rect key="frame" x="193" y="183" width="214" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="jvd-9O-QXf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title=" PROF. DR. ZAFİR EKMEKÇİ ">
+                                    <color key="titleColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="zafir:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="Nfd-je-yWG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZ6-L0-P0D">
-                                <rect key="frame" x="208" y="221" width="183" height="30"/>
-                                <state key="normal" title="YRD. DOÇ. DR METİN CAN"/>
+                                <rect key="frame" x="193" y="221" width="214" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title=" YRD. DOÇ. DR METİN CAN ">
+                                    <color key="titleColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="metin:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="x7j-Jn-wYV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DANIŞMANLAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vQ-go-791">
-                                <rect key="frame" x="240" y="254" width="119" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="229" y="295" width="142" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="paX-f9-p4c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xtf-mS-GVf">
-                                <rect key="frame" x="243" y="283" width="114" height="30"/>
-                                <state key="normal" title="DR. İLKAY ÇELİK"/>
-                                <connections>
-                                    <action selector="ilkay:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="3yg-27-1ev"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXt-pc-bUi">
-                                <rect key="frame" x="211" y="316" width="177" height="30"/>
-                                <state key="normal" title="DR. CANER EREN ORHAN"/>
-                                <connections>
-                                    <action selector="caner:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="Hw5-R1-8zk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBx-Yh-T50">
-                                <rect key="frame" x="237" y="354" width="127" height="30"/>
-                                <state key="normal" title="DR. ÖZLEM BIÇAK"/>
-                                <connections>
-                                    <action selector="ozlem:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="KxP-oC-5j9"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DR. İLKAY ÇELİK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mq3-2K-fPb">
+                                <rect key="frame" x="236" y="329" width="127" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Zei-39-78y"/>
+                                    <constraint firstAttribute="width" constant="127" id="y9L-YQ-MwM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DR. CANER EREN ORHAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ej2-zQ-fZD">
+                                <rect key="frame" x="201" y="365" width="198" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="HvL-2W-ZsL"/>
+                                    <constraint firstAttribute="width" constant="198" id="teA-fW-sqo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DR. ÖZLEM BIÇAK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bL-sr-swL">
+                                <rect key="frame" x="230" y="399" width="141" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="h1w-jU-mj4"/>
+                                    <constraint firstAttribute="height" constant="21" id="unP-yr-kvg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ORBERK MERT MERCAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHT-b2-bEm">
+                                <rect key="frame" x="204" y="475" width="190" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="a0V-U5-drL"/>
+                                    <constraint firstAttribute="width" constant="190" id="foh-r8-RIG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AHMET YAŞAR YAMANTAŞ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCp-Nc-gXY">
+                                <rect key="frame" x="195" y="516" width="209" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="209" id="TGM-qq-cq0"/>
+                                    <constraint firstAttribute="height" constant="21" id="r7v-a1-waJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROJE MÜHENDİSLERİ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jcj-Ms-djm">
-                                <rect key="frame" x="210" y="392" width="179" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="196" y="437" width="207" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="207" id="7I1-AL-bgP"/>
+                                    <constraint firstAttribute="height" constant="21" id="TrG-5o-QDk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FvB-28-9RP">
-                                <rect key="frame" x="215" y="427" width="169" height="30"/>
-                                <state key="normal" title="ORBERK MERT MERCAN"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4w-6i-NOz">
+                                <rect key="frame" x="193" y="107" width="214" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="214" id="OJq-fo-2PY"/>
+                                    <constraint firstAttribute="height" constant="30" id="cuL-ma-qOh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title=" PROF. DR. ÖZCAN GÜLSOY ">
+                                    <color key="titleColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <action selector="orberk:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="UBv-VI-xZN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jx9-xd-fOd">
-                                <rect key="frame" x="207" y="465" width="187" height="30"/>
-                                <state key="normal" title="AHMET YAŞAR YAMANTAŞ"/>
-                                <connections>
-                                    <action selector="ahmet:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="YLx-S5-SR9"/>
+                                    <action selector="ozcan:" destination="dsX-jU-Zo5" eventType="touchUpInside" id="O7L-yh-QTx"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Jcj-Ms-djm" firstAttribute="top" secondItem="EBx-Yh-T50" secondAttribute="bottom" constant="8" symbolic="YES" id="2Sx-N2-vXm"/>
-                            <constraint firstItem="EXt-pc-bUi" firstAttribute="top" secondItem="xtf-mS-GVf" secondAttribute="bottom" constant="3" id="6e1-rs-bnR"/>
-                            <constraint firstItem="ViB-nT-h7Q" firstAttribute="centerX" secondItem="F4w-6i-NOz" secondAttribute="centerX" id="FMN-3J-5mW"/>
-                            <constraint firstItem="UfB-35-xZe" firstAttribute="top" secondItem="RlH-ml-L00" secondAttribute="bottom" constant="8" symbolic="YES" id="Hjd-0S-eC6"/>
-                            <constraint firstItem="UfB-35-xZe" firstAttribute="centerX" secondItem="VyJ-hk-uWS" secondAttribute="centerX" id="Hy1-gk-6Hk"/>
-                            <constraint firstItem="EBx-Yh-T50" firstAttribute="top" secondItem="EXt-pc-bUi" secondAttribute="bottom" constant="8" symbolic="YES" id="LIW-gU-ZGV"/>
-                            <constraint firstItem="F4w-6i-NOz" firstAttribute="centerX" secondItem="RlH-ml-L00" secondAttribute="centerX" id="NPG-Ud-hec"/>
-                            <constraint firstItem="F4w-6i-NOz" firstAttribute="top" secondItem="ViB-nT-h7Q" secondAttribute="bottom" constant="14" id="Px3-GB-4TL"/>
-                            <constraint firstItem="tZ6-L0-P0D" firstAttribute="top" secondItem="UfB-35-xZe" secondAttribute="bottom" constant="8" symbolic="YES" id="U9Y-zz-kbT"/>
-                            <constraint firstItem="ViB-nT-h7Q" firstAttribute="top" secondItem="Cnl-Xb-YBr" secondAttribute="bottom" constant="13" id="Uj6-DY-I7g"/>
-                            <constraint firstItem="RlH-ml-L00" firstAttribute="centerX" secondItem="UfB-35-xZe" secondAttribute="centerX" id="Wp1-lk-YrE"/>
-                            <constraint firstItem="tZ6-L0-P0D" firstAttribute="leading" secondItem="UfB-35-xZe" secondAttribute="leading" id="ZDZ-Rt-X6i"/>
-                            <constraint firstItem="EXt-pc-bUi" firstAttribute="centerX" secondItem="Jcj-Ms-djm" secondAttribute="centerX" id="ZWl-oT-vhf"/>
-                            <constraint firstItem="xtf-mS-GVf" firstAttribute="centerX" secondItem="EXt-pc-bUi" secondAttribute="centerX" id="a7s-Wl-UoG"/>
-                            <constraint firstItem="xtf-mS-GVf" firstAttribute="centerX" secondItem="5vQ-go-791" secondAttribute="centerX" id="dz4-Cm-niV"/>
-                            <constraint firstItem="xtf-mS-GVf" firstAttribute="top" secondItem="5vQ-go-791" secondAttribute="bottom" constant="8" symbolic="YES" id="f0k-5D-bkh"/>
-                            <constraint firstItem="RlH-ml-L00" firstAttribute="leading" secondItem="Jx9-xd-fOd" secondAttribute="leading" id="gE6-w3-d16"/>
-                            <constraint firstItem="FvB-28-9RP" firstAttribute="top" secondItem="Jcj-Ms-djm" secondAttribute="bottom" constant="14" id="hd1-MQ-kwn"/>
-                            <constraint firstItem="Jx9-xd-fOd" firstAttribute="top" secondItem="FvB-28-9RP" secondAttribute="bottom" constant="8" symbolic="YES" id="hx7-BV-RfZ"/>
-                            <constraint firstItem="EBx-Yh-T50" firstAttribute="centerX" secondItem="xtf-mS-GVf" secondAttribute="centerX" id="mCJ-H2-gVN"/>
-                            <constraint firstItem="RlH-ml-L00" firstAttribute="top" secondItem="F4w-6i-NOz" secondAttribute="bottom" constant="3" id="mHu-c1-uHi"/>
-                            <constraint firstItem="Jcj-Ms-djm" firstAttribute="centerX" secondItem="FvB-28-9RP" secondAttribute="centerX" id="ni2-Ka-Yhp"/>
-                            <constraint firstItem="5vQ-go-791" firstAttribute="top" secondItem="tZ6-L0-P0D" secondAttribute="bottom" constant="3" id="vUX-Pi-2pj"/>
-                            <constraint firstItem="tZ6-L0-P0D" firstAttribute="centerX" secondItem="5vQ-go-791" secondAttribute="centerX" id="wBJ-4m-qSf"/>
+                            <constraint firstItem="5vQ-go-791" firstAttribute="trailing" secondItem="7bL-sr-swL" secondAttribute="trailing" id="048-zL-WmP"/>
+                            <constraint firstItem="ej2-zQ-fZD" firstAttribute="centerX" secondItem="Mq3-2K-fPb" secondAttribute="centerX" id="2s8-ea-yfo"/>
+                            <constraint firstItem="ViB-nT-h7Q" firstAttribute="top" secondItem="Cnl-Xb-YBr" secondAttribute="bottom" constant="8" symbolic="YES" id="47h-bM-lop"/>
+                            <constraint firstItem="UfB-35-xZe" firstAttribute="trailing" secondItem="tZ6-L0-P0D" secondAttribute="trailing" id="66A-41-9AC"/>
+                            <constraint firstItem="tZ6-L0-P0D" firstAttribute="top" secondItem="UfB-35-xZe" secondAttribute="bottom" constant="8" symbolic="YES" id="9zO-WO-9Gb"/>
+                            <constraint firstItem="5vQ-go-791" firstAttribute="centerX" secondItem="Mq3-2K-fPb" secondAttribute="centerX" id="EuO-ko-jh4"/>
+                            <constraint firstItem="Jcj-Ms-djm" firstAttribute="centerX" secondItem="dHT-b2-bEm" secondAttribute="centerX" id="G6H-sh-W4I"/>
+                            <constraint firstItem="tZ6-L0-P0D" firstAttribute="centerX" secondItem="5vQ-go-791" secondAttribute="centerX" id="QQx-bf-6U6"/>
+                            <constraint firstItem="UfB-35-xZe" firstAttribute="top" secondItem="RlH-ml-L00" secondAttribute="bottom" constant="8" symbolic="YES" id="W8o-9D-0ES"/>
+                            <constraint firstItem="F4w-6i-NOz" firstAttribute="centerX" secondItem="ViB-nT-h7Q" secondAttribute="centerX" id="Wef-78-1Wt"/>
+                            <constraint firstItem="F4w-6i-NOz" firstAttribute="trailing" secondItem="RlH-ml-L00" secondAttribute="trailing" id="YCl-9a-pss"/>
+                            <constraint firstItem="ej2-zQ-fZD" firstAttribute="top" secondItem="Mq3-2K-fPb" secondAttribute="bottom" constant="15" id="YF3-1f-Atb"/>
+                            <constraint firstItem="5vQ-go-791" firstAttribute="centerX" secondItem="VyJ-hk-uWS" secondAttribute="centerX" id="a4D-sa-Qku"/>
+                            <constraint firstItem="dHT-b2-bEm" firstAttribute="top" secondItem="Jcj-Ms-djm" secondAttribute="bottom" constant="17" id="bWD-Xl-Yg2"/>
+                            <constraint firstItem="7bL-sr-swL" firstAttribute="top" secondItem="ej2-zQ-fZD" secondAttribute="bottom" constant="13" id="cY1-8u-eaE"/>
+                            <constraint firstItem="Mq3-2K-fPb" firstAttribute="top" secondItem="5vQ-go-791" secondAttribute="bottom" constant="13" id="eSz-R9-T6G"/>
+                            <constraint firstItem="UfB-35-xZe" firstAttribute="trailing" secondItem="RlH-ml-L00" secondAttribute="trailing" id="h58-IX-NpV"/>
+                            <constraint firstItem="UfB-35-xZe" firstAttribute="leading" secondItem="tZ6-L0-P0D" secondAttribute="leading" id="hxU-dU-2Q7"/>
+                            <constraint firstItem="UfB-35-xZe" firstAttribute="leading" secondItem="RlH-ml-L00" secondAttribute="leading" id="iEf-BV-7JB"/>
+                            <constraint firstItem="F4w-6i-NOz" firstAttribute="top" secondItem="ViB-nT-h7Q" secondAttribute="bottom" constant="14" id="jFd-i4-fG8"/>
+                            <constraint firstItem="F4w-6i-NOz" firstAttribute="leading" secondItem="RlH-ml-L00" secondAttribute="leading" id="jN7-w1-FT7"/>
+                            <constraint firstItem="PCp-Nc-gXY" firstAttribute="top" secondItem="dHT-b2-bEm" secondAttribute="bottom" constant="20" id="mi0-wm-Hdj"/>
+                            <constraint firstItem="RlH-ml-L00" firstAttribute="top" secondItem="F4w-6i-NOz" secondAttribute="bottom" constant="8" symbolic="YES" id="n6K-Iv-GGW"/>
+                            <constraint firstItem="5vQ-go-791" firstAttribute="top" secondItem="tZ6-L0-P0D" secondAttribute="bottom" constant="42" id="ojJ-dC-p6N"/>
+                            <constraint firstItem="dHT-b2-bEm" firstAttribute="centerX" secondItem="PCp-Nc-gXY" secondAttribute="centerX" id="saZ-Nx-N0j"/>
+                            <constraint firstItem="7bL-sr-swL" firstAttribute="centerX" secondItem="ej2-zQ-fZD" secondAttribute="centerX" id="xfu-Nw-6VB"/>
+                            <constraint firstItem="Jcj-Ms-djm" firstAttribute="top" secondItem="7bL-sr-swL" secondAttribute="bottom" constant="17" id="xh9-6c-QAH"/>
+                            <constraint firstItem="Jcj-Ms-djm" firstAttribute="centerX" secondItem="ej2-zQ-fZD" secondAttribute="centerX" id="z2j-dM-Qun"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0Ot-gp-Iqj"/>
                     <connections>
+                        <outlet property="leventBtn" destination="RlH-ml-L00" id="NEg-Jv-mP9"/>
+                        <outlet property="metinBtn" destination="tZ6-L0-P0D" id="2TP-JD-g9e"/>
+                        <outlet property="ozcanBtn" destination="F4w-6i-NOz" id="fzY-kS-mi8"/>
+                        <outlet property="zafirBtn" destination="UfB-35-xZe" id="Jm1-ek-uVe"/>
                         <segue destination="zxy-Qa-IFW" kind="push" id="Omg-Z2-A0i"/>
                     </connections>
                 </viewController>
@@ -850,6 +908,6 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="UlG-fJ-FqP"/>
-        <segue reference="HLq-qg-8vr"/>
+        <segue reference="Omg-Z2-A0i"/>
     </inferredMetricsTieBreakers>
 </document>
