@@ -21,7 +21,7 @@
     //self.view.backgroundColor = colour;
     // Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.title=@"ANASAYFA";
-    UIImage *image = [UIImage imageNamed: @"hmt.png"];
+    UIImage *image = [UIImage imageNamed: @"sidebar-logo1.png"];
     _logo.image=image;
     //_label.lineBreakMode = NSLineBreakByWordWrapping;
     //_label.numberOfLines = 1;//tek satıra sığdırma kodu

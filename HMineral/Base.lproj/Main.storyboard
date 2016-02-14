@@ -66,50 +66,50 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Mi-2f-B2f">
-                                <rect key="frame" x="173" y="92" width="255" height="30"/>
-                                <state key="normal" title="Malzeme Kırılma ve Karakterizasyonu"/>
+                                <rect key="frame" x="169" y="92" width="263" height="30"/>
+                                <state key="normal" title=" Malzeme Kırılma ve Karakterizasyonu "/>
                                 <connections>
                                     <action selector="malzemeButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="1VU-6E-gPa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uqm-Dh-0Jx">
-                                <rect key="frame" x="200" y="147" width="201" height="30"/>
-                                <state key="normal" title="Kırma, Öğütme, Sınıflandırma"/>
+                                <rect key="frame" x="169" y="147" width="263" height="30"/>
+                                <state key="normal" title=" Kırma, Öğütme, Sınıflandırma "/>
                                 <connections>
                                     <action selector="kirmaButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="xXw-TX-2d5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtM-Nk-lDH">
-                                <rect key="frame" x="267" y="204" width="66" height="30"/>
-                                <state key="normal" title="Flotasyon"/>
+                                <rect key="frame" x="169" y="204" width="263" height="30"/>
+                                <state key="normal" title=" Flotasyon "/>
                                 <connections>
                                     <action selector="flotasyonButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="RGK-PN-eLG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbY-ZX-BYy">
-                                <rect key="frame" x="189" y="250" width="223" height="30"/>
-                                <state key="normal" title="Manyetik ve Yerçekimiyle Ayırma"/>
+                                <rect key="frame" x="169" y="256" width="263" height="30"/>
+                                <state key="normal" title=" Manyetik ve Yerçekimiyle Ayırma "/>
                                 <connections>
                                     <action selector="manyetikButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="ySW-Rh-Jgk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y82-gt-Wds">
-                                <rect key="frame" x="251" y="301" width="98" height="30"/>
-                                <state key="normal" title="Yüzey Kimyası"/>
+                                <rect key="frame" x="169" y="310" width="263" height="30"/>
+                                <state key="normal" title=" Yüzey Kimyası "/>
                                 <connections>
                                     <action selector="yuzeyButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="BUn-BD-IxZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufJ-zB-P6P">
-                                <rect key="frame" x="236" y="356" width="128" height="30"/>
-                                <state key="normal" title="Proses Mineralojisi"/>
+                                <rect key="frame" x="169" y="361" width="263" height="30"/>
+                                <state key="normal" title=" Proses Mineralojisi "/>
                                 <connections>
                                     <action selector="prosesButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="ajs-rc-D6J"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSW-40-77O">
-                                <rect key="frame" x="252" y="410" width="96" height="30"/>
-                                <state key="normal" title="Analitik Kimya"/>
+                                <rect key="frame" x="169" y="417" width="263" height="30"/>
+                                <state key="normal" title=" Analitik Kimya "/>
                                 <connections>
                                     <action selector="analitikButtonpressed:" destination="dvE-rk-hfq" eventType="touchUpInside" id="vrv-OP-lpb"/>
                                 </connections>
@@ -117,23 +117,38 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ufJ-zB-P6P" firstAttribute="centerX" secondItem="Y82-gt-Wds" secondAttribute="centerX" id="5Sz-vz-JXe"/>
-                            <constraint firstItem="ufJ-zB-P6P" firstAttribute="centerX" secondItem="BSW-40-77O" secondAttribute="centerX" id="81S-KD-tvz"/>
-                            <constraint firstItem="mbY-ZX-BYy" firstAttribute="centerX" secondItem="Y82-gt-Wds" secondAttribute="centerX" id="Dh1-ri-yeX"/>
-                            <constraint firstItem="FtM-Nk-lDH" firstAttribute="centerX" secondItem="mbY-ZX-BYy" secondAttribute="centerX" id="GqO-Hq-BY8"/>
-                            <constraint firstItem="BSW-40-77O" firstAttribute="top" secondItem="ufJ-zB-P6P" secondAttribute="bottom" constant="24" id="LSD-vM-h8V"/>
-                            <constraint firstItem="ufJ-zB-P6P" firstAttribute="centerX" secondItem="wqH-ap-y2v" secondAttribute="centerX" id="Re5-as-ase"/>
-                            <constraint firstItem="Y82-gt-Wds" firstAttribute="top" secondItem="mbY-ZX-BYy" secondAttribute="bottom" constant="21" id="TuC-nA-HFP"/>
-                            <constraint firstItem="Uqm-Dh-0Jx" firstAttribute="centerX" secondItem="0Mi-2f-B2f" secondAttribute="centerX" id="UvE-cx-XsE"/>
-                            <constraint firstItem="FtM-Nk-lDH" firstAttribute="centerX" secondItem="Uqm-Dh-0Jx" secondAttribute="centerX" id="X15-Cs-fLF"/>
-                            <constraint firstItem="Uqm-Dh-0Jx" firstAttribute="top" secondItem="0Mi-2f-B2f" secondAttribute="bottom" constant="25" id="aYT-MF-f10"/>
-                            <constraint firstItem="mbY-ZX-BYy" firstAttribute="top" secondItem="FtM-Nk-lDH" secondAttribute="bottom" constant="16" id="lQg-SK-e5l"/>
-                            <constraint firstItem="FtM-Nk-lDH" firstAttribute="top" secondItem="Uqm-Dh-0Jx" secondAttribute="bottom" constant="27" id="qJC-NJ-lKA"/>
-                            <constraint firstItem="ufJ-zB-P6P" firstAttribute="top" secondItem="Y82-gt-Wds" secondAttribute="bottom" constant="25" id="vce-Pa-0iT"/>
-                            <constraint firstItem="0Mi-2f-B2f" firstAttribute="top" secondItem="1m8-k9-jAh" secondAttribute="bottom" constant="28" id="z1v-rL-i6c"/>
+                            <constraint firstItem="0Mi-2f-B2f" firstAttribute="trailing" secondItem="Uqm-Dh-0Jx" secondAttribute="trailing" id="8No-xd-SJV"/>
+                            <constraint firstItem="0Mi-2f-B2f" firstAttribute="top" secondItem="1m8-k9-jAh" secondAttribute="bottom" constant="28" id="AYW-7y-dpQ"/>
+                            <constraint firstItem="mbY-ZX-BYy" firstAttribute="trailing" secondItem="Y82-gt-Wds" secondAttribute="trailing" id="BHI-2q-eFN"/>
+                            <constraint firstItem="Uqm-Dh-0Jx" firstAttribute="centerX" secondItem="wqH-ap-y2v" secondAttribute="centerX" id="CT9-DP-OG5"/>
+                            <constraint firstItem="0Mi-2f-B2f" firstAttribute="leading" secondItem="Uqm-Dh-0Jx" secondAttribute="leading" id="IIk-Xw-G9q"/>
+                            <constraint firstItem="FtM-Nk-lDH" firstAttribute="leading" secondItem="mbY-ZX-BYy" secondAttribute="leading" id="PZx-Tx-C7o"/>
+                            <constraint firstItem="mbY-ZX-BYy" firstAttribute="top" secondItem="FtM-Nk-lDH" secondAttribute="bottom" constant="22" id="RNZ-BU-AE8"/>
+                            <constraint firstItem="ufJ-zB-P6P" firstAttribute="trailing" secondItem="BSW-40-77O" secondAttribute="trailing" id="RjN-Td-hF7"/>
+                            <constraint firstItem="Y82-gt-Wds" firstAttribute="top" secondItem="mbY-ZX-BYy" secondAttribute="bottom" constant="24" id="SA1-wI-q7b"/>
+                            <constraint firstItem="ufJ-zB-P6P" firstAttribute="trailing" secondItem="Y82-gt-Wds" secondAttribute="trailing" id="VNg-vd-YQb"/>
+                            <constraint firstItem="BSW-40-77O" firstAttribute="leading" secondItem="ufJ-zB-P6P" secondAttribute="leading" id="VvF-bs-BbQ"/>
+                            <constraint firstItem="FtM-Nk-lDH" firstAttribute="top" secondItem="Uqm-Dh-0Jx" secondAttribute="bottom" constant="27" id="YuZ-7f-bAn"/>
+                            <constraint firstItem="mbY-ZX-BYy" firstAttribute="trailing" secondItem="FtM-Nk-lDH" secondAttribute="trailing" id="hZE-IK-3Ku"/>
+                            <constraint firstItem="Uqm-Dh-0Jx" firstAttribute="top" secondItem="0Mi-2f-B2f" secondAttribute="bottom" constant="25" id="iZe-AN-8j4"/>
+                            <constraint firstItem="BSW-40-77O" firstAttribute="top" secondItem="ufJ-zB-P6P" secondAttribute="bottom" constant="26" id="lGI-s1-E7p"/>
+                            <constraint firstItem="mbY-ZX-BYy" firstAttribute="leading" secondItem="Y82-gt-Wds" secondAttribute="leading" id="oOR-J1-aiV"/>
+                            <constraint firstItem="FtM-Nk-lDH" firstAttribute="leading" secondItem="Uqm-Dh-0Jx" secondAttribute="leading" id="peB-qh-HJb"/>
+                            <constraint firstItem="ufJ-zB-P6P" firstAttribute="leading" secondItem="Y82-gt-Wds" secondAttribute="leading" id="uKd-Jz-93i"/>
+                            <constraint firstItem="ufJ-zB-P6P" firstAttribute="top" secondItem="Y82-gt-Wds" secondAttribute="bottom" constant="21" id="y3o-73-KWD"/>
+                            <constraint firstItem="Uqm-Dh-0Jx" firstAttribute="trailing" secondItem="FtM-Nk-lDH" secondAttribute="trailing" id="zcU-Ok-Wnd"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jyE-rV-tJD"/>
+                    <connections>
+                        <outlet property="btn1" destination="0Mi-2f-B2f" id="hDN-YH-9cj"/>
+                        <outlet property="btn2" destination="Uqm-Dh-0Jx" id="WLD-bz-mJP"/>
+                        <outlet property="btn3" destination="FtM-Nk-lDH" id="iXs-HO-kMa"/>
+                        <outlet property="btn4" destination="mbY-ZX-BYy" id="sPB-x5-pYf"/>
+                        <outlet property="btn5" destination="Y82-gt-Wds" id="pQf-p1-jsJ"/>
+                        <outlet property="btn6" destination="ufJ-zB-P6P" id="Ixs-Ar-Q1A"/>
+                        <outlet property="btn7" destination="BSW-40-77O" id="ORd-hK-90y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sed-he-NTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -345,7 +360,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gg0-uX-ViH">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Araştırma ekibinin geniş çerçevedeki uzmanlık alanları HMT’ye cevher hazırlamanın çeşitli alanlarında çalışma imkanı tanımaktadır. Bu nedenle, HMT, herhangi bir cevher hazırlama projesini cevher karakterizasyon aşamasından konsantre üretimine kadar tamamlayabilecek beceriye sahiptir. Bu çeşitlilik üretkenlik ve mükemmelliyet olgusunu geliştirmektedir. HMT’nin AR-GE kapsamındaki araştırma alanları aşağıda verilmektedir; 
+                                <string key="text">Araştırma ekibinin geniş çerçevedeki uzmanlık alanları HMT’ye cevher hazırlamanın çeşitli alanlarında çalışma imkanı tanımaktadır. Bu nedenle, HMT, herhangi bir cevher hazırlama projesini cevher karakterizasyon aşamasından konsantre üretimine kadar tamamlayabilecek beceriye sahiptir. Bu çeşitlilik üretkenlik ve mükemmelliyet olgusunu geliştirmektedir. HMT’nin AR-GE kapsamındaki araştırma alanları aşağıda verilmektedir; 
 
 - Modelleme ve simülasyonla performans değerlendirme ve optimizasyon
 
@@ -377,7 +392,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
 
 - Cevher hazırlama için yazılımların geliştirilmesi
 
-- Lave kömür yıkama devresi tasarımı programı</mutableString>
+- Lave kömür yıkama devresi tasarımı programı</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

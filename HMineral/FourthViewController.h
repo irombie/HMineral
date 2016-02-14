@@ -24,5 +24,23 @@
 
 -(IBAction)analitikButtonpressed:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIButton *btn1;
+
+@property (weak, nonatomic) IBOutlet UIButton *btn2;
+
+@property (weak, nonatomic) IBOutlet UIButton *btn3;
+
+@property (weak, nonatomic) IBOutlet UIButton *btn4;
+
+@property (weak, nonatomic) IBOutlet UIButton *btn5;
+
+@property (weak, nonatomic) IBOutlet UIButton *btn6;
+
+@property (weak, nonatomic) IBOutlet UIButton *btn7;
+
++ (UIColor *)red;
++ (UIColor *)backGr;
++ (UIColor *)navy;
+
 
 @end

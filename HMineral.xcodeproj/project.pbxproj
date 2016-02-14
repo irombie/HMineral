@@ -33,6 +33,7 @@
 		A86B8C171C5438410034A081 /* SeventhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C161C5438410034A081 /* SeventhViewController.m */; };
 		A86B8C1A1C54392F0034A081 /* EighthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C191C54392F0034A081 /* EighthViewController.m */; };
 		A86B8C1D1C543CE10034A081 /* NinthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C1C1C543CE10034A081 /* NinthViewController.m */; };
+		A8700EC51C70F594000AD0C5 /* sidebar-logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = A8700EC41C70F594000AD0C5 /* sidebar-logo1.png */; };
 		A887F24C1C594FB5000FD008 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A887F24B1C594FB5000FD008 /* MessageUI.framework */; };
 		A8B820211C674E010031C0C1 /* hmt.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B8201B1C674E010031C0C1 /* hmt.png */; };
 		A8B820221C674E010031C0C1 /* minerology.gif in Resources */ = {isa = PBXBuildFile; fileRef = A8B8201C1C674E010031C0C1 /* minerology.gif */; };
@@ -105,6 +106,7 @@
 		A86B8C191C54392F0034A081 /* EighthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EighthViewController.m; sourceTree = "<group>"; };
 		A86B8C1B1C543CE10034A081 /* NinthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinthViewController.h; sourceTree = "<group>"; };
 		A86B8C1C1C543CE10034A081 /* NinthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinthViewController.m; sourceTree = "<group>"; };
+		A8700EC41C70F594000AD0C5 /* sidebar-logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidebar-logo1.png"; sourceTree = "<group>"; };
 		A887F24B1C594FB5000FD008 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		A8B8201B1C674E010031C0C1 /* hmt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hmt.png; sourceTree = "<group>"; };
 		A8B8201C1C674E010031C0C1 /* minerology.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = minerology.gif; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				A86B8BB61C53AFA10034A081 /* AppDelegate.h */,
+				A8700EC41C70F594000AD0C5 /* sidebar-logo1.png */,
 				A86B8BB71C53AFA10034A081 /* AppDelegate.m */,
 				A86B8BB91C53AFA10034A081 /* ViewController.h */,
 				A86B8BBA1C53AFA10034A081 /* ViewController.m */,
@@ -362,6 +365,7 @@
 				A8B820281C675CB60031C0C1 /* yapim_asamasi.jpg in Resources */,
 				A8E5797E1C6DBAB800B54068 /* kir_soru.jpg in Resources */,
 				A8B820231C674E010031C0C1 /* mmo.jpg in Resources */,
+				A8700EC51C70F594000AD0C5 /* sidebar-logo1.png in Resources */,
 				A8B820241C674E010031C0C1 /* mta.jpg in Resources */,
 				A86B8BC31C53AFA20034A081 /* LaunchScreen.storyboard in Resources */,
 				A86B8BC01C53AFA20034A081 /* Assets.xcassets in Resources */,
