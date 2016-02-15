@@ -52,6 +52,7 @@
     CALayer *btnLayer1 = [_btn1 layer];
     [btnLayer1 setMasksToBounds:YES];
     [btnLayer1 setCornerRadius:5.0f];
+    [_btn1 setBackgroundColor:[ViewController whitish]];
     
     //other buttons..
     
@@ -63,6 +64,7 @@
     CALayer *btnLayer2 = [_btn2 layer];
     [btnLayer2 setMasksToBounds:YES];
     [btnLayer2 setCornerRadius:5.0f];
+    [_btn2 setBackgroundColor:[ViewController whitish]];
     
     [_btn3 setTitleColor:[ViewController red] forState:UIControlStateNormal];
    
@@ -71,6 +73,7 @@
     CALayer *btnLayer3 = [_btn3 layer];
     [btnLayer3 setMasksToBounds:YES];
     [btnLayer3 setCornerRadius:5.0f];
+    [_btn3 setBackgroundColor:[ViewController whitish]];
     
     [_btn4 setTitleColor:[ViewController red] forState:UIControlStateNormal];
     [[_btn4 layer] setBorderWidth:2.0f];
@@ -79,6 +82,7 @@
     CALayer *btnLayer4 = [_btn4 layer];
     [btnLayer4 setMasksToBounds:YES];
     [btnLayer4 setCornerRadius:5.0f];
+    [_btn4 setBackgroundColor:[ViewController whitish]];
     
     [_btn5 setTitleColor:[ViewController red] forState:UIControlStateNormal];
     
@@ -88,6 +92,7 @@
     CALayer *btnLayer5 = [_btn5 layer];
     [btnLayer5 setMasksToBounds:YES];
     [btnLayer5 setCornerRadius:5.0f];
+    [_btn5 setBackgroundColor:[ViewController whitish]];
     
     
     [_btn6 setTitleColor:[ViewController red] forState:UIControlStateNormal];
@@ -97,6 +102,7 @@
     CALayer *btnLayer6 = [_btn6 layer];
     [btnLayer6 setMasksToBounds:YES];
     [btnLayer6 setCornerRadius:5.0f];
+    [_btn6 setBackgroundColor:[ViewController whitish]];
     
     [_btn7 setTitleColor:[ViewController red] forState:UIControlStateNormal];
     [[_btn7 layer] setBorderWidth:2.0f];
@@ -105,6 +111,7 @@
     CALayer *btnLayer7 = [_btn7 layer];
     [btnLayer7 setMasksToBounds:YES];
     [btnLayer7 setCornerRadius:5.0f];
+    [_btn7 setBackgroundColor:[ViewController whitish]];
     
     [_btn8 setTitleColor:[ViewController red] forState:UIControlStateNormal];
     
@@ -113,7 +120,7 @@
     CALayer *btnLayer8 = [_btn8 layer];
     [btnLayer8 setMasksToBounds:YES];
     [btnLayer8 setCornerRadius:5.0f];
-
+    [_btn8 setBackgroundColor:[ViewController whitish]];
    
 }
 
@@ -160,5 +167,9 @@
 +(UIColor *) navy{
     return [UIColor colorWithRed:9.0f/255.0f green:48.0f/255.0f blue:95.0f/255.0f alpha:1.0f];
 }
++(UIColor *) whitish{
+    return [UIColor colorWithRed:244.0f/255.0f green:244.0f/255.0f blue:245.0f/255.0f alpha:1.0f];
+}
+
 
 @end

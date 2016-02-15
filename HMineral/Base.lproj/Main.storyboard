@@ -169,7 +169,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cV8-uo-09W">
                                 <rect key="frame" x="203" y="297" width="195" height="27"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="27" id="LfU-nI-t0M"/>
+                                    <constraint firstAttribute="height" constant="27" id="sZ4-IR-2bg"/>
                                 </constraints>
                                 <state key="normal" title="  HAKKIMIZDA  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -180,6 +180,9 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhI-Qp-m10">
                                 <rect key="frame" x="203" y="332" width="195" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="2w3-7Y-K5R"/>
+                                </constraints>
                                 <state key="normal" title="  AR-GE  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -189,6 +192,9 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWF-6G-HfC">
                                 <rect key="frame" x="203" y="367" width="195" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="CWq-VY-2x8"/>
+                                </constraints>
                                 <state key="normal" title="  LABORATUVAR  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -198,6 +204,9 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eaj-YL-KOR">
                                 <rect key="frame" x="203" y="407" width="195" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="DPh-RH-Qu6"/>
+                                </constraints>
                                 <state key="normal" title="  YAZILIM VE SİMÜLASYON  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -207,6 +216,9 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bf-Ni-Str">
                                 <rect key="frame" x="203" y="442" width="195" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="7aE-HQ-kUU"/>
+                                </constraints>
                                 <state key="normal" title="  ARAÇLAR  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -216,6 +228,9 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0x-le-irB">
                                 <rect key="frame" x="203" y="477" width="195" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="bk8-G3-Cah"/>
+                                </constraints>
                                 <state key="normal" title="  BAĞLANTILAR  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -225,6 +240,9 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-oO-tqM">
                                 <rect key="frame" x="203" y="512" width="195" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="5Fl-lT-tdN"/>
+                                </constraints>
                                 <state key="normal" title="  KADROMUZ  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -234,6 +252,9 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWb-tD-Uvi">
                                 <rect key="frame" x="203" y="547" width="195" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="799-HN-DUb"/>
+                                </constraints>
                                 <state key="normal" title="  İLETİŞİM  ">
                                     <color key="titleColor" red="0.096713115609999997" green="0.1121182423" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -242,47 +263,40 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x9b-vJ-Ogj">
-                                <rect key="frame" x="182" y="80" width="237" height="170"/>
+                                <rect key="frame" x="187" y="80" width="227" height="170"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="237" id="TDR-bj-v0u"/>
+                                    <constraint firstAttribute="width" constant="227" id="ZcM-We-nd0"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="height" secondItem="WWF-6G-HfC" secondAttribute="height" id="5dU-ko-4oY"/>
-                            <constraint firstItem="WWF-6G-HfC" firstAttribute="trailing" secondItem="QhI-Qp-m10" secondAttribute="trailing" id="6ej-g2-cZ6"/>
-                            <constraint firstItem="G0x-le-irB" firstAttribute="top" secondItem="2bf-Ni-Str" secondAttribute="bottom" constant="8" symbolic="YES" id="770-BD-Wbc"/>
-                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="top" secondItem="7cL-oO-tqM" secondAttribute="bottom" constant="8" symbolic="YES" id="B15-LS-pNn"/>
-                            <constraint firstItem="x9b-vJ-Ogj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="ChT-I4-78Y"/>
-                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="height" secondItem="7cL-oO-tqM" secondAttribute="height" id="Fcz-BH-KfO"/>
-                            <constraint firstItem="cV8-uo-09W" firstAttribute="centerX" secondItem="x9b-vJ-Ogj" secondAttribute="centerX" id="IPq-J5-D1c"/>
-                            <constraint firstItem="cV8-uo-09W" firstAttribute="top" secondItem="x9b-vJ-Ogj" secondAttribute="bottom" constant="47" id="L7X-Dk-VKp"/>
-                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="height" secondItem="2bf-Ni-Str" secondAttribute="height" id="LBU-1Q-nKr"/>
-                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="height" secondItem="cV8-uo-09W" secondAttribute="height" id="Lv2-Nc-EsL"/>
-                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="top" secondItem="WWF-6G-HfC" secondAttribute="bottom" constant="13" id="OCI-ZZ-ym6"/>
-                            <constraint firstItem="WWF-6G-HfC" firstAttribute="leading" secondItem="Eaj-YL-KOR" secondAttribute="leading" id="PpL-pl-fnx"/>
-                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="trailing" secondItem="WWF-6G-HfC" secondAttribute="trailing" id="SID-Wk-2N1"/>
-                            <constraint firstItem="G0x-le-irB" firstAttribute="leading" secondItem="2bf-Ni-Str" secondAttribute="leading" id="SRd-Mw-uAe"/>
-                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="height" secondItem="Eaj-YL-KOR" secondAttribute="height" id="T40-kK-PqD"/>
-                            <constraint firstItem="7cL-oO-tqM" firstAttribute="leading" secondItem="bWb-tD-Uvi" secondAttribute="leading" id="WJV-cK-UTZ"/>
-                            <constraint firstItem="QhI-Qp-m10" firstAttribute="top" secondItem="cV8-uo-09W" secondAttribute="bottom" constant="8" symbolic="YES" id="YGj-2O-C37"/>
-                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aqY-yu-OvG"/>
-                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="height" secondItem="G0x-le-irB" secondAttribute="height" id="cIj-YS-fEQ"/>
-                            <constraint firstItem="2bf-Ni-Str" firstAttribute="trailing" secondItem="G0x-le-irB" secondAttribute="trailing" id="cqE-aH-jKX"/>
-                            <constraint firstItem="WWF-6G-HfC" firstAttribute="leading" secondItem="QhI-Qp-m10" secondAttribute="leading" id="dRg-3c-aYQ"/>
-                            <constraint firstItem="WWF-6G-HfC" firstAttribute="top" secondItem="QhI-Qp-m10" secondAttribute="bottom" constant="8" symbolic="YES" id="dhG-Js-VZE"/>
-                            <constraint firstItem="2bf-Ni-Str" firstAttribute="leading" secondItem="Eaj-YL-KOR" secondAttribute="leading" id="fQc-Rq-Ab2"/>
-                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="height" secondItem="QhI-Qp-m10" secondAttribute="height" id="g6a-iG-jIX"/>
-                            <constraint firstItem="QhI-Qp-m10" firstAttribute="leading" secondItem="cV8-uo-09W" secondAttribute="leading" id="i2r-dE-aZi"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bWb-tD-Uvi" secondAttribute="bottom" constant="26" id="leX-Lz-WKp"/>
-                            <constraint firstItem="7cL-oO-tqM" firstAttribute="trailing" secondItem="G0x-le-irB" secondAttribute="trailing" id="nRv-q4-Y2V"/>
-                            <constraint firstItem="2bf-Ni-Str" firstAttribute="top" secondItem="Eaj-YL-KOR" secondAttribute="bottom" constant="8" symbolic="YES" id="nXo-ZM-a6L"/>
-                            <constraint firstItem="7cL-oO-tqM" firstAttribute="leading" secondItem="G0x-le-irB" secondAttribute="leading" id="osy-2W-agY"/>
-                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="trailing" secondItem="2bf-Ni-Str" secondAttribute="trailing" id="pE2-e0-fhK"/>
-                            <constraint firstItem="QhI-Qp-m10" firstAttribute="trailing" secondItem="cV8-uo-09W" secondAttribute="trailing" id="pSt-Gs-zfM"/>
-                            <constraint firstItem="7cL-oO-tqM" firstAttribute="trailing" secondItem="bWb-tD-Uvi" secondAttribute="trailing" id="vFr-sT-bUs"/>
-                            <constraint firstItem="7cL-oO-tqM" firstAttribute="top" secondItem="G0x-le-irB" secondAttribute="bottom" constant="8" symbolic="YES" id="zVZ-V9-llT"/>
+                            <constraint firstItem="G0x-le-irB" firstAttribute="trailing" secondItem="2bf-Ni-Str" secondAttribute="trailing" id="0Aq-7t-6GP"/>
+                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="trailing" secondItem="7cL-oO-tqM" secondAttribute="trailing" id="0Wj-Rv-y03"/>
+                            <constraint firstItem="2bf-Ni-Str" firstAttribute="leading" secondItem="Eaj-YL-KOR" secondAttribute="leading" id="A9u-Az-CM4"/>
+                            <constraint firstItem="cV8-uo-09W" firstAttribute="centerX" secondItem="x9b-vJ-Ogj" secondAttribute="centerX" id="BhS-Ds-Ovv"/>
+                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="leading" secondItem="WWF-6G-HfC" secondAttribute="leading" id="CKk-MY-XjB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bWb-tD-Uvi" secondAttribute="bottom" constant="26" id="D3O-t2-raY"/>
+                            <constraint firstItem="G0x-le-irB" firstAttribute="trailing" secondItem="7cL-oO-tqM" secondAttribute="trailing" id="Efi-wb-sZd"/>
+                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="trailing" secondItem="WWF-6G-HfC" secondAttribute="trailing" id="Ejr-1Y-odp"/>
+                            <constraint firstItem="x9b-vJ-Ogj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="Gbj-BP-lj8"/>
+                            <constraint firstItem="2bf-Ni-Str" firstAttribute="top" secondItem="Eaj-YL-KOR" secondAttribute="bottom" constant="8" symbolic="YES" id="IYh-kI-url"/>
+                            <constraint firstItem="G0x-le-irB" firstAttribute="top" secondItem="2bf-Ni-Str" secondAttribute="bottom" constant="8" symbolic="YES" id="KIl-Nd-w2m"/>
+                            <constraint firstItem="G0x-le-irB" firstAttribute="leading" secondItem="7cL-oO-tqM" secondAttribute="leading" id="N6h-Pz-qbu"/>
+                            <constraint firstItem="WWF-6G-HfC" firstAttribute="top" secondItem="QhI-Qp-m10" secondAttribute="bottom" constant="8" symbolic="YES" id="Nvx-AC-q3l"/>
+                            <constraint firstItem="QhI-Qp-m10" firstAttribute="leading" secondItem="cV8-uo-09W" secondAttribute="leading" id="RVF-uf-jgx"/>
+                            <constraint firstItem="7cL-oO-tqM" firstAttribute="leading" secondItem="bWb-tD-Uvi" secondAttribute="leading" id="S1N-vZ-jfZ"/>
+                            <constraint firstItem="WWF-6G-HfC" firstAttribute="trailing" secondItem="QhI-Qp-m10" secondAttribute="trailing" id="VL9-hc-6Qu"/>
+                            <constraint firstItem="QhI-Qp-m10" firstAttribute="leading" secondItem="WWF-6G-HfC" secondAttribute="leading" id="ZNV-fM-eub"/>
+                            <constraint firstItem="7cL-oO-tqM" firstAttribute="top" secondItem="G0x-le-irB" secondAttribute="bottom" constant="8" symbolic="YES" id="dyA-m4-FGV"/>
+                            <constraint firstItem="QhI-Qp-m10" firstAttribute="trailing" secondItem="cV8-uo-09W" secondAttribute="trailing" id="fUS-dh-3S7"/>
+                            <constraint firstItem="cV8-uo-09W" firstAttribute="top" secondItem="x9b-vJ-Ogj" secondAttribute="bottom" constant="47" id="i4a-YJ-3eh"/>
+                            <constraint firstItem="Eaj-YL-KOR" firstAttribute="top" secondItem="WWF-6G-HfC" secondAttribute="bottom" constant="13" id="kb7-Ta-QPe"/>
+                            <constraint firstItem="2bf-Ni-Str" firstAttribute="trailing" secondItem="Eaj-YL-KOR" secondAttribute="trailing" id="lfY-2O-kLP"/>
+                            <constraint firstItem="QhI-Qp-m10" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qjO-js-ntC"/>
+                            <constraint firstItem="bWb-tD-Uvi" firstAttribute="top" secondItem="7cL-oO-tqM" secondAttribute="bottom" constant="8" symbolic="YES" id="tQg-e6-W1S"/>
+                            <constraint firstItem="QhI-Qp-m10" firstAttribute="top" secondItem="cV8-uo-09W" secondAttribute="bottom" constant="8" symbolic="YES" id="wO9-4i-RMM"/>
+                            <constraint firstItem="2bf-Ni-Str" firstAttribute="leading" secondItem="G0x-le-irB" secondAttribute="leading" id="x7T-AK-3eI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3oA-R1-FHV"/>
@@ -360,7 +374,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gg0-uX-ViH">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Araştırma ekibinin geniş çerçevedeki uzmanlık alanları HMT’ye cevher hazırlamanın çeşitli alanlarında çalışma imkanı tanımaktadır. Bu nedenle, HMT, herhangi bir cevher hazırlama projesini cevher karakterizasyon aşamasından konsantre üretimine kadar tamamlayabilecek beceriye sahiptir. Bu çeşitlilik üretkenlik ve mükemmelliyet olgusunu geliştirmektedir. HMT’nin AR-GE kapsamındaki araştırma alanları aşağıda verilmektedir; 
+                                <mutableString key="text">	Araştırma ekibinin geniş çerçevedeki uzmanlık alanları HMT’ye cevher hazırlamanın çeşitli alanlarında çalışma imkanı tanımaktadır. Bu nedenle, HMT, herhangi bir cevher hazırlama projesini cevher karakterizasyon aşamasından konsantre üretimine kadar tamamlayabilecek beceriye sahiptir. Bu çeşitlilik üretkenlik ve mükemmelliyet olgusunu geliştirmektedir. HMT’nin AR-GE kapsamındaki araştırma alanları aşağıda verilmektedir; 
 
 - Modelleme ve simülasyonla performans değerlendirme ve optimizasyon
 
@@ -392,7 +406,8 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
 
 - Cevher hazırlama için yazılımların geliştirilmesi
 
-- Lave kömür yıkama devresi tasarımı programı</string>
+- Lave kömür yıkama devresi tasarımı programı</mutableString>
+                                <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -429,8 +444,7 @@ Temel cevher hazırlama hesaplamalarında kullanılabilecek araçlar çok yakın
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z9f-I4-kA1">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">
-HMT cevher zenginleştirme tesis tasarımında simülasyon araçlarından yoğun olarak yararlanmaktadır. Buna yönelik modelleme çalışmalarınıda yapabilmektedir. Genel olarak yaygın şekilde kullanılan simülasyon paketleri aşağıda sunulmaktadır: 
+                                <mutableString key="text">	HMT cevher zenginleştirme tesis tasarımında simülasyon araçlarından yoğun olarak yararlanmaktadır. Buna yönelik modelleme çalışmalarınıda yapabilmektedir. Genel olarak yaygın şekilde kullanılan simülasyon paketleri aşağıda sunulmaktadır: 
 
 - JKSimMet
 
@@ -442,7 +456,8 @@ HMT cevher zenginleştirme tesis tasarımında simülasyon araçlarından yoğun
 
 - Kırma ve eleme ile ilgili mevcut tüm simülasyon programları
 
-- Cevher hazırlama devresi çizim programı (HMT yazılımı)</string>
+- Cevher hazırlama devresi çizim programı (HMT yazılımı)</mutableString>
+                                <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -479,33 +494,26 @@ HMT cevher zenginleştirme tesis tasarımında simülasyon araçlarından yoğun
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="w8L-fh-Z1K">
                                 <rect key="frame" x="0.0" y="72" width="600" height="315"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">
-Hacettepe Mineral Teknolojileri Hacettepe Üniversitesi Teknoloji Geliştirme Merkezi’nde Konusunda uzman bir grup Öğretim Üyesi tarafından kurulmuş bir şirkettir.
+                                <mutableString key="text">	Hacettepe Mineral Teknolojileri Hacettepe Üniversitesi Teknoloji Geliştirme Merkezi’nde Konusunda uzman bir grup Öğretim Üyesi tarafından kurulmuş bir şirkettir.
 
-HMT doğadan çıkartılan madenlerin zenginleştirilmesi amacıyla gerekli olan tüm laboratuvar çalışmaları, modelleme ve simülasyonla devre tasarımı, akım şeması geliştirme ve ekipman seçimi/boyutlandırması işlerini kapsayan Ar-Ge faaliyetleri konusunda hizmet vermektedir. Endüstriye verilen bu Ar-Ge destekleri yanında ekipman tasarımı ve cevher hazırlama devrelerinin modelleme/simülasyonu konularında Ar-Ge çalışmaları yürütmektedir.
+	HMT doğadan çıkartılan madenlerin zenginleştirilmesi amacıyla gerekli olan tüm laboratuvar çalışmaları, modelleme ve simülasyonla devre tasarımı, akım şeması geliştirme ve ekipman seçimi/boyutlandırması işlerini kapsayan Ar-Ge faaliyetleri konusunda hizmet vermektedir. Endüstriye verilen bu Ar-Ge destekleri yanında ekipman tasarımı ve cevher hazırlama devrelerinin modelleme/simülasyonu konularında Ar-Ge çalışmaları yürütmektedir.
 
-Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans değerlendirme ve iyileştirmesine konusunda endüstriye destek vermektedir.
-</string>
+	Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans değerlendirme ve iyileştirmesine konusunda endüstriye destek vermektedir.
+</mutableString>
+                                <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kmr-mA-pSi">
-                                <rect key="frame" x="214" y="425" width="172" height="30"/>
-                                <state key="normal" title="Cevher Karakterizasyonu"/>
-                                <connections>
-                                    <action selector="cevherButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="phK-hO-TDw"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxz-fm-sNW">
-                                <rect key="frame" x="220" y="463" width="161" height="30"/>
+                                <rect key="frame" x="204" y="479" width="193" height="30"/>
                                 <state key="normal" title="Akım Şeması Geliştirme"/>
                                 <connections>
                                     <action selector="akimButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="S6F-rK-xSW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6MX-UV-0e7">
-                                <rect key="frame" x="208" y="501" width="185" height="30"/>
-                                <state key="normal" title="Performans Değerlendirme"/>
+                                <rect key="frame" x="204" y="517" width="193" height="30"/>
+                                <state key="normal" title=" Performans Değerlendirme "/>
                                 <connections>
                                     <action selector="performansButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="Ier-dc-Gny"/>
                                 </connections>
@@ -513,37 +521,51 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ŞİRKETİN UZMANLIK ALANLARI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0f-d5-TSa">
                                 <rect key="frame" x="177" y="401" width="246" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.83529411764705885" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xux-Px-BSK">
-                                <rect key="frame" x="250" y="539" width="102" height="30"/>
+                                <rect key="frame" x="204" y="555" width="193" height="30"/>
                                 <state key="normal" title="Devre Tasarımı"/>
                                 <connections>
                                     <action selector="devreButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="IQ0-J1-tFe"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kmr-mA-pSi">
+                                <rect key="frame" x="204" y="441" width="193" height="30"/>
+                                <state key="normal" title="Cevher Karakterizasyonu"/>
+                                <connections>
+                                    <action selector="cevherButtonpressed:" destination="ju1-ma-2eC" eventType="touchUpInside" id="phK-hO-TDw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="6MX-UV-0e7" firstAttribute="centerX" secondItem="xxz-fm-sNW" secondAttribute="centerX" id="2lU-3g-3sr"/>
-                            <constraint firstItem="6MX-UV-0e7" firstAttribute="top" secondItem="xxz-fm-sNW" secondAttribute="bottom" constant="8" symbolic="YES" id="3HO-Cx-wH2"/>
-                            <constraint firstItem="Kmr-mA-pSi" firstAttribute="centerX" secondItem="X0f-d5-TSa" secondAttribute="centerX" id="4bY-fm-URd"/>
-                            <constraint firstItem="Kmr-mA-pSi" firstAttribute="top" secondItem="X0f-d5-TSa" secondAttribute="bottom" constant="3" id="5EE-BD-d8d"/>
-                            <constraint firstItem="X0f-d5-TSa" firstAttribute="top" secondItem="w8L-fh-Z1K" secondAttribute="bottom" constant="14" id="7KD-ML-Ez2"/>
-                            <constraint firstItem="xxz-fm-sNW" firstAttribute="centerX" secondItem="Kmr-mA-pSi" secondAttribute="centerX" id="Aga-gU-cgL"/>
-                            <constraint firstAttribute="trailing" secondItem="w8L-fh-Z1K" secondAttribute="trailing" id="Ci4-q2-q8D"/>
-                            <constraint firstItem="xux-Px-BSK" firstAttribute="top" secondItem="6MX-UV-0e7" secondAttribute="bottom" constant="8" symbolic="YES" id="EKZ-4t-Bfo"/>
-                            <constraint firstItem="6MX-UV-0e7" firstAttribute="centerX" secondItem="xux-Px-BSK" secondAttribute="centerX" id="Glo-Mh-odL"/>
-                            <constraint firstItem="w8L-fh-Z1K" firstAttribute="top" secondItem="Pdl-DW-tyj" secondAttribute="bottom" constant="8" symbolic="YES" id="SCE-OX-g27"/>
-                            <constraint firstItem="xxz-fm-sNW" firstAttribute="top" secondItem="Kmr-mA-pSi" secondAttribute="bottom" constant="8" symbolic="YES" id="aNH-lI-DbJ"/>
-                            <constraint firstItem="w8L-fh-Z1K" firstAttribute="leading" secondItem="fV2-2u-4N2" secondAttribute="leading" id="con-O1-gd1"/>
-                            <constraint firstItem="AFd-sc-WZv" firstAttribute="top" secondItem="xux-Px-BSK" secondAttribute="bottom" constant="31" id="m5H-6I-8b4"/>
-                            <constraint firstItem="X0f-d5-TSa" firstAttribute="centerX" secondItem="w8L-fh-Z1K" secondAttribute="centerX" id="oUv-er-X9j"/>
+                            <constraint firstItem="xux-Px-BSK" firstAttribute="leading" secondItem="6MX-UV-0e7" secondAttribute="leading" id="0o9-0z-knR"/>
+                            <constraint firstItem="Kmr-mA-pSi" firstAttribute="top" secondItem="X0f-d5-TSa" secondAttribute="bottom" constant="19" id="1Yb-rm-pis"/>
+                            <constraint firstItem="AFd-sc-WZv" firstAttribute="top" secondItem="xux-Px-BSK" secondAttribute="bottom" constant="15" id="3cb-bI-f7M"/>
+                            <constraint firstItem="Kmr-mA-pSi" firstAttribute="trailing" secondItem="xxz-fm-sNW" secondAttribute="trailing" id="4oA-ot-y2K"/>
+                            <constraint firstItem="Kmr-mA-pSi" firstAttribute="leading" secondItem="xxz-fm-sNW" secondAttribute="leading" id="AZg-55-Ln7"/>
+                            <constraint firstItem="w8L-fh-Z1K" firstAttribute="leading" secondItem="fV2-2u-4N2" secondAttribute="leading" id="GyN-9g-Gbg"/>
+                            <constraint firstItem="xxz-fm-sNW" firstAttribute="trailing" secondItem="6MX-UV-0e7" secondAttribute="trailing" id="QIn-0t-BG7"/>
+                            <constraint firstItem="w8L-fh-Z1K" firstAttribute="top" secondItem="Pdl-DW-tyj" secondAttribute="bottom" constant="8" symbolic="YES" id="Rdz-Uv-jd6"/>
+                            <constraint firstItem="xxz-fm-sNW" firstAttribute="top" secondItem="Kmr-mA-pSi" secondAttribute="bottom" constant="8" symbolic="YES" id="SsP-rc-Odm"/>
+                            <constraint firstItem="xux-Px-BSK" firstAttribute="top" secondItem="6MX-UV-0e7" secondAttribute="bottom" constant="8" symbolic="YES" id="TaL-54-xRD"/>
+                            <constraint firstItem="X0f-d5-TSa" firstAttribute="top" secondItem="w8L-fh-Z1K" secondAttribute="bottom" constant="14" id="UGt-g7-kRp"/>
+                            <constraint firstAttribute="trailing" secondItem="w8L-fh-Z1K" secondAttribute="trailing" id="fTm-o2-G75"/>
+                            <constraint firstItem="6MX-UV-0e7" firstAttribute="leading" secondItem="xxz-fm-sNW" secondAttribute="leading" id="lJS-8R-Ut3"/>
+                            <constraint firstItem="X0f-d5-TSa" firstAttribute="centerX" secondItem="Kmr-mA-pSi" secondAttribute="centerX" id="nka-CX-TXW"/>
+                            <constraint firstItem="6MX-UV-0e7" firstAttribute="top" secondItem="xxz-fm-sNW" secondAttribute="bottom" constant="8" symbolic="YES" id="tVe-bB-Lft"/>
+                            <constraint firstItem="xux-Px-BSK" firstAttribute="trailing" secondItem="6MX-UV-0e7" secondAttribute="trailing" id="x6U-I5-xeq"/>
+                            <constraint firstItem="w8L-fh-Z1K" firstAttribute="centerX" secondItem="X0f-d5-TSa" secondAttribute="centerX" id="yKZ-ec-hvO"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bdB-00-S8x"/>
                     <connections>
+                        <outlet property="btn2" destination="Kmr-mA-pSi" id="Gou-jJ-LhY"/>
+                        <outlet property="btn3" destination="xxz-fm-sNW" id="VgG-Mw-jTA"/>
+                        <outlet property="btn4" destination="6MX-UV-0e7" id="3ST-hB-vb4"/>
+                        <outlet property="btn5" destination="xux-Px-BSK" id="Hun-o0-c0N"/>
                         <outlet property="hakkindaTV" destination="w8L-fh-Z1K" id="A3T-nf-45B"/>
                         <segue destination="zxy-Qa-IFW" kind="push" id="HLq-qg-8vr"/>
                     </connections>
@@ -565,10 +587,10 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KURUCULAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViB-nT-h7Q">
-                                <rect key="frame" x="243" y="72" width="114" height="21"/>
+                                <rect key="frame" x="229" y="72" width="134" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="WhY-Iw-EGe"/>
-                                    <constraint firstAttribute="width" constant="114" id="er8-JE-j3j"/>
+                                    <constraint firstAttribute="width" constant="134" id="OuF-Zn-YDX"/>
+                                    <constraint firstAttribute="height" constant="21" id="pgy-XP-sZf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -577,7 +599,7 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RlH-ml-L00">
                                 <rect key="frame" x="193" y="145" width="214" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="wLW-MI-ZWr"/>
+                                    <constraint firstAttribute="height" constant="30" id="5eS-Np-kS8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title=" PROF. DR. LEVENT ERGÜN ">
@@ -590,7 +612,7 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfB-35-xZe">
                                 <rect key="frame" x="193" y="183" width="214" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="jvd-9O-QXf"/>
+                                    <constraint firstAttribute="height" constant="30" id="2G8-vg-Fyf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title=" PROF. DR. ZAFİR EKMEKÇİ ">
@@ -613,7 +635,7 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DANIŞMANLAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vQ-go-791">
                                 <rect key="frame" x="229" y="295" width="142" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="paX-f9-p4c"/>
+                                    <constraint firstAttribute="height" constant="21" id="zcx-b0-bPf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -622,8 +644,8 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DR. İLKAY ÇELİK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mq3-2K-fPb">
                                 <rect key="frame" x="236" y="329" width="127" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Zei-39-78y"/>
-                                    <constraint firstAttribute="width" constant="127" id="y9L-YQ-MwM"/>
+                                    <constraint firstAttribute="height" constant="21" id="Ehn-yR-R1F"/>
+                                    <constraint firstAttribute="width" constant="127" id="fM8-0N-hxi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
@@ -632,8 +654,8 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DR. CANER EREN ORHAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ej2-zQ-fZD">
                                 <rect key="frame" x="201" y="365" width="198" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="HvL-2W-ZsL"/>
-                                    <constraint firstAttribute="width" constant="198" id="teA-fW-sqo"/>
+                                    <constraint firstAttribute="height" constant="21" id="5IZ-MD-in5"/>
+                                    <constraint firstAttribute="width" constant="198" id="uBp-zQ-npd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
@@ -642,8 +664,7 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DR. ÖZLEM BIÇAK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bL-sr-swL">
                                 <rect key="frame" x="230" y="399" width="141" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="141" id="h1w-jU-mj4"/>
-                                    <constraint firstAttribute="height" constant="21" id="unP-yr-kvg"/>
+                                    <constraint firstAttribute="height" constant="21" id="J3r-lf-gHi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
@@ -652,8 +673,8 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ORBERK MERT MERCAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHT-b2-bEm">
                                 <rect key="frame" x="204" y="475" width="190" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="a0V-U5-drL"/>
-                                    <constraint firstAttribute="width" constant="190" id="foh-r8-RIG"/>
+                                    <constraint firstAttribute="height" constant="21" id="8C0-B6-geW"/>
+                                    <constraint firstAttribute="width" constant="190" id="KVv-f7-7EQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
@@ -662,8 +683,8 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AHMET YAŞAR YAMANTAŞ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCp-Nc-gXY">
                                 <rect key="frame" x="195" y="516" width="209" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="209" id="TGM-qq-cq0"/>
-                                    <constraint firstAttribute="height" constant="21" id="r7v-a1-waJ"/>
+                                    <constraint firstAttribute="width" constant="209" id="tpk-7U-16H"/>
+                                    <constraint firstAttribute="height" constant="21" id="tyq-fr-cBE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
@@ -672,8 +693,8 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROJE MÜHENDİSLERİ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jcj-Ms-djm">
                                 <rect key="frame" x="196" y="437" width="207" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="207" id="7I1-AL-bgP"/>
-                                    <constraint firstAttribute="height" constant="21" id="TrG-5o-QDk"/>
+                                    <constraint firstAttribute="width" constant="207" id="5YD-ch-x52"/>
+                                    <constraint firstAttribute="height" constant="21" id="KAy-i8-vkx"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -682,8 +703,8 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4w-6i-NOz">
                                 <rect key="frame" x="193" y="107" width="214" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="214" id="OJq-fo-2PY"/>
-                                    <constraint firstAttribute="height" constant="30" id="cuL-ma-qOh"/>
+                                    <constraint firstAttribute="width" constant="214" id="K7M-U6-s0V"/>
+                                    <constraint firstAttribute="height" constant="30" id="UdP-DS-1AH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title=" PROF. DR. ÖZCAN GÜLSOY ">
@@ -696,34 +717,35 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5vQ-go-791" firstAttribute="trailing" secondItem="7bL-sr-swL" secondAttribute="trailing" id="048-zL-WmP"/>
-                            <constraint firstItem="ej2-zQ-fZD" firstAttribute="centerX" secondItem="Mq3-2K-fPb" secondAttribute="centerX" id="2s8-ea-yfo"/>
-                            <constraint firstItem="ViB-nT-h7Q" firstAttribute="top" secondItem="Cnl-Xb-YBr" secondAttribute="bottom" constant="8" symbolic="YES" id="47h-bM-lop"/>
-                            <constraint firstItem="UfB-35-xZe" firstAttribute="trailing" secondItem="tZ6-L0-P0D" secondAttribute="trailing" id="66A-41-9AC"/>
-                            <constraint firstItem="tZ6-L0-P0D" firstAttribute="top" secondItem="UfB-35-xZe" secondAttribute="bottom" constant="8" symbolic="YES" id="9zO-WO-9Gb"/>
-                            <constraint firstItem="5vQ-go-791" firstAttribute="centerX" secondItem="Mq3-2K-fPb" secondAttribute="centerX" id="EuO-ko-jh4"/>
-                            <constraint firstItem="Jcj-Ms-djm" firstAttribute="centerX" secondItem="dHT-b2-bEm" secondAttribute="centerX" id="G6H-sh-W4I"/>
-                            <constraint firstItem="tZ6-L0-P0D" firstAttribute="centerX" secondItem="5vQ-go-791" secondAttribute="centerX" id="QQx-bf-6U6"/>
-                            <constraint firstItem="UfB-35-xZe" firstAttribute="top" secondItem="RlH-ml-L00" secondAttribute="bottom" constant="8" symbolic="YES" id="W8o-9D-0ES"/>
-                            <constraint firstItem="F4w-6i-NOz" firstAttribute="centerX" secondItem="ViB-nT-h7Q" secondAttribute="centerX" id="Wef-78-1Wt"/>
-                            <constraint firstItem="F4w-6i-NOz" firstAttribute="trailing" secondItem="RlH-ml-L00" secondAttribute="trailing" id="YCl-9a-pss"/>
-                            <constraint firstItem="ej2-zQ-fZD" firstAttribute="top" secondItem="Mq3-2K-fPb" secondAttribute="bottom" constant="15" id="YF3-1f-Atb"/>
-                            <constraint firstItem="5vQ-go-791" firstAttribute="centerX" secondItem="VyJ-hk-uWS" secondAttribute="centerX" id="a4D-sa-Qku"/>
-                            <constraint firstItem="dHT-b2-bEm" firstAttribute="top" secondItem="Jcj-Ms-djm" secondAttribute="bottom" constant="17" id="bWD-Xl-Yg2"/>
-                            <constraint firstItem="7bL-sr-swL" firstAttribute="top" secondItem="ej2-zQ-fZD" secondAttribute="bottom" constant="13" id="cY1-8u-eaE"/>
-                            <constraint firstItem="Mq3-2K-fPb" firstAttribute="top" secondItem="5vQ-go-791" secondAttribute="bottom" constant="13" id="eSz-R9-T6G"/>
-                            <constraint firstItem="UfB-35-xZe" firstAttribute="trailing" secondItem="RlH-ml-L00" secondAttribute="trailing" id="h58-IX-NpV"/>
-                            <constraint firstItem="UfB-35-xZe" firstAttribute="leading" secondItem="tZ6-L0-P0D" secondAttribute="leading" id="hxU-dU-2Q7"/>
-                            <constraint firstItem="UfB-35-xZe" firstAttribute="leading" secondItem="RlH-ml-L00" secondAttribute="leading" id="iEf-BV-7JB"/>
-                            <constraint firstItem="F4w-6i-NOz" firstAttribute="top" secondItem="ViB-nT-h7Q" secondAttribute="bottom" constant="14" id="jFd-i4-fG8"/>
-                            <constraint firstItem="F4w-6i-NOz" firstAttribute="leading" secondItem="RlH-ml-L00" secondAttribute="leading" id="jN7-w1-FT7"/>
-                            <constraint firstItem="PCp-Nc-gXY" firstAttribute="top" secondItem="dHT-b2-bEm" secondAttribute="bottom" constant="20" id="mi0-wm-Hdj"/>
-                            <constraint firstItem="RlH-ml-L00" firstAttribute="top" secondItem="F4w-6i-NOz" secondAttribute="bottom" constant="8" symbolic="YES" id="n6K-Iv-GGW"/>
-                            <constraint firstItem="5vQ-go-791" firstAttribute="top" secondItem="tZ6-L0-P0D" secondAttribute="bottom" constant="42" id="ojJ-dC-p6N"/>
-                            <constraint firstItem="dHT-b2-bEm" firstAttribute="centerX" secondItem="PCp-Nc-gXY" secondAttribute="centerX" id="saZ-Nx-N0j"/>
-                            <constraint firstItem="7bL-sr-swL" firstAttribute="centerX" secondItem="ej2-zQ-fZD" secondAttribute="centerX" id="xfu-Nw-6VB"/>
-                            <constraint firstItem="Jcj-Ms-djm" firstAttribute="top" secondItem="7bL-sr-swL" secondAttribute="bottom" constant="17" id="xh9-6c-QAH"/>
-                            <constraint firstItem="Jcj-Ms-djm" firstAttribute="centerX" secondItem="ej2-zQ-fZD" secondAttribute="centerX" id="z2j-dM-Qun"/>
+                            <constraint firstItem="UfB-35-xZe" firstAttribute="trailing" secondItem="RlH-ml-L00" secondAttribute="trailing" id="11x-gB-d2v"/>
+                            <constraint firstItem="7bL-sr-swL" firstAttribute="top" secondItem="ej2-zQ-fZD" secondAttribute="bottom" constant="13" id="3RE-FR-O04"/>
+                            <constraint firstItem="ej2-zQ-fZD" firstAttribute="centerX" secondItem="Jcj-Ms-djm" secondAttribute="centerX" id="3ox-j4-CMP"/>
+                            <constraint firstItem="ViB-nT-h7Q" firstAttribute="top" secondItem="Cnl-Xb-YBr" secondAttribute="bottom" constant="8" symbolic="YES" id="4gN-VF-R6H"/>
+                            <constraint firstItem="PCp-Nc-gXY" firstAttribute="centerX" secondItem="dHT-b2-bEm" secondAttribute="centerX" id="6RB-B6-9m7"/>
+                            <constraint firstItem="ej2-zQ-fZD" firstAttribute="centerX" secondItem="7bL-sr-swL" secondAttribute="centerX" id="76j-lJ-v4a"/>
+                            <constraint firstItem="UfB-35-xZe" firstAttribute="top" secondItem="RlH-ml-L00" secondAttribute="bottom" constant="8" symbolic="YES" id="7Hr-XG-L46"/>
+                            <constraint firstItem="tZ6-L0-P0D" firstAttribute="leading" secondItem="UfB-35-xZe" secondAttribute="leading" id="7yE-ED-pFi"/>
+                            <constraint firstItem="Jcj-Ms-djm" firstAttribute="centerX" secondItem="dHT-b2-bEm" secondAttribute="centerX" id="Bsb-vm-4KM"/>
+                            <constraint firstItem="tZ6-L0-P0D" firstAttribute="top" secondItem="UfB-35-xZe" secondAttribute="bottom" constant="8" symbolic="YES" id="E7P-hE-ZF3"/>
+                            <constraint firstItem="5vQ-go-791" firstAttribute="centerX" secondItem="tZ6-L0-P0D" secondAttribute="centerX" id="FBW-Rg-eYs"/>
+                            <constraint firstItem="ej2-zQ-fZD" firstAttribute="top" secondItem="Mq3-2K-fPb" secondAttribute="bottom" constant="15" id="HJ7-4V-VB6"/>
+                            <constraint firstItem="F4w-6i-NOz" firstAttribute="leading" secondItem="RlH-ml-L00" secondAttribute="leading" id="JYe-3r-DtF"/>
+                            <constraint firstItem="ViB-nT-h7Q" firstAttribute="leading" secondItem="5vQ-go-791" secondAttribute="leading" id="KWd-Fm-O5U"/>
+                            <constraint firstItem="UfB-35-xZe" firstAttribute="centerX" secondItem="VyJ-hk-uWS" secondAttribute="centerX" id="KbG-RE-2wR"/>
+                            <constraint firstItem="UfB-35-xZe" firstAttribute="trailing" secondItem="tZ6-L0-P0D" secondAttribute="trailing" id="LhO-NR-jgv"/>
+                            <constraint firstItem="5vQ-go-791" firstAttribute="trailing" secondItem="7bL-sr-swL" secondAttribute="trailing" id="OZG-gY-nYn"/>
+                            <constraint firstItem="ViB-nT-h7Q" firstAttribute="trailing" secondItem="Mq3-2K-fPb" secondAttribute="trailing" id="Rck-5D-RfE"/>
+                            <constraint firstItem="ej2-zQ-fZD" firstAttribute="centerX" secondItem="Mq3-2K-fPb" secondAttribute="centerX" id="VJL-jA-2cI"/>
+                            <constraint firstItem="Mq3-2K-fPb" firstAttribute="top" secondItem="5vQ-go-791" secondAttribute="bottom" constant="13" id="aQY-X9-FXI"/>
+                            <constraint firstItem="F4w-6i-NOz" firstAttribute="top" secondItem="ViB-nT-h7Q" secondAttribute="bottom" constant="14" id="ar3-AK-DjD"/>
+                            <constraint firstItem="Mq3-2K-fPb" firstAttribute="centerX" secondItem="5vQ-go-791" secondAttribute="centerX" id="frv-Md-46a"/>
+                            <constraint firstItem="RlH-ml-L00" firstAttribute="leading" secondItem="UfB-35-xZe" secondAttribute="leading" id="gy5-XK-JVD"/>
+                            <constraint firstItem="RlH-ml-L00" firstAttribute="trailing" secondItem="F4w-6i-NOz" secondAttribute="trailing" id="iyN-Kk-wMc"/>
+                            <constraint firstItem="PCp-Nc-gXY" firstAttribute="top" secondItem="dHT-b2-bEm" secondAttribute="bottom" constant="20" id="m3v-14-H1e"/>
+                            <constraint firstItem="Jcj-Ms-djm" firstAttribute="top" secondItem="7bL-sr-swL" secondAttribute="bottom" constant="17" id="mxU-GS-R47"/>
+                            <constraint firstItem="dHT-b2-bEm" firstAttribute="top" secondItem="Jcj-Ms-djm" secondAttribute="bottom" constant="17" id="qZo-dV-v6F"/>
+                            <constraint firstItem="5vQ-go-791" firstAttribute="top" secondItem="tZ6-L0-P0D" secondAttribute="bottom" constant="42" id="uk5-oV-J8u"/>
+                            <constraint firstItem="RlH-ml-L00" firstAttribute="top" secondItem="F4w-6i-NOz" secondAttribute="bottom" constant="8" symbolic="YES" id="wdN-5s-PRK"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0Ot-gp-Iqj"/>
@@ -772,24 +794,27 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hacettepe Mineral Teknolojileri Ltd. Şti." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsZ-gA-8gJ">
                                 <rect key="frame" x="151" y="77" width="299" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adres:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbE-S4-bl1">
                                 <rect key="frame" x="0.0" y="107" width="49" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.83529411760000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telefon:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsf-cG-S9Q">
                                 <rect key="frame" x="0.0" y="165" width="61" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.83529411760000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ST-4n-fIT">
-                                <rect key="frame" x="0.0" y="187" width="131" height="30"/>
-                                <state key="normal" title="+90 312 299 26 01"/>
+                                <rect key="frame" x="0.0" y="187" width="138" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="+90 312 299 26 01">
+                                    <color key="titleColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="callPhone:" destination="PMm-mF-KUl" eventType="touchUpInside" id="NOZ-TR-Ago"/>
                                 </connections>
@@ -797,24 +822,27 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Faks:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tp3-Oa-8On">
                                 <rect key="frame" x="0.0" y="215" width="40" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.83529411760000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+90 312 299 26 02" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VE0-cZ-epO">
                                 <rect key="frame" x="0.0" y="237" width="148" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-posta:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSo-Ww-hbK">
                                 <rect key="frame" x="0.0" y="266" width="65" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.83529411760000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYb-O3-atP">
-                                <rect key="frame" x="0.0" y="285" width="132" height="30"/>
-                                <state key="normal" title="info@hmineral.com"/>
+                                <rect key="frame" x="0.0" y="285" width="138" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="info@hmineral.com">
+                                    <color key="titleColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showEmail:" destination="PMm-mF-KUl" eventType="touchUpInside" id="DyH-bd-jRu"/>
                                 </connections>
@@ -825,18 +853,22 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Hacettepe Teknokent, 2. Arge Binasi, No:5 Beytepe Ankara - TÜRKİYE" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ivo-hC-sV5">
                                 <rect key="frame" x="0.0" y="127" width="562" height="39"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Web sayfası:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdj-ec-oBb">
                                 <rect key="frame" x="0.0" y="310" width="97" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.83529411760000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hm2-bA-1K2">
-                                <rect key="frame" x="0.0" y="328" width="130" height="30"/>
-                                <state key="normal" title="www.hmineral.com"/>
+                                <rect key="frame" x="0.0" y="328" width="138" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="www.hmineral.com">
+                                    <color key="titleColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="goToWebSite:" destination="PMm-mF-KUl" eventType="touchUpInside" id="doh-1L-UUS"/>
                                 </connections>
@@ -844,9 +876,18 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harita:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0k-z0-CSY">
                                 <rect key="frame" x="0.0" y="355" width="51" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.83529411760000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OFE-dx-4we">
+                                <rect key="frame" x="472" y="384" width="128" height="30"/>
+                                <state key="normal" title="HARİTALAR'DA AÇ">
+                                    <color key="titleColor" red="0.050980392159999999" green="0.20000000000000001" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="haritaAc:" destination="PMm-mF-KUl" eventType="touchUpInside" id="fAi-yh-7u6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -854,9 +895,11 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                             <constraint firstItem="tp3-Oa-8On" firstAttribute="leading" secondItem="VE0-cZ-epO" secondAttribute="leading" id="11J-vM-70T"/>
                             <constraint firstItem="g0k-z0-CSY" firstAttribute="leading" secondItem="2Xb-nG-puo" secondAttribute="leading" id="2c9-s2-WAT"/>
                             <constraint firstItem="RSo-Ww-hbK" firstAttribute="top" secondItem="VE0-cZ-epO" secondAttribute="bottom" constant="8" symbolic="YES" id="3ZH-47-oi6"/>
+                            <constraint firstItem="OFE-dx-4we" firstAttribute="trailing" secondItem="2Xb-nG-puo" secondAttribute="trailing" id="3yy-4Y-Fpb"/>
                             <constraint firstItem="wsZ-gA-8gJ" firstAttribute="top" secondItem="P8T-hW-aBs" secondAttribute="bottom" constant="13" id="8ao-iy-psI"/>
                             <constraint firstAttribute="bottom" secondItem="2Xb-nG-puo" secondAttribute="bottom" constant="20" symbolic="YES" id="Bco-6o-gcz"/>
                             <constraint firstItem="nbE-S4-bl1" firstAttribute="leading" secondItem="Ptd-0B-FSK" secondAttribute="leading" id="BlT-67-22E"/>
+                            <constraint firstItem="OFE-dx-4we" firstAttribute="top" secondItem="2Xb-nG-puo" secondAttribute="top" id="Dob-8l-3M4"/>
                             <constraint firstItem="g0k-z0-CSY" firstAttribute="leading" secondItem="hm2-bA-1K2" secondAttribute="leading" id="HPE-Bc-Ttk"/>
                             <constraint firstItem="Ivo-hC-sV5" firstAttribute="top" secondItem="wsZ-gA-8gJ" secondAttribute="bottom" constant="29" id="JId-MR-0C4"/>
                             <constraint firstItem="g0k-z0-CSY" firstAttribute="top" secondItem="zdj-ec-oBb" secondAttribute="bottom" constant="24" id="MbP-UJ-vp7"/>
@@ -886,6 +929,7 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
                     <connections>
                         <outlet property="adresLbl" destination="nbE-S4-bl1" id="Jy2-04-bfZ"/>
                         <outlet property="faksLbl" destination="tp3-Oa-8On" id="nbZ-Rz-biw"/>
+                        <outlet property="haritaAc" destination="OFE-dx-4we" id="TMo-Kd-ZCp"/>
                         <outlet property="haritaLbl" destination="g0k-z0-CSY" id="WWd-8e-Oe3"/>
                         <outlet property="mapView" destination="2Xb-nG-puo" id="lwn-RK-wDn"/>
                         <outlet property="postLbl" destination="RSo-Ww-hbK" id="ezJ-os-wqX"/>
@@ -923,6 +967,6 @@ Konusunda uzman ekibiyle mevcut cevher zenginleştirme tesislerinde performans d
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="UlG-fJ-FqP"/>
-        <segue reference="Omg-Z2-A0i"/>
+        <segue reference="HLq-qg-8vr"/>
     </inferredMetricsTieBreakers>
 </document>

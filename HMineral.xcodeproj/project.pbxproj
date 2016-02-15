@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A823123C1C71F69400942B7A /* soru_is.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A823123B1C71F69400942B7A /* soru_is.jpg */; };
 		A86B8BB51C53AFA10034A081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8BB41C53AFA10034A081 /* main.m */; };
 		A86B8BB81C53AFA10034A081 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8BB71C53AFA10034A081 /* AppDelegate.m */; };
 		A86B8BBB1C53AFA10034A081 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8BBA1C53AFA10034A081 /* ViewController.m */; };
@@ -43,7 +44,6 @@
 		A8B820261C674E010031C0C1 /* sme.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B820201C674E010031C0C1 /* sme.png */; };
 		A8B820281C675CB60031C0C1 /* yapim_asamasi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8B820271C675CB60031C0C1 /* yapim_asamasi.jpg */; };
 		A8CD8A7C1C56C33E00D5E5B9 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CD8A7B1C56C33E00D5E5B9 /* WebViewController.m */; };
-		A8E5797E1C6DBAB800B54068 /* kir_soru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8E5797D1C6DBAB800B54068 /* kir_soru.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A823123B1C71F69400942B7A /* soru_is.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soru_is.jpg; sourceTree = "<group>"; };
 		A86B8BB01C53AFA10034A081 /* HMineral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMineral.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86B8BB41C53AFA10034A081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A86B8BB61C53AFA10034A081 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,7 +118,6 @@
 		A8B820271C675CB60031C0C1 /* yapim_asamasi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yapim_asamasi.jpg; sourceTree = "<group>"; };
 		A8CD8A7A1C56C33E00D5E5B9 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		A8CD8A7B1C56C33E00D5E5B9 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		A8E5797D1C6DBAB800B54068 /* kir_soru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kir_soru.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +161,7 @@
 			children = (
 				A887F24B1C594FB5000FD008 /* MessageUI.framework */,
 				A8B8201B1C674E010031C0C1 /* hmt.png */,
-				A8E5797D1C6DBAB800B54068 /* kir_soru.jpg */,
+				A823123B1C71F69400942B7A /* soru_is.jpg */,
 				A8B8201C1C674E010031C0C1 /* minerology.gif */,
 				A8B820271C675CB60031C0C1 /* yapim_asamasi.jpg */,
 				A8B8201D1C674E010031C0C1 /* mmo.jpg */,
@@ -363,12 +363,12 @@
 				A8B820251C674E010031C0C1 /* onemine.jpg in Resources */,
 				A8B820211C674E010031C0C1 /* hmt.png in Resources */,
 				A8B820281C675CB60031C0C1 /* yapim_asamasi.jpg in Resources */,
-				A8E5797E1C6DBAB800B54068 /* kir_soru.jpg in Resources */,
 				A8B820231C674E010031C0C1 /* mmo.jpg in Resources */,
 				A8700EC51C70F594000AD0C5 /* sidebar-logo1.png in Resources */,
 				A8B820241C674E010031C0C1 /* mta.jpg in Resources */,
 				A86B8BC31C53AFA20034A081 /* LaunchScreen.storyboard in Resources */,
 				A86B8BC01C53AFA20034A081 /* Assets.xcassets in Resources */,
+				A823123C1C71F69400942B7A /* soru_is.jpg in Resources */,
 				A8B820221C674E010031C0C1 /* minerology.gif in Resources */,
 				A86B8BBE1C53AFA10034A081 /* Main.storyboard in Resources */,
 				A8B820261C674E010031C0C1 /* sme.png in Resources */,

@@ -25,5 +25,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *haritaLbl;
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
+@property (weak, nonatomic) IBOutlet UIButton *haritaAc;
+- (IBAction)haritaAc:(id)sender;
+
 
 @end

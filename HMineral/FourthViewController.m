@@ -16,8 +16,16 @@
     self.navigationItem.title=@"LABORATUVAR";
     [_btn1 setTitleColor:[FourthViewController red] forState:UIControlStateNormal];
     //btn border
+    self.view.backgroundColor = [FourthViewController backGr];
+    
+    
+
+   
+
     [[_btn1 layer] setBorderWidth:2.0f];
     [[_btn1 layer] setBorderColor:[FourthViewController navy].CGColor];
+     [_btn1 setBackgroundColor:[FourthViewController whitish]];
+    
     /*
      CAGradientLayer *btnGradient1 = [CAGradientLayer layer];
      btnGradient1.frame = _btn1.bounds;
@@ -40,6 +48,7 @@
     CALayer *btnLayer2 = [_btn2 layer];
     [btnLayer2 setMasksToBounds:YES];
     [btnLayer2 setCornerRadius:5.0f];
+    [_btn2 setBackgroundColor:[FourthViewController whitish]];
     
     [_btn3 setTitleColor:[FourthViewController red] forState:UIControlStateNormal];
     
@@ -48,6 +57,7 @@
     CALayer *btnLayer3 = [_btn3 layer];
     [btnLayer3 setMasksToBounds:YES];
     [btnLayer3 setCornerRadius:5.0f];
+    [_btn3 setBackgroundColor:[FourthViewController whitish]];
     
     [_btn4 setTitleColor:[FourthViewController red] forState:UIControlStateNormal];
     [[_btn4 layer] setBorderWidth:2.0f];
@@ -56,6 +66,7 @@
     CALayer *btnLayer4 = [_btn4 layer];
     [btnLayer4 setMasksToBounds:YES];
     [btnLayer4 setCornerRadius:5.0f];
+    [_btn4 setBackgroundColor:[FourthViewController whitish]];
     
     [_btn5 setTitleColor:[FourthViewController red] forState:UIControlStateNormal];
     
@@ -65,6 +76,7 @@
     CALayer *btnLayer5 = [_btn5 layer];
     [btnLayer5 setMasksToBounds:YES];
     [btnLayer5 setCornerRadius:5.0f];
+    [_btn5 setBackgroundColor:[FourthViewController whitish]];
     
     
     [_btn6 setTitleColor:[FourthViewController red] forState:UIControlStateNormal];
@@ -74,6 +86,7 @@
     CALayer *btnLayer6 = [_btn6 layer];
     [btnLayer6 setMasksToBounds:YES];
     [btnLayer6 setCornerRadius:5.0f];
+    [_btn6 setBackgroundColor:[FourthViewController whitish]];
     
     [_btn7 setTitleColor:[FourthViewController red] forState:UIControlStateNormal];
     [[_btn7 layer] setBorderWidth:2.0f];
@@ -82,6 +95,7 @@
     CALayer *btnLayer7 = [_btn7 layer];
     [btnLayer7 setMasksToBounds:YES];
     [btnLayer7 setCornerRadius:5.0f];
+    [_btn7 setBackgroundColor:[FourthViewController whitish]];
 
 }
 
@@ -137,6 +151,8 @@
 +(UIColor *) navy{
     return [UIColor colorWithRed:9.0f/255.0f green:48.0f/255.0f blue:95.0f/255.0f alpha:1.0f];
 }
-
++(UIColor *) whitish{
+    return [UIColor colorWithRed:244.0f/255.0f green:244.0f/255.0f blue:245.0f/255.0f alpha:1.0f];
+}
 
 @end

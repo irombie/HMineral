@@ -25,6 +25,9 @@
     [_postLbl setFont:[UIFont fontWithName:@"Arial-BoldMT" size:16]];
     _tamAdres.editable = NO;
     [_haritaLbl setFont:[UIFont fontWithName:@"Arial-BoldMT" size:16]];
+    self.view.backgroundColor = [NinthViewController backGr];
+    self.tamAdres.backgroundColor = [NinthViewController backGr];
+    
     /*
     NSString *location = @"Hacettepe Teknokent, 2. Arge Binasi, Beytepe, Ankara - TÜRKİYE";
     CLGeocoder *geocoder = [[CLGeocoder alloc] init];
@@ -58,9 +61,11 @@
   
     viewRegion.span.longitudeDelta /= 8.0;
     viewRegion.span.latitudeDelta /= 8.0;
-    MKPlacemark *placemark = [[MKPlacemark alloc] initWithCoordinate:zoomLocation addressDictionary:nil];
-    [self.mapView addAnnotation:placemark];
-    
+    MKPointAnnotation *point = [[MKPointAnnotation alloc] init];
+    point.coordinate = zoomLocation;
+    point.title = @"Hacettepe Mineral Teknolojileri";
+    point.subtitle=@"Teknokent, 4. Ar-Ge Binası, No:51 Beytepe";
+    [_mapView addAnnotation:point];
     // 3
     [_mapView setRegion:viewRegion animated:YES];
 }
@@ -185,6 +190,45 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+}
+*/
+- (IBAction)haritaAc:(id)sender {
+    CLLocationCoordinate2D officeLocation = CLLocationCoordinate2DMake(39.865323,32.738306);
+        //Apple Maps, using the MKMapItem class
+        MKPlacemark *placemark = [[MKPlacemark alloc] initWithCoordinate:officeLocation addressDictionary:nil];
+        MKMapItem *item = [[MKMapItem alloc] initWithPlacemark:placemark];
+        item.name = @"Hacettepe Mineral Teknolojileri";
+        [item openInMapsWithLaunchOptions:nil];
+}
++ (UIColor *)backGr {
+    return [UIColor colorWithRed:225.0f/255.0f green:226.0f/255.0f blue:228.0f/255.0f alpha:1.0f];
+}
+/*
+-(void)openActionSheet:(id)sender {
+    //give the user a choice of Apple or Google Maps
+    UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:@"Open in Maps" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:@"Apple Maps",@"Google Maps", nil];
+    [sheet showInView:self.view];
+}
+-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    //coordinates for the place we want to display
+    CLLocationCoordinate2D rdOfficeLocation = CLLocationCoordinate2DMake(39.865323,32.738306);
+    if (buttonIndex==0) {
+        //Apple Maps, using the MKMapItem class
+        MKPlacemark *placemark = [[MKPlacemark alloc] initWithCoordinate:rdOfficeLocation addressDictionary:nil];
+        MKMapItem *item = [[MKMapItem alloc] initWithPlacemark:placemark];
+        item.name = @"ReignDesign Office";
+        [item openInMapsWithLaunchOptions:nil];
+    } else if (buttonIndex==1) {
+        //Google Maps
+        //construct a URL using the comgooglemaps schema
+        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"comgooglemaps://?center=%f,%f",rdOfficeLocation.latitude,rdOfficeLocation.longitude]];
+        if (![[UIApplication sharedApplication] canOpenURL:url]) {
+            NSLog(@"Google Maps app is not installed");
+            //left as an exercise for the reader: open the Google Maps mobile website instead!
+        } else {
+            [[UIApplication sharedApplication] openURL:url];
+        }
+    }
 }
 */
                                                                      

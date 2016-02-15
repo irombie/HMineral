@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HMineral/SecondViewController.m"
-            timestampString = "476530774.946348"
+            timestampString = "477231000.551387"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "-akimButtonpressed:"
             landmarkType = "5">
          </BreakpointContent>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HMineral/NinthViewController.m"
-            timestampString = "477132382.491674"
+            timestampString = "477231754.747786"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "-callPhone:"
             landmarkType = "5">
          </BreakpointContent>
