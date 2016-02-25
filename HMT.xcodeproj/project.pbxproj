@@ -35,6 +35,8 @@
 		A86B8C1A1C54392F0034A081 /* EighthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C191C54392F0034A081 /* EighthViewController.m */; };
 		A86B8C1D1C543CE10034A081 /* NinthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B8C1C1C543CE10034A081 /* NinthViewController.m */; };
 		A8700EC51C70F594000AD0C5 /* sidebar-logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = A8700EC41C70F594000AD0C5 /* sidebar-logo1.png */; };
+		A8728AAA1C7F080B008AF0D8 /* altiyuzkirk1136.png in Resources */ = {isa = PBXBuildFile; fileRef = A8728AA81C7F080B008AF0D8 /* altiyuzkirk1136.png */; };
+		A8728AAB1C7F080B008AF0D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8728AA91C7F080B008AF0D8 /* Default-568h@2x.png */; };
 		A887F24C1C594FB5000FD008 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A887F24B1C594FB5000FD008 /* MessageUI.framework */; };
 		A89194F11C7D197600295EC6 /* ic_info_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A89194F01C7D197600295EC6 /* ic_info_white.png */; };
 		A89194F31C7D1A2900295EC6 /* ic_info_outline.png in Resources */ = {isa = PBXBuildFile; fileRef = A89194F21C7D1A2900295EC6 /* ic_info_outline.png */; };
@@ -74,7 +76,7 @@
 
 /* Begin PBXFileReference section */
 		A823123B1C71F69400942B7A /* soru_is.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soru_is.jpg; sourceTree = "<group>"; };
-		A86B8BB01C53AFA10034A081 /* HMineral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMineral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86B8BB01C53AFA10034A081 /* HMT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86B8BB41C53AFA10034A081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A86B8BB61C53AFA10034A081 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A86B8BB71C53AFA10034A081 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,10 +86,10 @@
 		A86B8BBF1C53AFA20034A081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A86B8BC21C53AFA20034A081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A86B8BC41C53AFA20034A081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A86B8BC91C53AFA20034A081 /* HMineralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMineralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86B8BC91C53AFA20034A081 /* HMT.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMT.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86B8BCD1C53AFA20034A081 /* HMineralTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMineralTests.m; sourceTree = "<group>"; };
 		A86B8BCF1C53AFA20034A081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A86B8BD41C53AFA20034A081 /* HMineralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMineralUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86B8BD41C53AFA20034A081 /* HMT.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMT.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86B8BD81C53AFA20034A081 /* HMineralUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMineralUITests.m; sourceTree = "<group>"; };
 		A86B8BDA1C53AFA20034A081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A86B8BF21C53AFCA0034A081 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -117,6 +119,8 @@
 		A86B8C1B1C543CE10034A081 /* NinthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinthViewController.h; sourceTree = "<group>"; };
 		A86B8C1C1C543CE10034A081 /* NinthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinthViewController.m; sourceTree = "<group>"; };
 		A8700EC41C70F594000AD0C5 /* sidebar-logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidebar-logo1.png"; sourceTree = "<group>"; };
+		A8728AA81C7F080B008AF0D8 /* altiyuzkirk1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = altiyuzkirk1136.png; sourceTree = "<group>"; };
+		A8728AA91C7F080B008AF0D8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A887F24B1C594FB5000FD008 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		A89194F01C7D197600295EC6 /* ic_info_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_info_white.png; sourceTree = "<group>"; };
 		A89194F21C7D1A2900295EC6 /* ic_info_outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_info_outline.png; sourceTree = "<group>"; };
@@ -181,6 +185,8 @@
 				A8B8201B1C674E010031C0C1 /* hmt.png */,
 				A823123B1C71F69400942B7A /* soru_is.jpg */,
 				A8B8201C1C674E010031C0C1 /* minerology.gif */,
+				A8728AA81C7F080B008AF0D8 /* altiyuzkirk1136.png */,
+				A8728AA91C7F080B008AF0D8 /* Default-568h@2x.png */,
 				A8B820271C675CB60031C0C1 /* yapim_asamasi.jpg */,
 				A8B8201D1C674E010031C0C1 /* mmo.jpg */,
 				A8B8201E1C674E010031C0C1 /* mta.jpg */,
@@ -206,9 +212,9 @@
 		A86B8BB11C53AFA10034A081 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A86B8BB01C53AFA10034A081 /* HMineral.app */,
-				A86B8BC91C53AFA20034A081 /* HMineralTests.xctest */,
-				A86B8BD41C53AFA20034A081 /* HMineralUITests.xctest */,
+				A86B8BB01C53AFA10034A081 /* HMT.app */,
+				A86B8BC91C53AFA20034A081 /* HMT.xctest */,
+				A86B8BD41C53AFA20034A081 /* HMT.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -286,9 +292,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A86B8BAF1C53AFA10034A081 /* HMineral */ = {
+		A86B8BAF1C53AFA10034A081 /* HMT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A86B8BDD1C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMineral" */;
+			buildConfigurationList = A86B8BDD1C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMT" */;
 			buildPhases = (
 				A86B8BAC1C53AFA10034A081 /* Sources */,
 				A86B8BAD1C53AFA10034A081 /* Frameworks */,
@@ -298,14 +304,14 @@
 			);
 			dependencies = (
 			);
-			name = HMineral;
+			name = HMT;
 			productName = HMineral;
-			productReference = A86B8BB01C53AFA10034A081 /* HMineral.app */;
+			productReference = A86B8BB01C53AFA10034A081 /* HMT.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A86B8BC81C53AFA20034A081 /* HMineralTests */ = {
+		A86B8BC81C53AFA20034A081 /* HMTTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A86B8BE01C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMineralTests" */;
+			buildConfigurationList = A86B8BE01C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMTTests" */;
 			buildPhases = (
 				A86B8BC51C53AFA20034A081 /* Sources */,
 				A86B8BC61C53AFA20034A081 /* Frameworks */,
@@ -316,14 +322,14 @@
 			dependencies = (
 				A86B8BCB1C53AFA20034A081 /* PBXTargetDependency */,
 			);
-			name = HMineralTests;
+			name = HMTTests;
 			productName = HMineralTests;
-			productReference = A86B8BC91C53AFA20034A081 /* HMineralTests.xctest */;
+			productReference = A86B8BC91C53AFA20034A081 /* HMT.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A86B8BD31C53AFA20034A081 /* HMineralUITests */ = {
+		A86B8BD31C53AFA20034A081 /* HMTUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A86B8BE31C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMineralUITests" */;
+			buildConfigurationList = A86B8BE31C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMTUITests" */;
 			buildPhases = (
 				A86B8BD01C53AFA20034A081 /* Sources */,
 				A86B8BD11C53AFA20034A081 /* Frameworks */,
@@ -334,9 +340,9 @@
 			dependencies = (
 				A86B8BD61C53AFA20034A081 /* PBXTargetDependency */,
 			);
-			name = HMineralUITests;
+			name = HMTUITests;
 			productName = HMineralUITests;
-			productReference = A86B8BD41C53AFA20034A081 /* HMineralUITests.xctest */;
+			productReference = A86B8BD41C53AFA20034A081 /* HMT.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -350,7 +356,7 @@
 				TargetAttributes = {
 					A86B8BAF1C53AFA10034A081 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 9L4Q6UX4DU;
+						DevelopmentTeam = 3GBJ5PQEEE;
 					};
 					A86B8BC81C53AFA20034A081 = {
 						CreatedOnToolsVersion = 7.2;
@@ -362,7 +368,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A86B8BAB1C53AFA10034A081 /* Build configuration list for PBXProject "HMineral" */;
+			buildConfigurationList = A86B8BAB1C53AFA10034A081 /* Build configuration list for PBXProject "HMT" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -375,9 +381,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A86B8BAF1C53AFA10034A081 /* HMineral */,
-				A86B8BC81C53AFA20034A081 /* HMineralTests */,
-				A86B8BD31C53AFA20034A081 /* HMineralUITests */,
+				A86B8BAF1C53AFA10034A081 /* HMT */,
+				A86B8BC81C53AFA20034A081 /* HMTTests */,
+				A86B8BD31C53AFA20034A081 /* HMTUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -391,6 +397,7 @@
 				A89194FF1C7D1D5E00295EC6 /* ic_person_outline.png in Resources */,
 				A8B820211C674E010031C0C1 /* hmt.png in Resources */,
 				A8B820281C675CB60031C0C1 /* yapim_asamasi.jpg in Resources */,
+				A8728AAA1C7F080B008AF0D8 /* altiyuzkirk1136.png in Resources */,
 				A89194FB1C7D1CC800295EC6 /* ic_priority_high.png in Resources */,
 				A89194FD1C7D1D0D00295EC6 /* ic_link.png in Resources */,
 				A8B820231C674E010031C0C1 /* mmo.jpg in Resources */,
@@ -403,6 +410,7 @@
 				A86B8BC01C53AFA20034A081 /* Assets.xcassets in Resources */,
 				A823123C1C71F69400942B7A /* soru_is.jpg in Resources */,
 				A89194F51C7D1AE200295EC6 /* ic_assessment.png in Resources */,
+				A8728AAB1C7F080B008AF0D8 /* Default-568h@2x.png in Resources */,
 				A89194F31C7D1A2900295EC6 /* ic_info_outline.png in Resources */,
 				A8B820221C674E010031C0C1 /* minerology.gif in Resources */,
 				A86B8BBE1C53AFA10034A081 /* Main.storyboard in Resources */,
@@ -468,12 +476,12 @@
 /* Begin PBXTargetDependency section */
 		A86B8BCB1C53AFA20034A081 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A86B8BAF1C53AFA10034A081 /* HMineral */;
+			target = A86B8BAF1C53AFA10034A081 /* HMT */;
 			targetProxy = A86B8BCA1C53AFA20034A081 /* PBXContainerItemProxy */;
 		};
 		A86B8BD61C53AFA20034A081 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A86B8BAF1C53AFA10034A081 /* HMineral */;
+			target = A86B8BAF1C53AFA10034A081 /* HMT */;
 			targetProxy = A86B8BD51C53AFA20034A081 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -584,6 +592,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -592,8 +601,8 @@
 				INFOPLIST_FILE = HMineral/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = irem.HMineral;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmineral;
+				PRODUCT_NAME = HMT;
 			};
 			name = Debug;
 		};
@@ -601,6 +610,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -609,8 +619,8 @@
 				INFOPLIST_FILE = HMineral/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = irem.HMineral;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmineral;
+				PRODUCT_NAME = HMT;
 			};
 			name = Release;
 		};
@@ -621,8 +631,8 @@
 				INFOPLIST_FILE = HMineralTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = irem.HMineralTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMineral.app/HMineral";
+				PRODUCT_NAME = HMT;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMT.app/HMT";
 			};
 			name = Debug;
 		};
@@ -633,8 +643,8 @@
 				INFOPLIST_FILE = HMineralTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = irem.HMineralTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMineral.app/HMineral";
+				PRODUCT_NAME = HMT;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMT.app/HMT";
 			};
 			name = Release;
 		};
@@ -644,7 +654,7 @@
 				INFOPLIST_FILE = HMineralUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = irem.HMineralUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HMT;
 				TEST_TARGET_NAME = HMineral;
 				USES_XCTRUNNER = YES;
 			};
@@ -656,7 +666,7 @@
 				INFOPLIST_FILE = HMineralUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = irem.HMineralUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HMT;
 				TEST_TARGET_NAME = HMineral;
 				USES_XCTRUNNER = YES;
 			};
@@ -665,7 +675,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A86B8BAB1C53AFA10034A081 /* Build configuration list for PBXProject "HMineral" */ = {
+		A86B8BAB1C53AFA10034A081 /* Build configuration list for PBXProject "HMT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A86B8BDB1C53AFA20034A081 /* Debug */,
@@ -674,7 +684,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A86B8BDD1C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMineral" */ = {
+		A86B8BDD1C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A86B8BDE1C53AFA20034A081 /* Debug */,
@@ -683,7 +693,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A86B8BE01C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMineralTests" */ = {
+		A86B8BE01C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMTTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A86B8BE11C53AFA20034A081 /* Debug */,
@@ -692,7 +702,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A86B8BE31C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMineralUITests" */ = {
+		A86B8BE31C53AFA20034A081 /* Build configuration list for PBXNativeTarget "HMTUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A86B8BE41C53AFA20034A081 /* Debug */,

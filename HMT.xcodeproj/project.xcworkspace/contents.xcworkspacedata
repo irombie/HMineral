@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HMineral.xcodeproj">
+      location = "self:/Users/gul/Documents/iOS Projects/HMineral/HMT.xcodeproj">
    </FileRef>
 </Workspace>

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A86B8BAF1C53AFA10034A081"
-               BuildableName = "HMineral.app"
-               BlueprintName = "HMineral"
-               ReferencedContainer = "container:HMineral.xcodeproj">
+               BuildableName = "Haceteppe Mineral Teknolojileri.app"
+               BlueprintName = "HMT"
+               ReferencedContainer = "container:HMT.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A86B8BC81C53AFA20034A081"
-               BuildableName = "HMineralTests.xctest"
-               BlueprintName = "HMineralTests"
-               ReferencedContainer = "container:HMineral.xcodeproj">
+               BuildableName = "HMT.xctest"
+               BlueprintName = "HMTTests"
+               ReferencedContainer = "container:HMT.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A86B8BD31C53AFA20034A081"
-               BuildableName = "HMineralUITests.xctest"
-               BlueprintName = "HMineralUITests"
-               ReferencedContainer = "container:HMineral.xcodeproj">
+               BuildableName = "HMT.xctest"
+               BlueprintName = "HMTUITests"
+               ReferencedContainer = "container:HMT.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A86B8BAF1C53AFA10034A081"
-            BuildableName = "HMineral.app"
-            BlueprintName = "HMineral"
-            ReferencedContainer = "container:HMineral.xcodeproj">
+            BuildableName = "Haceteppe Mineral Teknolojileri.app"
+            BlueprintName = "HMT"
+            ReferencedContainer = "container:HMT.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A86B8BAF1C53AFA10034A081"
-            BuildableName = "HMineral.app"
-            BlueprintName = "HMineral"
-            ReferencedContainer = "container:HMineral.xcodeproj">
+            BuildableName = "Haceteppe Mineral Teknolojileri.app"
+            BlueprintName = "HMT"
+            ReferencedContainer = "container:HMT.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A86B8BAF1C53AFA10034A081"
-            BuildableName = "HMineral.app"
-            BlueprintName = "HMineral"
-            ReferencedContainer = "container:HMineral.xcodeproj">
+            BuildableName = "Haceteppe Mineral Teknolojileri.app"
+            BlueprintName = "HMT"
+            ReferencedContainer = "container:HMT.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
